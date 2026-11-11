@@ -1,13 +1,13 @@
 # EPG quality report
 
-**Generated:** 2026-11-11 18:33 UTC
+**Generated:** 2026-11-11 18:36 UTC
 
 | Metric | Current |
 |---|---:|
 | Playlist channels | 5,841 |
 | Distinct XMLTV IDs | 5,800 |
-| Channels with guide listings | 1,279 (21.9%) |
-| Channels with logos | 896 (15.3%) |
+| Channels with guide listings | 1,283 (22%) |
+| Channels with logos | 922 (15.8%) |
 | Reused IDs / potential aliases | 37 groups |
 | Conflicting source-ID groups for review | 0 |
 | Source refresh errors | 0 |
@@ -27,7 +27,7 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | PUNJABI | 126 | 15 (11.9%) | 8 (6.3%) |
 | ARABIC | 153 | 44 (28.8%) | 0 (0%) |
 | SPORTS   NCAAB NCAAF | 100 | 0 (0%) | 0 (0%) |
-| SPORTS   EPL EFL | 106 | 19 (17.9%) | 64 (60.4%) |
+| SPORTS   EPL EFL | 106 | 23 (21.7%) | 90 (84.9%) |
 | BANGLA/BENGALI | 97 | 16 (16.5%) | 3 (3.1%) |
 | SPORTS | 139 | 60 (43.2%) | 74 (53.2%) |
 | SPANISH | 72 | 5 (6.9%) | 1 (1.4%) |
@@ -43,15 +43,14 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | League | Team channels | Matched | Logos | Programmes | Source health |
 |---|---:|---:|---:|---:|---|
 | NBA | 30 | 30 | 30 | 124 | OK |
-| NBA | 30 | 30 | 30 | 0 | OK |
 | NFL | 32 | 32 | 32 | 28 | OK |
 | NHL | 32 | 32 | 32 | 108 | OK |
 | MLB | 30 | 30 | 30 | 0 | OK |
 | MLS | 30 | 30 | 30 | 0 | OK |
-| EPL | 20 | 17 | 17 | 0 | OK |
-| EFL | 24 | 17 | 17 | 0 | OK |
-| EFL1 | 24 | 16 | 16 | 8 | OK |
-| EFL2 | 24 | 14 | 14 | 11 | OK |
+| EPL | 20 | 17 | 20 | 0 | OK |
+| EFL | 24 | 18 | 24 | 0 | OK |
+| EFL1 | 24 | 17 | 24 | 8 | OK |
+| EFL2 | 24 | 18 | 22 | 15 | OK |
 | AHL | 32 | 31 | 31 | 102 | OK |
 | OHL | 20 | 19 | 19 | 58 | OK |
 | QMJHL | 19 | 16 | 16 | 44 | OK |

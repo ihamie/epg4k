@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794422026,
+  "generated_at": 1794422196,
   "programs": [
     {
       "channel": "stalker.7490",
@@ -1595,6 +1595,15 @@
       "league": "EFL2"
     },
     {
+      "channel": "stalker.7869",
+      "start": 1794668400,
+      "stop": 1794677400,
+      "title": "Gillingham @ Colchester United",
+      "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Soccer",
+      "league": "EFL2"
+    },
+    {
       "channel": "stalker.7871",
       "start": 1794668400,
       "stop": 1794677400,
@@ -1649,10 +1658,37 @@
       "league": "EFL2"
     },
     {
+      "channel": "stalker.7881",
+      "start": 1794668400,
+      "stop": 1794677400,
+      "title": "Oldham Athletic @ Shrewsbury Town",
+      "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Soccer",
+      "league": "EFL2"
+    },
+    {
       "channel": "stalker.7882",
       "start": 1794668400,
       "stop": 1794677400,
       "title": "Grimsby Town @ Swindon Town",
+      "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Soccer",
+      "league": "EFL2"
+    },
+    {
+      "channel": "stalker.7872",
+      "start": 1794677400,
+      "stop": 1794686400,
+      "title": "Tranmere Rovers @ Fleetwood Town",
+      "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Soccer",
+      "league": "EFL2"
+    },
+    {
+      "channel": "stalker.7883",
+      "start": 1794677400,
+      "stop": 1794686400,
+      "title": "Tranmere Rovers @ Fleetwood Town",
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2"

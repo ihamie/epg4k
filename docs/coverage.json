@@ -2083,7 +2083,7 @@
     "source": "UK1",
     "source_id": "ITV4.HD.uk",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 40,
+    "programmes": 39,
     "through": 1794614700,
     "manual_assignment": false
   },
@@ -2911,7 +2911,7 @@
     "source": "UK1",
     "source_id": "Nick.Jr..HD.uk",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 242,
+    "programmes": 241,
     "through": 1794614400,
     "manual_assignment": false
   },
@@ -2923,7 +2923,7 @@
     "source": "UK1",
     "source_id": "Nick.Jr..Too.uk",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 428,
+    "programmes": 427,
     "through": 1794614400,
     "manual_assignment": false
   },
@@ -11371,7 +11371,7 @@
     "source": "IN4",
     "source_id": "SUN.BANGLA.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 7,
+    "programmes": 6,
     "through": 1794461400,
     "manual_assignment": true
   },
@@ -12847,7 +12847,7 @@
     "source": "AE1",
     "source_id": "MBC.4.ae",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 48,
+    "programmes": 47,
     "through": 1794528900,
     "manual_assignment": true
   },
@@ -14983,7 +14983,7 @@
     "source": "IN4",
     "source_id": "ANIMAL.PLANET.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 12,
+    "programmes": 11,
     "through": 1794458160,
     "manual_assignment": true
   },
@@ -14995,7 +14995,7 @@
     "source": "IN1",
     "source_id": "Animal.Planet.English.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 88,
+    "programmes": 87,
     "through": 1794680999,
     "manual_assignment": true
   },
@@ -15115,7 +15115,7 @@
     "source": "IN4",
     "source_id": "ZEE.ZEST.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 27,
+    "programmes": 26,
     "through": 1794459600,
     "manual_assignment": true
   },
@@ -16267,7 +16267,7 @@
     "source": "PL1",
     "source_id": "TVN.pl",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 88,
+    "programmes": 87,
     "through": 1794722400,
     "manual_assignment": false
   },
@@ -16423,7 +16423,7 @@
     "source": "PL1",
     "source_id": "Polsat.Play.pl",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 125,
+    "programmes": 124,
     "through": 1794722400,
     "manual_assignment": false
   },
@@ -16771,7 +16771,7 @@
     "source": "PL1",
     "source_id": "MiniMini+.pl",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 423,
+    "programmes": 422,
     "through": 1794722940,
     "manual_assignment": false
   },
@@ -17383,7 +17383,7 @@
     "source": "PT1",
     "source_id": "Disney.Junior.HD.pt",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 223,
+    "programmes": 222,
     "through": 1794615300,
     "manual_assignment": false
   },
@@ -21139,7 +21139,7 @@
     "source": "US2",
     "source_id": "ScreenPix.Westerns.us2",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 54,
+    "programmes": 53,
     "through": 1794637800,
     "manual_assignment": false
   },
@@ -22279,7 +22279,7 @@
     "source": "IN4",
     "source_id": "DISCOVERY.KIDS.in",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 46,
+    "programmes": 45,
     "through": 1794459240,
     "manual_assignment": false
   },
@@ -30823,7 +30823,7 @@
     "source": "US_LOCALS1",
     "source_id": "KMGH-DT.us_locals1",
     "match": "Exact main-channel station call sign",
-    "programmes": 86,
+    "programmes": 85,
     "through": 1794638220,
     "manual_assignment": false
   },
@@ -58411,7 +58411,7 @@
     "source": "SE1",
     "source_id": "[CARTNET].Cartoon.Network.se",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 382,
+    "programmes": 381,
     "through": 1794722700,
     "manual_assignment": true
   },
@@ -58423,7 +58423,7 @@
     "source": "SE1",
     "source_id": "[CARTOSV].Cartoonito.se",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 523,
+    "programmes": 522,
     "through": 1794722400,
     "manual_assignment": true
   },
@@ -60163,7 +60163,7 @@
     "source": "IT1",
     "source_id": "Italia.1.it",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 69,
+    "programmes": 68,
     "through": 1794620880,
     "manual_assignment": false
   },
@@ -60487,7 +60487,7 @@
     "source": "IT1",
     "source_id": "RaiGulp.it",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 204,
+    "programmes": 203,
     "through": 1794609900,
     "manual_assignment": false
   },
@@ -69907,8 +69907,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 1,
+    "through": 1794677400,
     "manual_assignment": true
   },
   {
@@ -69943,8 +69943,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 1,
+    "through": 1794686400,
     "manual_assignment": true
   },
   {
@@ -70051,8 +70051,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 1,
+    "through": 1794677400,
     "manual_assignment": true
   },
   {
@@ -70075,8 +70075,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 1,
+    "through": 1794686400,
     "manual_assignment": true
   },
   {

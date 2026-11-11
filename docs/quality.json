@@ -1,13 +1,13 @@
 {
-  "generated_at": 1794422026,
+  "generated_at": 1794422196,
   "channels": 5841,
   "unique_xmltv_ids": 5800,
-  "channels_with_epg": 1279,
-  "channels_with_logos": 896,
-  "epg_percent": 21.9,
-  "logo_percent": 15.3,
-  "net_change_epg": 0,
-  "net_change_logos": 0,
+  "channels_with_epg": 1283,
+  "channels_with_logos": 922,
+  "epg_percent": 22,
+  "logo_percent": 15.8,
+  "net_change_epg": 4,
+  "net_change_logos": 26,
   "duplicate_id_groups": 37,
   "conflicting_source_id_groups": 0,
   "groups": [
@@ -149,11 +149,11 @@
     {
       "group": "SPORTS | EPL EFL",
       "total": 106,
-      "epg": 19,
-      "logos": 64,
+      "epg": 23,
+      "logos": 90,
       "mapped": 0,
-      "pct": 17.9,
-      "logo_pct": 60.4
+      "pct": 21.7,
+      "logo_pct": 84.9
     },
     {
       "group": "SPORTS | ESPN+",
@@ -787,14 +787,6 @@
       "error": null
     },
     {
-      "league": "NBA",
-      "channels": 30,
-      "matched": 30,
-      "logos": 30,
-      "programmes": 0,
-      "error": null
-    },
-    {
       "league": "NFL",
       "channels": 32,
       "matched": 32,
@@ -830,32 +822,32 @@
       "league": "EPL",
       "channels": 20,
       "matched": 17,
-      "logos": 17,
+      "logos": 20,
       "programmes": 0,
       "error": null
     },
     {
       "league": "EFL",
       "channels": 24,
-      "matched": 17,
-      "logos": 17,
+      "matched": 18,
+      "logos": 24,
       "programmes": 0,
       "error": null
     },
     {
       "league": "EFL1",
       "channels": 24,
-      "matched": 16,
-      "logos": 16,
+      "matched": 17,
+      "logos": 24,
       "programmes": 8,
       "error": null
     },
     {
       "league": "EFL2",
       "channels": 24,
-      "matched": 14,
-      "logos": 14,
-      "programmes": 11,
+      "matched": 18,
+      "logos": 22,
+      "programmes": 15,
       "error": null
     },
     {
