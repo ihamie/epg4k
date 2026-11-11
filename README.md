@@ -22,6 +22,12 @@ In TiviMate, choose EPG logos as the preferred logo source for the playlist (if 
 
 Each refresh checks the public `.txt` indexes corresponding to the configured EPGShare feeds. Curated mappings stay authoritative. New mappings are accepted only for a unique source ID with region safeguards; ambiguous candidates and 24/7 loops, PPV and temporary sports event groups are excluded. Sources with failed indexes retain their previously saved automatic mappings only when safe. New mappings cause the relevant programme-source cache to refresh immediately. No fabricated programme listings are generated. Changes appear in `docs/auto-mappings.json` and source-index failures in `docs/source-index-errors.json`.
 
+## NBA team-specific game schedules
+
+The 30 team-specific `SPORTS | NBA` Stalker channels get scheduled matchup listings using the NBA season schedule, with ESPN scoreboard fallback. Each listing shows the actual opposing team and scheduled UTC tipoff (TiviMate displays your local time), with a **three-hour estimated game window**, not a verified broadcast end. There are no filler entries on off-days; WNBA, PPV, numbered streaming events and other sports channels remain unchanged. Schedule metadata does **not** verify that your IPTV provider is carrying the game at that time.
+
+The schedule is fetched on every guide rebuild, including the existing once-daily automatic refresh. `docs/sports-status.json` reports source, games/entries and errors. If both sources fail, NBA game entries are omitted instead of fabricated. Postponements and last-minute changes may not appear until the next refresh. This does not alter any Stalker channel identifiers or your TiviMate EPG URL.
+
 ## Updates
 
 GitHub Actions refreshes once per day at 13:17 UTC (05:17 Pacific Standard Time / 06:17 Pacific Daylight Time), runs automatically after relevant source-code changes, and can be run manually under Actions → Refresh mapped EPG → Run workflow. Scheduled execution may be delayed by GitHub. Successful publication commits real guide changes to this repository. Source refreshes have a 12-hour freshness check; manually rerunning within that window can reuse downloaded schedule data. If the repository has no activity for 60 days, GitHub can disable its scheduled workflow; check Actions if the guide becomes stale.
