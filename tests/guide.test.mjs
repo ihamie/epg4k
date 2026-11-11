@@ -1,3 +1,6 @@
+import {MINOR_LEAGUES,hockeyUrl,parseHockeytech,seasonsToFetch,minorTeamDirectory,matchMinorTeams,minorGamePrograms,fetchMinorHockey} from '../lib/minor-hockey.mjs';
+import {mergeSportsPrograms,failedSportsLeagues} from '../lib/sports-cache.mjs';
+import {buildQualityReport} from '../lib/quality.mjs';
 import {LEAGUES,espnTeams,teamChannelName,teamLogo,matchLeagueChannels,scheduleLeague,fetchLeagueSports} from '../lib/league-sports.mjs';
 import {nbaTeamChannels,parseNbaSchedule,parseEspnScoreboard,fetchNbaPrograms} from '../lib/sports.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';import{gzipSync,gunzipSync}from'node:zlib';import{filterSource,timestamp,refresh,publish}from'../lib/epg.mjs';
@@ -252,4 +255,77 @@ test('published XMLTV carries team logos and scheduled sports matchups on stable
  assert.ok(header?.includes('<icon src="https://a.espncdn.com/i/teamlogos/nba/500/gs.png"/>'));
  assert.match(content,/<programme[^>]*channel="stalker\.6174"/);
  assert.match(content,/<title>Golden State Warriors @ Houston Rockets<\/title>/);
+});
+
+test('EPL and EFL team groups are distinct, including misspelled legacy provider labels',()=>{
+ const epl=LEAGUES.find(l=>l.key==='EPL'),efl=LEAGUES.find(l=>l.key==='EFL');
+ const l1=LEAGUES.find(l=>l.key==='EFL1'),l2=LEAGUES.find(l=>l.key==='EFL2');
+ assert.equal(teamChannelName({group:'SPORTS | EPL EFL',name:'EPL: MANCHESTER UTD',output_id:'stalker.1'},epl),'MANCHESTER UNITED');
+ assert.equal(teamChannelName({group:'SPORTS | EPL EFL',name:'EFL: LEICTER CITY',output_id:'stalker.2'},efl),'LEICESTER CITY');
+ assert.equal(teamChannelName({group:'SPORTS | EPL EFL',name:'EFL L1: AFC WIMBELDON',output_id:'stalker.3'},l1),'AFC WIMBLEDON');
+ assert.equal(teamChannelName({group:'SPORTS | EPL EFL',name:'EFL L2: ACCRIGTON STABLEY',output_id:'stalker.4'},l2),'ACCRINGTON STANLEY');
+ assert.equal(teamChannelName({group:'SPORTS | EPL EFL',name:'EFL: LEICTER CITY',output_id:'stalker.2'},epl),null);
+ assert.equal(teamChannelName({group:'SPORTS | EPL EFL',name:'EPL 01 4K',output_id:'stalker.99'},epl),null);
+});
+test('HockeyTech schedule reads exact team IDs, source timezone, and rejects completed and TBD events',()=>{
+ const league=MINOR_LEAGUES[0],now=Date.parse('2026-11-11T00:00:00Z');
+ const seasons=seasonsToFetch({SiteKit:{Seasons:[
+  {season_id:'94',season_name:'2026-27 Regular Season',start_date:'2026-10-02',end_date:'2027-04-11'},
+  {season_id:'90',season_name:'2025-26 Regular Season',start_date:'2025-10-07',end_date:'2026-04-19'}]}},now);
+ assert.deepEqual(seasons,['94']);
+ const channels=[
+ {group:'SPORTS | AHL OHL QMJHL WHL',name:'AHL | SAN JOSE BARRACUDA',output_id:'stalker.1'},
+ {group:'SPORTS | AHL OHL QMJHL WHL',name:'AHL | ONTARIO REIGN',output_id:'stalker.2'},
+ {group:'SPORTS | AHL OHL QMJHL WHL',name:'WHL 01 4K',output_id:'stalker.3'}];
+ const dir={SiteKit:{Teamsbyseason:[
+  {id:'11',name:'San Jose Barracuda',logo:'https://assets.leaguestat.com/ahl/team11.png'},
+  {id:'12',name:'Ontario Reign',logo:'http://evil.example/logo.png'}]}};
+ const match=matchMinorTeams(channels,league,minorTeamDirectory(dir));
+ assert.equal(match.map.size,2);
+ assert.equal(match.logos['stalker.1'],'https://assets.leaguestat.com/ahl/team11.png');
+ assert.equal(match.logos['stalker.2'],undefined);
+ const base={home_team:'11',visiting_team:'12',home_team_name:'San Jose Barracuda',
+  visiting_team_name:'Ontario Reign',GameDateISO8601:'2026-11-12T19:00:00-08:00',game_status:'7:00 pm PST',final:'0'};
+ const rows=minorGamePrograms([{SiteKit:{Schedule:[{...base,game_id:'1'}, {...base,game_id:'2',final:'1'},
+  {...base,game_id:'3',date_tbd:'1'}]}}],league,match,now);
+ assert.equal(rows.length,2);
+ assert.equal(rows[0].title,'Ontario Reign @ San Jose Barracuda');
+ assert.equal(rows[0].start,Date.parse('2026-11-12T19:00:00-08:00')/1000);
+ assert.equal(rows[0].league,'AHL');
+ assert.match(hockeyUrl(league,'schedule',{season_id:'94'}),/view=schedule/);
+ assert.equal(parseHockeytech('angular.callbacks._0({"SiteKit":{"Schedule":[]}});').SiteKit.Schedule.length,0);
+});
+test('HockeyTech source errors do not manufacture schedules or logos',async()=>{
+ const result=await fetchMinorHockey([{group:'SPORTS | AHL OHL QMJHL WHL',name:'AHL | SAN JOSE BARRACUDA',output_id:'stalker.1'}],
+  {fetcher:async()=>new Response('',{status:503})});
+ assert.equal(result.programs.length,0);
+ assert.equal(Object.keys(result.logos).length,0);
+ assert.match(result.leagues[0].error,/HTTP 503/);
+});
+test('sports fallback preserves only short-lived future fixtures for failed sources',()=>{
+ const channels=[{output_id:'stalker.1'},{output_id:'stalker.2'}],now=1794391200;
+ const p=(league,id,start)=>({league,channel:id,start,stop:start+10800,title:'A @ B',description:'Fixture'});
+ const old={generated_at:now-3600,programs:[p('NFL','stalker.1',now+1000),p('MLB','stalker.2',now+1000),
+  p('NFL','stalker.999',now+1000),p('NFL','stalker.1',now-20000)]};
+ const a=mergeSportsPrograms([],old,new Set(['NFL']),channels,now);
+ assert.equal(a.programs.length,1);
+ assert.equal(a.programs[0].league,'NFL');
+ assert.equal(a.stats.reused,1);
+ assert.equal(mergeSportsPrograms([],old,new Set(),channels,now).programs.length,0);
+ assert.equal(mergeSportsPrograms([],{...old,generated_at:now-37*3600},new Set(['NFL']),channels,now).programs.length,0);
+ assert.equal(failedSportsLeagues({source:'nba.com'},{leagues:[]},{leagues:[{league:'AHL',error:'schedule HTTP 503',programmes:0}]}).has('AHL'),true);
+});
+test('quality dashboard counts channel coverage, logos and conflicting XMLTV identities',()=>{
+ const channels=[
+ {id:'1',name:'ABC HD',group:'ENGLISH USA',output_id:'abc.us',source:'US2',source_id:'abc1'},
+ {id:'2',name:'ABC 4K',group:'ENGLISH USA',output_id:'abc.us',source:'US2',source_id:'abc2'},
+ {id:'3',name:'NBA: TEAM',group:'SPORTS | NBA',output_id:'stalker.3',source:null,source_id:null}];
+ const coverage=[{id:'1',programmes:2},{id:'2',programmes:2},{id:'3',programmes:0}];
+ const report=buildQualityReport({channels,coverage,logos:{'abc.us':'https://example.org/logo.png'},sources:[],
+  sports:{leagues:[]},now:1794391200});
+ assert.equal(report.data.channels_with_epg,2);
+ assert.equal(report.data.channels_with_logos,2);
+ assert.equal(report.data.duplicate_id_groups,1);
+ assert.equal(report.data.conflicting_source_id_groups,1);
+ assert.match(report.markdown,/Conflicting source-ID groups/);
 });
