@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794422418,
+  "generated_at": 1794424426,
   "channels": 5841,
   "unique_xmltv_ids": 5800,
   "channels_with_epg": 1286,
@@ -855,7 +855,7 @@
       "channels": 32,
       "matched": 31,
       "logos": 31,
-      "programmes": 102,
+      "programmes": 100,
       "error": null
     },
     {

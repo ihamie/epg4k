@@ -1,6 +1,6 @@
 # EPG quality report
 
-**Generated:** 2026-11-11 18:40 UTC
+**Generated:** 2026-11-11 19:13 UTC
 
 | Metric | Current |
 |---|---:|
@@ -51,7 +51,7 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | EFL | 24 | 18 | 24 | 0 | OK |
 | EFL1 | 24 | 17 | 24 | 8 | OK |
 | EFL2 | 24 | 18 | 22 | 15 | OK |
-| AHL | 32 | 31 | 31 | 102 | OK |
+| AHL | 32 | 31 | 31 | 100 | OK |
 | OHL | 20 | 20 | 20 | 62 | OK |
 | QMJHL | 19 | 18 | 18 | 48 | OK |
 

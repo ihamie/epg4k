@@ -1,8 +1,8 @@
 {
-  "generated_at": 1794422418,
+  "generated_at": 1794424426,
   "source": "nba.com",
   "team_channels": 30,
-  "programmes": 495,
+  "programmes": 493,
   "channels_with_games": 182,
   "team_logos": 313,
   "nba_programmes": 124,
@@ -235,7 +235,7 @@
       "channels": 32,
       "matched": 31,
       "with_logos": 31,
-      "programmes": 102,
+      "programmes": 100,
       "error": null,
       "unmatched_channels": [
         "AHL | BRIDGEPORT ISLANDERS"
@@ -317,7 +317,7 @@
     }
   ],
   "cache": {
-    "fresh": 495,
+    "fresh": 493,
     "reused": 0,
     "rejected": 0,
     "failed_leagues": []
