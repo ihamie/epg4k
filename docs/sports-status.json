@@ -1,8 +1,84 @@
 {
-  "generated_at": 1794396158,
+  "generated_at": 1794396285,
   "source": "nba.com",
   "team_channels": 30,
   "programmes": 124,
   "channels_with_games": 30,
+  "team_logos": 146,
+  "nba_programmes": 124,
+  "leagues": [
+    {
+      "league": "NBA",
+      "team_channels": 30,
+      "matched_teams": 30,
+      "with_logos": 30,
+      "programmes": 0,
+      "source": "espn",
+      "error": null
+    },
+    {
+      "league": "NFL",
+      "team_channels": 32,
+      "matched_teams": 32,
+      "with_logos": 32,
+      "programmes": 0,
+      "source": "espn",
+      "error": "scoreboard: HTTP 400"
+    },
+    {
+      "league": "NHL",
+      "team_channels": 32,
+      "matched_teams": 32,
+      "with_logos": 32,
+      "programmes": 0,
+      "source": "espn",
+      "error": "scoreboard: HTTP 400"
+    },
+    {
+      "league": "MLB",
+      "team_channels": 30,
+      "matched_teams": 30,
+      "with_logos": 30,
+      "programmes": 0,
+      "source": "espn",
+      "error": "scoreboard: HTTP 400"
+    },
+    {
+      "league": "MLS",
+      "team_channels": 30,
+      "matched_teams": 22,
+      "with_logos": 22,
+      "programmes": 0,
+      "source": "espn",
+      "error": "scoreboard: HTTP 400"
+    },
+    {
+      "league": "AHL",
+      "team_channels": 32,
+      "matched_teams": 0,
+      "with_logos": 0,
+      "programmes": 0,
+      "source": "espn",
+      "error": "teams: HTTP 404"
+    },
+    {
+      "league": "OHL",
+      "team_channels": 20,
+      "matched_teams": 0,
+      "with_logos": 0,
+      "programmes": 0,
+      "source": "espn",
+      "error": "teams: HTTP 404"
+    },
+    {
+      "league": "QMJHL",
+      "team_channels": 19,
+      "matched_teams": 0,
+      "with_logos": 0,
+      "programmes": 0,
+      "source": "espn",
+      "error": "teams: HTTP 404"
+    }
+  ],
   "errors": []
 }

@@ -3151,7 +3151,7 @@
     "source": "CA2",
     "source_id": "TVO.ca2",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 391,
+    "programmes": 390,
     "through": 1794722400,
     "manual_assignment": false
   },
@@ -8863,7 +8863,7 @@
     "source": "IN1",
     "source_id": "ABP.Majha.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 169,
+    "programmes": 168,
     "through": 1794680999,
     "manual_assignment": false
   },
@@ -16771,7 +16771,7 @@
     "source": "PL1",
     "source_id": "MiniMini+.pl",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 455,
+    "programmes": 454,
     "through": 1794722940,
     "manual_assignment": false
   },
@@ -22003,7 +22003,7 @@
     "source": "IN4",
     "source_id": "MN+.HD.in",
     "match": "Automatic exact source-ID match",
-    "programmes": 13,
+    "programmes": 12,
     "through": 1794461820,
     "manual_assignment": false
   },
@@ -58351,7 +58351,7 @@
     "source": "SE1",
     "source_id": "[DISCSCI].Discovery.Science.se",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 153,
+    "programmes": 152,
     "through": 1794723120,
     "manual_assignment": true
   },
