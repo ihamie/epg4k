@@ -7243,7 +7243,7 @@
     "source": "UK1",
     "source_id": "SONY.SAB.uk",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 90,
+    "programmes": 89,
     "through": 1794614460,
     "manual_assignment": false
   },
@@ -7255,7 +7255,7 @@
     "source": "UK1",
     "source_id": "SONY.TV.HD.uk",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 60,
+    "programmes": 59,
     "through": 1794614400,
     "manual_assignment": false
   },
@@ -10567,7 +10567,7 @@
     "source": "IN1",
     "source_id": "Jeevan.TV.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 161,
+    "programmes": 160,
     "through": 1794680999,
     "manual_assignment": true
   },
@@ -64159,7 +64159,7 @@
     "source": "SG1",
     "source_id": "CCTV.Entertainment.sg",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 89,
+    "programmes": 88,
     "through": 1794669420,
     "manual_assignment": true
   },

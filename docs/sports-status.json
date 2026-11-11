@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794421645,
+  "generated_at": 1794421730,
   "source": "nba.com",
   "team_channels": 30,
   "programmes": 279,
@@ -228,33 +228,6 @@
         "Walsall",
         "York City"
       ]
-    },
-    {
-      "league": "AHL",
-      "team_channels": 32,
-      "matched_teams": 0,
-      "with_logos": 0,
-      "programmes": 0,
-      "source": "espn",
-      "error": "teams: HTTP 404"
-    },
-    {
-      "league": "OHL",
-      "team_channels": 20,
-      "matched_teams": 0,
-      "with_logos": 0,
-      "programmes": 0,
-      "source": "espn",
-      "error": "teams: HTTP 404"
-    },
-    {
-      "league": "QMJHL",
-      "team_channels": 19,
-      "matched_teams": 0,
-      "with_logos": 0,
-      "programmes": 0,
-      "source": "espn",
-      "error": "teams: HTTP 404"
     }
   ],
   "errors": []
