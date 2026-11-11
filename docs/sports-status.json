@@ -1,9 +1,9 @@
 {
-  "generated_at": 1794396285,
+  "generated_at": 1794396343,
   "source": "nba.com",
   "team_channels": 30,
-  "programmes": 124,
-  "channels_with_games": 30,
+  "programmes": 260,
+  "channels_with_games": 90,
   "team_logos": 146,
   "nba_programmes": 124,
   "leagues": [
@@ -21,18 +21,18 @@
       "team_channels": 32,
       "matched_teams": 32,
       "with_logos": 32,
-      "programmes": 0,
+      "programmes": 28,
       "source": "espn",
-      "error": "scoreboard: HTTP 400"
+      "error": null
     },
     {
       "league": "NHL",
       "team_channels": 32,
       "matched_teams": 32,
       "with_logos": 32,
-      "programmes": 0,
+      "programmes": 108,
       "source": "espn",
-      "error": "scoreboard: HTTP 400"
+      "error": null
     },
     {
       "league": "MLB",
@@ -41,7 +41,7 @@
       "with_logos": 30,
       "programmes": 0,
       "source": "espn",
-      "error": "scoreboard: HTTP 400"
+      "error": null
     },
     {
       "league": "MLS",
@@ -50,7 +50,7 @@
       "with_logos": 22,
       "programmes": 0,
       "source": "espn",
-      "error": "scoreboard: HTTP 400"
+      "error": null
     },
     {
       "league": "AHL",
