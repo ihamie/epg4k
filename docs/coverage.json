@@ -7099,7 +7099,7 @@
     "source": "IN4",
     "source_id": "SONY.PAL.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 28,
+    "programmes": 27,
     "through": 1794459000,
     "manual_assignment": false
   },
