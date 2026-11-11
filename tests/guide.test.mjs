@@ -32,6 +32,8 @@ test('published XMLTV includes channel icon without changing its ID or guide',as
  const report=await publish(e,{'cnn.us':'https://example.org/cnn.png?a=1&b=2'});
  assert.equal(report.result,'published');
  const output=gunzipSync(e.objects.get(report.guideKey)).toString();
- assert.match(output,/<channel id="cnn.us">[\\s\\S]*?<icon src="https:\/\/example.org\/cnn.png\?a=1&amp;b=2"\/>/);
+ const channelHeader=output.split('\n').find(line=>line.startsWith('<channel id="cnn.us">'));
+ assert.ok(channelHeader,'cnn.us channel should be present in the generated guide');
+ assert.ok(channelHeader.includes('<icon src="https://example.org/cnn.png?a=1&amp;b=2"/>'),'cnn.us channel should include its escaped logo URL');
  assert.match(output,/<programme[^>]*channel="cnn.us"/);
 });
