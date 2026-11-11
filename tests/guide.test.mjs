@@ -146,7 +146,7 @@ test('NBA schedule source failure is nonfatal and ESPN fallback is used',async()
     competitions:[{competitors:[{homeAway:'away',team:{abbreviation:'GSW'}},{homeAway:'home',team:{abbreviation:'HOU'}}]}]}]}),{status:200});
  };
  const r=await fetchNbaPrograms(channels,{fetcher,now:Date.parse('2026-11-11T00:00:00Z')});
- assert.equal(r.programs.length,1);
+ assert.equal(r.programs.length,1,JSON.stringify({source:r.source,errors:r.errors,requests}));
  assert.equal(r.source,'espn.com (fallback)');
  assert.equal(requests.length,11);
  assert.ok(requests.slice(1).every(u=>/\?dates=202611\d{2}$/.test(u)));
