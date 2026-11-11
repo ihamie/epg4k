@@ -237,3 +237,19 @@ test('all eight differently named MLS teams resolve to their official team logos
  assert.equal(matches.byId.size,8);
  assert.equal(Object.keys(matches.logos).length,8);
 });
+
+test('published XMLTV carries team logos and scheduled sports matchups on stable channel IDs',async()=>{
+ const env=fake(),now=Math.floor(Date.now()/1000);
+ const p={channel:'stalker.6174',start:now+120,stop:now+10800,
+  title:'Golden State Warriors @ Houston Rockets',
+  description:'Scheduled NBA tipoff; channel availability is unverified.',category:'Sports / Basketball'};
+ const result=await publish(env,{'stalker.6174':'https://a.espncdn.com/i/teamlogos/nba/500/gs.png'},[p]);
+ assert.equal(result.result,'published');
+ assert.equal(result.nba_programmes,1);
+ assert.equal(result.sports_channels_with_programmes,1);
+ const content=gunzipSync(env.objects.get(result.guideKey)).toString();
+ const header=content.split('\n').find(line=>line.startsWith('<channel id="stalker.6174">'));
+ assert.ok(header?.includes('<icon src="https://a.espncdn.com/i/teamlogos/nba/500/gs.png"/>'));
+ assert.match(content,/<programme[^>]*channel="stalker\.6174"/);
+ assert.match(content,/<title>Golden State Warriors @ Houston Rockets<\/title>/);
+});
