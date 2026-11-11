@@ -13,6 +13,7 @@ on:
     - cron: '17 13 * * *'
 permissions:
   contents: write
+  issues: write
 concurrency:
   group: mapped-epg-refresh
   cancel-in-progress: false
@@ -61,3 +62,26 @@ jobs:
         if: always()
         run: |
           if [ -f docs/quality.md ]; then cat docs/quality.md >> "$GITHUB_STEP_SUMMARY"; fi
+      - name: Create or update refresh failure alert
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE='EPG refresh failed (automated)'
+          ISSUE=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title == "EPG refresh failed (automated)") | .number' | head -n 1 || true)
+          URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          if [ -n "$ISSUE" ]; then
+            gh issue comment "$ISSUE" --body "The EPG workflow failed again: $URL" || true
+          else
+            gh issue create --title "$TITLE" --assignee "$GITHUB_REPOSITORY_OWNER" --body "An automatic EPG refresh failed. The last successfully published guide remains available. Inspect the run: $URL" || echo 'Could not create a GitHub issue. GitHub Actions failure remains visible in Actions.'
+          fi
+      - name: Resolve refresh failure alert after recovery
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ISSUE=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title == "EPG refresh failed (automated)") | .number' | head -n 1 || true)
+          if [ -n "$ISSUE" ]; then
+            gh issue comment "$ISSUE" --body "The EPG refresh passed successfully in run https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}." || true
+            gh issue close "$ISSUE" --reason completed || true
+          fi
