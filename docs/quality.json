@@ -1,13 +1,13 @@
 {
-  "generated_at": 1794421995,
+  "generated_at": 1794422026,
   "channels": 5841,
   "unique_xmltv_ids": 5800,
   "channels_with_epg": 1279,
   "channels_with_logos": 896,
   "epg_percent": 21.9,
   "logo_percent": 15.3,
-  "net_change_epg": 66,
-  "net_change_logos": 66,
+  "net_change_epg": 0,
+  "net_change_logos": 0,
   "duplicate_id_groups": 37,
   "conflicting_source_id_groups": 0,
   "groups": [
