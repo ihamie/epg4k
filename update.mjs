@@ -2,7 +2,8 @@
 import {mkdir,readFile,writeFile,unlink} from 'node:fs/promises';
 import {join} from 'node:path';
 import {DatabaseSync} from 'node:sqlite';
-import {refresh,sources,publish,coverage,channels} from './lib/epg.mjs';
+import {refresh,sources,publish,coverage,channels,setActiveChannels} from './lib/epg.mjs';
+import {fetchIndexes,resolveMappings} from './lib/discovery.mjs';
 import {loadLogos} from './lib/logos.mjs';
 const root='.state'; await mkdir(root,{recursive:true});
 const database=new DatabaseSync(join(root,'leases.sqlite'));
@@ -16,11 +17,17 @@ const env={
  }
 };
 try {
+ const indexes=await fetchIndexes(sources);
+ let previousMappings=[];
+ try{previousMappings=JSON.parse(await readFile('docs/auto-mappings.json','utf8'));}catch{}
+ const discovery=resolveMappings(channels,indexes.indexes,previousMappings);
+ setActiveChannels(discovery.channels);
+ console.log('Automatic mappings:',discovery.mappings.length,'unavailable indexes:',indexes.failures.length);
  for(let i=0;i<sources.length;i+=2){
   const results=await Promise.all(sources.slice(i,i+2).map(s=>refresh(env,s.id)));
   for(const r of results)console.log(r.id,r.result,r.programmes??0,r.error??'');
  }
- const artwork=await loadLogos(channels,'docs/channel-logos.json',{readFile,writeFile,mkdir});
+ const artwork=await loadLogos(discovery.channels,'docs/channel-logos.json',{readFile,writeFile,mkdir});
  console.log('Channel logos:',artwork.count,'catalog updated:',artwork.updated);
  const report=await publish(env,artwork.logos);
  if(report.result!=='published')throw new Error('Publication did not complete');
@@ -30,5 +37,7 @@ try {
  await writeFile('docs/guide.xml.gz',await readFile(join(root,guideKey)));
  await writeFile('docs/status.json',JSON.stringify(status,null,2)+'\n');
  await writeFile('docs/coverage.json',JSON.stringify(rows,null,2)+'\n');
+ await writeFile('docs/auto-mappings.json',JSON.stringify(discovery.mappings,null,2)+'\n');
+ await writeFile('docs/source-index-errors.json',JSON.stringify(indexes.failures,null,2)+'\n');
  console.log(JSON.stringify(status));
 } finally {database.close();}
