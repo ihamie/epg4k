@@ -1,0 +1,48 @@
+name: Refresh mapped EPG
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5,17 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'lib/**'
+      - 'tests/**'
+      - 'update.mjs'
+      - '.github/workflows/refresh.yml'
+permissions:
+  contents: write
+concurrency:
+  group: mapped-epg-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/guide.test.mjs
+      - uses: actions/cache/restore@v4
+        with:
+          path: .state
+          key: epg-state-${{ github.run_id }}
+          restore-keys: epg-state-
+      - run: node update.mjs
+      - uses: actions/cache/save@v4
+        with:
+          path: .state
+          key: epg-state-${{ github.run_id }}
+      - name: Publish guide and coverage
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/guide.xml.gz docs/status.json docs/coverage.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh mapped TV schedules'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
