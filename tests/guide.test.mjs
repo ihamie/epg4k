@@ -1,3 +1,4 @@
+import {LEAGUES,espnTeams,teamChannelName,teamLogo,matchLeagueChannels,scheduleLeague,fetchLeagueSports} from '../lib/league-sports.mjs';
 import {nbaTeamChannels,parseNbaSchedule,parseEspnScoreboard,fetchNbaPrograms} from '../lib/sports.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';import{gzipSync,gunzipSync}from'node:zlib';import{filterSource,timestamp,refresh,publish}from'../lib/epg.mjs';
 import {catalogLogos,validLogo} from '../lib/logos.mjs';
@@ -145,4 +146,53 @@ test('NBA schedule source failure is nonfatal and ESPN fallback is used',async()
  assert.equal(r.programs.length,1);
  assert.equal(r.source,'espn.com (fallback)');
  assert.equal(requests.length,2);
+});
+
+test('verified team logos map only to dedicated team channels, not numbered event channels',()=>{
+ const league=LEAGUES.find(l=>l.key==='NFL');
+ const channels=[
+  {group:'SPORTS | NFL',name:'NFL: SAN FRANCISCO 49ERS 4K',output_id:'stalker.6160'},
+  {group:'SPORTS | NFL',name:'NFL: RED ZONE HD',output_id:'nflredzone.us'},
+  {group:'SPORTS | ESPN+',name:'ESPN PLUS 1 HD',output_id:'1.espn'}];
+ const data={sports:[{leagues:[{teams:[
+  {team:{id:'25',displayName:'San Francisco 49ers',logos:[{href:'https://a.espncdn.com/i/teamlogos/nfl/500/sf.png'}]}},
+  {team:{id:'26',displayName:'Seattle Seahawks',logos:[{href:'https://a.espncdn.com/i/teamlogos/nfl/500/sea.png'}]}}
+ ]}]}]};
+ const r=matchLeagueChannels(channels,league,espnTeams(data));
+ assert.equal(r.byId.size,1);
+ assert.equal(r.logos['stalker.6160'],'https://a.espncdn.com/i/teamlogos/nfl/500/sf.png');
+ assert.equal(Object.keys(r.logos).length,1);
+ assert.equal(teamLogo({logos:[{href:'http://evil.com/x.png'}]}),null);
+ assert.equal(teamChannelName(channels[1],league),null);
+});
+test('non-NBA team schedule correctly places matchup for both teams and rejects finals and cancellations',()=>{
+ const league=LEAGUES.find(l=>l.key==='NHL'),teams=[
+  {id:'1',name:'San Jose Sharks',logos:[]},
+  {id:'2',name:'Seattle Kraken',logos:[]}];
+ const channels=[
+  {group:'SPORTS | NHL',name:'NHL: SAN JOSE SHARKS 4K',output_id:'stalker.6100'},
+  {group:'SPORTS | NHL',name:'NHL: SEATTLE KRAKEN 4K',output_id:'stalker.6101'}];
+ const match=matchLeagueChannels(channels,league,teams),event=(id,state,label)=>({
+  id,date:'2026-11-13T03:00:00Z',status:{type:{state,name:label}},
+  competitions:[{competitors:[
+   {homeAway:'home',team:{id:'1',displayName:'San Jose Sharks'}},
+   {homeAway:'away',team:{id:'2',displayName:'Seattle Kraken'}}]}]});
+ const rows=scheduleLeague({events:[event('one','pre','STATUS_SCHEDULED'),event('two','post','STATUS_FINAL'),event('three','pre','STATUS_POSTPONED')]},league,match,Date.parse('2026-11-11T00:00:00Z'));
+ assert.equal(rows.length,2);
+ assert.equal(rows[0].title,'Seattle Kraken @ San Jose Sharks');
+ assert.equal(rows[0].start,Date.parse('2026-11-13T03:00:00Z')/1000);
+ assert.deepEqual(new Set(rows.map(x=>x.channel)),new Set(['stalker.6100','stalker.6101']));
+});
+test('sports league fetch preserves usable team artwork on schedule failure',async()=>{
+ const channels=[{group:'SPORTS | NFL',name:'NFL: SAN FRANCISCO 49ERS 4K',output_id:'stalker.6160'}];
+ const fetcher=async(url)=>{
+  if(url.includes('/football/nfl/teams'))return new Response(JSON.stringify({sports:[{leagues:[{teams:[
+   {team:{id:'25',displayName:'San Francisco 49ers',logos:[{href:'https://a.espncdn.com/i/teamlogos/nfl/500/sf.png'}]}}]}]}]}),{status:200});
+  return new Response('',{status:503});
+ };
+ const r=await fetchLeagueSports(channels,{fetcher,now:Date.parse('2026-11-11T00:00:00Z')});
+ assert.equal(r.programs.length,0);
+ assert.equal(r.logos['stalker.6160'],'https://a.espncdn.com/i/teamlogos/nfl/500/sf.png');
+ assert.equal(r.leagues.find(x=>x.league==='NFL').matched_teams,1);
+ assert.match(r.leagues.find(x=>x.league==='NFL').error,/scoreboard/);
 });
