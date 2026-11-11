@@ -1,5 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';import{gzipSync,gunzipSync}from'node:zlib';import{filterSource,timestamp,refresh,publish}from'../lib/epg.mjs';
 import {catalogLogos,validLogo} from '../lib/logos.mjs';
+import {parseIndex,resolveMappings,excluded} from '../lib/discovery.mjs';
 const now=Date.UTC(2026,10,8)/1000,xml='<tv><programme channel="src" start="20261108010000 +0000" stop="20261108020000 +0000"><title>News &amp; فارسی</title><desc><![CDATA[A < B and </programme> in text]]></desc></programme></tv>',map=new Map([['src',new Set(['cnn.us','stalker.2'])]]);
 function stream(v,n=1){const b=typeof v==='string'?new TextEncoder().encode(v):v;let i=0;return new ReadableStream({pull(c){if(i>=b.length)c.close();else{c.enqueue(b.slice(i,i+n));i+=n;}}});}
 test('gzip chunk boundaries, Unicode, CDATA and multiple channel aliases',async()=>{const r=await filterSource(stream(gzipSync(xml)),map,now),s=gunzipSync(r.gzip).toString();assert.equal(r.programmes,2);assert.match(s,/فارسی/);assert.match(s,/A &lt; B and &lt;\/programme&gt; in text/);assert.match(s,/channel="cnn.us"/);});
@@ -36,4 +37,42 @@ test('published XMLTV includes channel icon without changing its ID or guide',as
  assert.ok(channelHeader,'cnn.us channel should be present in the generated guide');
  assert.ok(channelHeader.includes('<icon src="https://example.org/cnn.png?a=1&amp;b=2"/>'),'cnn.us channel should include its escaped logo URL');
  assert.match(output,/<programme[^>]*channel="cnn.us"/);
+});
+
+test('daily discovery adds only unambiguous source IDs in the correct region',()=>{
+ const channels=[
+  {id:'1',name:'HGTV HD USA',group:'ENGLISH USA',output_id:'hgtv.us',source:null},
+  {id:'2',name:'HGTV HD CA',group:'ENGLISH CANADA',output_id:'hgtv.ca',source:null},
+  {id:'3',name:'MOVIES 24x7',group:'ENGLISH MOVIES 24x7',output_id:'stalker.3',source:null},
+  {id:'4',name:'NEWS A',group:'ENGLISH USA',output_id:'newsa.us',source:'US2',source_id:'NEWS.A.us2'}
+ ];
+ const indexes={US2:parseIndex('Home.and.Garden.Television.HD.us2\nNEWS.A.us2'),CA2:parseIndex('Home.and.Garden.Television.HD.ca2')};
+ const r=resolveMappings(channels,indexes);
+ assert.equal(r.mappings.length,1);
+ assert.equal(r.channels[0].source_id,'Home.and.Garden.Television.HD.us2');
+ assert.equal(r.channels[1].source,null);
+ assert.equal(r.channels[2].source,null);
+ assert.equal(r.channels[3].source_id,'NEWS.A.us2');
+ assert.equal(excluded(channels[2]),true);
+});
+test('discovery skips ambiguous source variants and avoids unsafe overrides',()=>{
+ const channels=[
+  {id:'1',name:'Fox HD USA',group:'ENGLISH USA',output_id:'fox.us',source:null},
+  {id:'2',name:'FOX NEWS HD USA',group:'ENGLISH USA',output_id:'foxnews.us',source:'US2',source_id:'Fox.News.HD.us2'},
+  {id:'3',name:'HALLMARK HD USA',group:'ENGLISH USA',output_id:'hallmark.us',source:null}
+ ];
+ const r=resolveMappings(channels,{US2:parseIndex('FOX.HD.us2\nFOX.4K.us2\nFox.News.HD.us2\nHallmark.HD.us2')});
+ assert.equal(r.channels[0].source,null);
+ assert.equal(r.channels[2].source_id,'Hallmark.HD.us2');
+ assert.equal(r.channels[1].source_id,'Fox.News.HD.us2');
+});
+test('logo fallback requires exact normalized name and country',()=>{
+ const records=[{channel:'HGTV.us',url:'https://example.org/hgtv.png',in_use:true,format:'PNG',feed:null}];
+ const channels=[
+  {id:'1',name:'HGTV HD USA',group:'ENGLISH USA',output_id:'I123.schedulesdirect.org'},
+  {id:'2',name:'HGTV HD CA',group:'ENGLISH CANADA',output_id:'I124.schedulesdirect.org'}];
+ const directory=[{id:'HGTV.us',name:'HGTV',country:'US'}];
+ const result=catalogLogos(records,channels,directory);
+ assert.equal(result['I123.schedulesdirect.org'],'https://example.org/hgtv.png');
+ assert.equal(result['I124.schedulesdirect.org'],undefined);
 });
