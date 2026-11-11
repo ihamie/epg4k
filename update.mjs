@@ -6,6 +6,7 @@ import {refresh,sources,publish,coverage,channels,setActiveChannels} from './lib
 import {fetchIndexes,resolveMappings} from './lib/discovery.mjs';
 import {loadLogos} from './lib/logos.mjs';
 import {fetchNbaPrograms} from './lib/sports.mjs';
+import {fetchLeagueSports} from './lib/league-sports.mjs';
 const root='.state'; await mkdir(root,{recursive:true});
 const database=new DatabaseSync(join(root,'leases.sqlite'));
 database.exec('CREATE TABLE IF NOT EXISTS leases (id TEXT PRIMARY KEY, owner TEXT, expires INTEGER)');
@@ -32,7 +33,14 @@ try {
  console.log('Channel logos:',artwork.count,'catalog updated:',artwork.updated);
  const nba=await fetchNbaPrograms(discovery.channels);
  console.log('NBA team programmes:',nba.programs.length,'team channels:',nba.team_channels,'source:',nba.source,'errors:',nba.errors.join('; '));
- const report=await publish(env,artwork.logos,nba.programs);
+ let cachedTeamLogos={};
+ try{cachedTeamLogos=JSON.parse(await readFile('docs/team-logos.json','utf8'));}catch{}
+ const otherSports=await fetchLeagueSports(discovery.channels,{cache:cachedTeamLogos});
+ const sportsPrograms=[...nba.programs,...otherSports.programs];
+ const sportLogos={...artwork.logos,...otherSports.logos};
+ console.log('Additional team schedules:',otherSports.programs.length,'team logos:',Object.keys(otherSports.logos).length);
+ console.log('Sports league coverage:',JSON.stringify(otherSports.leagues));
+ const report=await publish(env,sportLogos,sportsPrograms);
  if(report.result!=='published')throw new Error('Publication did not complete');
  const rows=await coverage(env);
  const {guideKey,coverageKey,...status}=report;
@@ -41,7 +49,15 @@ try {
  await writeFile('docs/status.json',JSON.stringify(status,null,2)+'\n');
  await writeFile('docs/coverage.json',JSON.stringify(rows,null,2)+'\n');
  await writeFile('docs/auto-mappings.json',JSON.stringify(discovery.mappings,null,2)+'\n');
- await writeFile('docs/sports-status.json',JSON.stringify({generated_at:Math.floor(Date.now()/1000),source:nba.source,team_channels:nba.team_channels,programmes:nba.programs.length,channels_with_games:new Set(nba.programs.map(p=>p.channel)).size,errors:nba.errors},null,2)+'\n');
+ await writeFile('docs/team-logos.json',JSON.stringify(otherSports.logos,null,2)+'\n');
+ await writeFile('docs/sports-status.json',JSON.stringify({
+   generated_at:Math.floor(Date.now()/1000),
+   source:nba.source,team_channels:nba.team_channels,
+   programmes:sportsPrograms.length,channels_with_games:new Set(sportsPrograms.map(p=>p.channel)).size,
+   team_logos:Object.keys(otherSports.logos).length,
+   nba_programmes:nba.programs.length,leagues:otherSports.leagues,
+   errors:nba.errors
+ },null,2)+'\n');
  await writeFile('docs/source-index-errors.json',JSON.stringify(indexes.failures,null,2)+'\n');
  console.log(JSON.stringify(status));
 } finally {database.close();}
