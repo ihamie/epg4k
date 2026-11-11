@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794424417,
+  "generated_at": 1794428092,
   "channels": 5841,
   "mapped_channels": 1123,
   "covered_channels": 1286,
@@ -8,8 +8,8 @@
   "nba_channels_with_programmes": 30,
   "sports_programmes": 493,
   "sports_channels_with_programmes": 182,
-  "programmes": 82069,
-  "bytes": 3917039,
+  "programmes": 80764,
+  "bytes": 3850520,
   "source_errors": 0,
   "result": "published"
 }
