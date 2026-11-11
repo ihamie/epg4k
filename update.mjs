@@ -2,7 +2,8 @@
 import {mkdir,readFile,writeFile,unlink} from 'node:fs/promises';
 import {join} from 'node:path';
 import {DatabaseSync} from 'node:sqlite';
-import {refresh,sources,publish,coverage} from './lib/epg.mjs';
+import {refresh,sources,publish,coverage,channels} from './lib/epg.mjs';
+import {loadLogos} from './lib/logos.mjs';
 const root='.state'; await mkdir(root,{recursive:true});
 const database=new DatabaseSync(join(root,'leases.sqlite'));
 database.exec('CREATE TABLE IF NOT EXISTS leases (id TEXT PRIMARY KEY, owner TEXT, expires INTEGER)');
@@ -19,7 +20,9 @@ try {
   const results=await Promise.all(sources.slice(i,i+2).map(s=>refresh(env,s.id)));
   for(const r of results)console.log(r.id,r.result,r.programmes??0,r.error??'');
  }
- const report=await publish(env);
+ const artwork=await loadLogos(channels,'docs/channel-logos.json',{readFile,writeFile,mkdir});
+ console.log('Channel logos:',artwork.count,'catalog updated:',artwork.updated);
+ const report=await publish(env,artwork.logos);
  if(report.result!=='published')throw new Error('Publication did not complete');
  const rows=await coverage(env);
  const {guideKey,coverageKey,...status}=report;
