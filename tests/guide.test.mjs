@@ -1,3 +1,4 @@
+import {nbaTeamChannels,parseNbaSchedule,parseEspnScoreboard,fetchNbaPrograms} from '../lib/sports.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';import{gzipSync,gunzipSync}from'node:zlib';import{filterSource,timestamp,refresh,publish}from'../lib/epg.mjs';
 import {catalogLogos,validLogo} from '../lib/logos.mjs';
 import {parseIndex,resolveMappings,excluded,regionOf} from '../lib/discovery.mjs';
@@ -94,4 +95,54 @@ test('USA suffix overrides misleading India XMLTV ID and HD does not use SD feed
  assert.equal(r.channels[2].source,null);
  assert.equal(r.channels[3].source,null);
  assert.equal(r.channels[4].source,'IN1');
+});
+
+test('NBA team channels correctly identify 30 teams but exclude WNBA event placeholders',()=>{
+ const channels=[
+  {group:'SPORTS | NBA',name:'NBA: GOLDEN STATE WARRIORS 4K',output_id:'stalker.6174'},
+  {group:'SPORTS | NBA',name:'NBA: HOUSTON ROCKETS 4K',output_id:'stalker.6175'},
+  {group:'SPORTS | NBA',name:'WNBA 1 4K',output_id:'stalker.5909'}
+ ];
+ const matched=nbaTeamChannels(channels);
+ assert.equal(matched.size,2);
+ assert.equal(matched.get('GSW').channel,'stalker.6174');
+ assert.equal(matched.get('HOU').channel,'stalker.6175');
+});
+test('NBA scheduled matchup generates both team listings at accurate UTC tipoff',()=>{
+ const channels=[
+  {group:'SPORTS | NBA',name:'NBA: GOLDEN STATE WARRIORS 4K',output_id:'stalker.6174'},
+  {group:'SPORTS | NBA',name:'NBA: HOUSTON ROCKETS 4K',output_id:'stalker.6175'}
+ ];
+ const data={leagueSchedule:{leagueId:'00',gameDates:[{games:[
+  {gameStatus:1,gameDateTimeUTC:'2026-11-12T02:30:00Z',homeTeam:{teamTricode:'HOU'},awayTeam:{teamTricode:'GSW'}},
+  {gameStatus:3,gameDateTimeUTC:'2026-11-11T02:00:00Z',homeTeam:{teamTricode:'GSW'},awayTeam:{teamTricode:'HOU'}}]}]}};
+ const rows=parseNbaSchedule(data,channels,Date.parse('2026-11-11T11:00:00Z'));
+ assert.equal(rows.length,2);
+ assert.equal(rows[0].title,'Golden State Warriors @ Houston Rockets');
+ assert.equal(rows[0].start,Date.parse('2026-11-12T02:30:00Z')/1000);
+ assert.equal(rows[0].stop-rows[0].start,3*3600);
+ assert.deepEqual(new Set(rows.map(p=>p.channel)),new Set(['stalker.6174','stalker.6175']));
+});
+test('ESPN NBA fallback extracts schedule and excludes off-days, finals and cancellations',()=>{
+ const channels=[{group:'SPORTS | NBA',name:'NBA: GOLDEN STATE WARRIORS 4K',output_id:'stalker.6174'}];
+ const event=(date,state,name='STATUS_SCHEDULED')=>({date,status:{type:{state,name}},competitions:[{date,competitors:[
+ {homeAway:'away',team:{abbreviation:'GSW'}},{homeAway:'home',team:{abbreviation:'HOU'}}]}]});
+ const data={events:[event('2026-11-12T02:30:00Z','pre'),event('2026-11-13T02:30:00Z','post','STATUS_FINAL'),event('2026-11-14T02:30:00Z','pre','STATUS_POSTPONED')]};
+ const rows=parseEspnScoreboard(data,channels,Date.parse('2026-11-11T00:00:00Z'));
+ assert.equal(rows.length,1);
+ assert.equal(rows[0].channel,'stalker.6174');
+});
+test('NBA schedule source failure is nonfatal and ESPN fallback is used',async()=>{
+ const channels=[{group:'SPORTS | NBA',name:'NBA: GOLDEN STATE WARRIORS 4K',output_id:'stalker.6174'}];
+ const requests=[];
+ const fetcher=async url=>{
+   requests.push(url);
+   if(url.includes('cdn.nba.com'))return new Response('',{status:403});
+   return new Response(JSON.stringify({events:[{date:'2026-11-12T02:30:00Z',status:{type:{state:'pre'}},
+    competitions:[{competitors:[{homeAway:'away',team:{abbreviation:'GSW'}},{homeAway:'home',team:{abbreviation:'HOU'}}]}]}]}),{status:200});
+ };
+ const r=await fetchNbaPrograms(channels,{fetcher,now:Date.parse('2026-11-11T00:00:00Z')});
+ assert.equal(r.programs.length,1);
+ assert.equal(r.source,'espn.com (fallback)');
+ assert.equal(requests.length,2);
 });
