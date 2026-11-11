@@ -36,7 +36,7 @@ A short-lived fallback retains previously verified future listings only when the
 
 [EPG quality report](docs/quality.md) provides a coverage summary, major gaps by group, team-sports coverage, source failures, and duplicated XMLTV IDs to review. [Structured quality JSON](docs/quality.json) has the same metrics for automation. The GitHub Actions run summary also displays the report.
 
-The updater guards against publishing a guide that unexpectedly loses more than 30% of previously covered channels. Existing XMLTV IDs are retained, including duplicate IDs that intentionally alias the same feed. Neither quality reports nor sports fallback change Stalker URLs or playlist credentials.
+The updater guards against publishing a guide that unexpectedly loses more than 30% of previously covered channels. A failed GitHub Actions run also creates one assigned GitHub Issue titled `EPG refresh failed (automated)` (when Issues are enabled); repeated failures update that issue, and a successful run closes it. This uses no outside notification service and does not add scheduled runs. Existing XMLTV IDs are retained, including duplicate IDs that intentionally alias the same feed. Neither quality reports nor sports fallback change Stalker URLs or playlist credentials.
 
 ## Updates
 
