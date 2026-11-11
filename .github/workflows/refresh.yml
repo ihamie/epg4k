@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/guide.xml.gz docs/status.json docs/coverage.json docs/auto-mappings.json docs/source-index-errors.json docs/sports-status.json docs/team-logos.json
+          git add docs/guide.xml.gz docs/status.json docs/coverage.json docs/auto-mappings.json docs/source-index-errors.json docs/sports-status.json docs/team-logos.json docs/sports-programs.json docs/quality.json docs/quality.md
           if [ -f docs/channel-logos.json ]; then git add docs/channel-logos.json; fi
           if ! git diff --cached --quiet; then
             # Do not rebase generated files across a newer source-code or guide commit.
@@ -57,3 +57,7 @@ jobs:
               exit 0
             fi
           fi
+      - name: Quality report
+        if: always()
+        run: |
+          if [ -f docs/quality.md ]; then cat docs/quality.md >> "$GITHUB_STEP_SUMMARY"; fi
