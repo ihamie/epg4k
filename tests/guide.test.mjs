@@ -329,3 +329,31 @@ test('quality dashboard counts channel coverage, logos and conflicting XMLTV ide
  assert.equal(report.data.conflicting_source_id_groups,1);
  assert.match(report.markdown,/Conflicting source-ID groups/);
 });
+
+test('minor hockey normalizes official ligatures and punctuation without guessing unrelated teams',()=>{
+ const oh=MINOR_LEAGUES.find(l=>l.key==='OHL'),qm=MINOR_LEAGUES.find(l=>l.key==='QMJHL');
+ const ohl=matchMinorTeams([{group:'SPORTS | AHL OHL QMJHL WHL',name:'OHL | OTTAWA 67S',output_id:'stalker.100'}],oh,
+  [{id:'1',name:"Ottawa 67's",logo:null}]);
+ assert.equal(ohl.map.size,1);
+ const qmjhl=matchMinorTeams([
+  {group:'SPORTS | AHL OHL QMJHL WHL',name:'QMJHL | SHERBROOKE PHOENIX',output_id:'stalker.201'},
+  {group:'SPORTS | AHL OHL QMJHL WHL',name:'QMJHL | VAL-DOR FOREURS',output_id:'stalker.202'}],qm,
+  [{id:'2',name:'Sherbrooke, Phœnix',logo:null},{id:'3',name:"Val-d'Or, Foreurs",logo:null}]);
+ assert.equal(qmjhl.map.size,2);
+});
+test('fallback timestamp stays original even when a cached fixture is republished',()=>{
+ const now=1794391200,channels=[{output_id:'stalker.1'}];
+ const match={league:'NHL',channel:'stalker.1',start:now+2*86400,stop:now+2*86400+9000,title:'Sharks @ Kraken'};
+ const old={generated_at:now-35*3600,programs:[{...match,verified_at:now-35*3600}]};
+ const first=mergeSportsPrograms([],old,new Set(['NHL']),channels,now);
+ assert.equal(first.stats.reused,1);
+ assert.equal(first.programs[0].verified_at,now-35*3600);
+ const again=mergeSportsPrograms([],{generated_at:now+7200,programs:first.programs},new Set(['NHL']),channels,now+7200);
+ assert.equal(again.stats.reused,0);
+});
+test('dashboard shows NBA once',()=>{
+ const rep=buildQualityReport({channels:[],coverage:[],logos:{},sources:[],
+  sports:{nba:{source:'nba.com',team_channels:30,logos:30,programmes:60},
+  leagues:[{league:'NBA',team_channels:30,matched_teams:30,with_logos:30,programmes:0}]}});
+ assert.equal(rep.data.sports.filter(x=>x.league==='NBA').length,1);
+});
