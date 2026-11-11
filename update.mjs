@@ -48,8 +48,8 @@ try {
  const sportsPrograms=combined.programs;
  // Preserve only previously verified official logo URLs for known team channels.
  const teamChannelIds=new Set(discovery.channels.filter(c=>
-   /^(SPORTS \\| (NBA|NFL|NHL|MLB|MLS|EPL EFL|AHL OHL QMJHL WHL))$/.test(c.group||'')&&
-   /^stalker\\.\\d+$/.test(c.output_id)).map(c=>c.output_id));
+   /^(SPORTS \| (NBA|NFL|NHL|MLB|MLS|EPL EFL|AHL OHL QMJHL WHL))$/.test(c.group||'')&&
+   /^stalker\.\d+$/.test(c.output_id)).map(c=>c.output_id));
  const safeCachedLogos=Object.fromEntries(Object.entries(cachedTeamLogos).filter(([id,url])=>{
   if(!teamChannelIds.has(id)||typeof url!=='string')return false;
   try{const host=new URL(url).hostname;return url.startsWith('https://')&&
