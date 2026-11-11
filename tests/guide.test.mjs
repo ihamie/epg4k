@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';import{gzipSync,gunzipSync}from'node:zlib';import{filterSource,timestamp,refresh,publish}from'../lib/epg.mjs';
 import {catalogLogos,validLogo} from '../lib/logos.mjs';
-import {parseIndex,resolveMappings,excluded} from '../lib/discovery.mjs';
+import {parseIndex,resolveMappings,excluded,regionOf} from '../lib/discovery.mjs';
 const now=Date.UTC(2026,10,8)/1000,xml='<tv><programme channel="src" start="20261108010000 +0000" stop="20261108020000 +0000"><title>News &amp; فارسی</title><desc><![CDATA[A < B and </programme> in text]]></desc></programme></tv>',map=new Map([['src',new Set(['cnn.us','stalker.2'])]]);
 function stream(v,n=1){const b=typeof v==='string'?new TextEncoder().encode(v):v;let i=0;return new ReadableStream({pull(c){if(i>=b.length)c.close();else{c.enqueue(b.slice(i,i+n));i+=n;}}});}
 test('gzip chunk boundaries, Unicode, CDATA and multiple channel aliases',async()=>{const r=await filterSource(stream(gzipSync(xml)),map,now),s=gunzipSync(r.gzip).toString();assert.equal(r.programmes,2);assert.match(s,/فارسی/);assert.match(s,/A &lt; B and &lt;\/programme&gt; in text/);assert.match(s,/channel="cnn.us"/);});
@@ -75,4 +75,23 @@ test('logo fallback requires exact normalized name and country',()=>{
  const result=catalogLogos(records,channels,directory);
  assert.equal(result['I123.schedulesdirect.org'],'https://example.org/hgtv.png');
  assert.equal(result['I124.schedulesdirect.org'],undefined);
+});
+
+test('USA suffix overrides misleading India XMLTV ID and HD does not use SD feed',()=>{
+ const channels=[
+  {id:'1',name:'SONY MAX HD USA',group:'HINDI',output_id:'sonymax.in',source:null},
+  {id:'2',name:'PTC SIMRAN HD USA',group:'PUNJABI RELIGIOUS',output_id:'ptcsimran.in',source:null},
+  {id:'3',name:'HGTV HD USA',group:'ENGLISH USA',output_id:'hgtv.us',source:null},
+  {id:'4',name:'FOX EAST HD USA',group:'ENGLISH USA',output_id:'foxeast.us',source:null},
+  {id:'5',name:'EXAMPLE HD INDIA',group:'HINDI',output_id:'example.in',source:'IN1',source_id:'Example.HD.in'}
+ ];
+ const indexes={IN1:parseIndex('Sony.Max.SD.in\nPTC.Simran.in\nExample.HD.in'),
+ US2:parseIndex('Home.and.Garden.Television.SD.us2\nFOX.West.HD.us2')};
+ assert.equal(regionOf(channels[0]),'us');
+ const r=resolveMappings(channels,indexes);
+ assert.equal(r.channels[0].source,null);
+ assert.equal(r.channels[1].source,null);
+ assert.equal(r.channels[2].source,null);
+ assert.equal(r.channels[3].source,null);
+ assert.equal(r.channels[4].source,'IN1');
 });
