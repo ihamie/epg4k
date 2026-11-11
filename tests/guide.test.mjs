@@ -219,3 +219,21 @@ test('multi-league daily scoreboard integration yields team-specific matchup lis
  assert.equal(r.programs[0].stop-r.programs[0].start,4*3600);
  assert.equal(r.leagues.find(x=>x.league==='NFL').error,null);
 });
+
+test('all eight differently named MLS teams resolve to their official team logos',()=>{
+ const league=LEAGUES.find(l=>l.key==='MLS');
+ const cases=[
+ ['ATLANTA UNITED','Atlanta United FC'],
+ ['CHICAGO FIRE','Chicago Fire FC'],
+ ['HOUSTON DYNAMO','Houston Dynamo FC'],
+ ['INTER MIAMI','Inter Miami CF'],
+ ['MINNESOTA UNITED','Minnesota United FC'],
+ ['NEW YORK RED BULLS','Red Bull New York'],
+ ['ORLANDO CITY','Orlando City SC'],
+ ['VANCOUVER WHITECAPS','Vancouver Whitecaps']];
+ const channels=cases.map(([c],i)=>({group:'SPORTS | MLS',name:'MLS | '+c+' 4K',output_id:'stalker.'+(7500+i)}));
+ const teams=cases.map(([,name],i)=>({id:String(i+1),name,logos:[{href:'https://a.espncdn.com/i/teamlogos/soccer/500/'+(i+1)+'.png'}]}));
+ const matches=matchLeagueChannels(channels,league,teams);
+ assert.equal(matches.byId.size,8);
+ assert.equal(Object.keys(matches.logos).length,8);
+});
