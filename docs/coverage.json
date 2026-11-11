@@ -6763,7 +6763,7 @@
     "source": "IN1",
     "source_id": "Aaj.Tak.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 177,
+    "programmes": 176,
     "through": 1794680999,
     "manual_assignment": false
   },
@@ -8743,7 +8743,7 @@
     "source": "IN4",
     "source_id": "Sony.Marathi.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 16,
+    "programmes": 15,
     "through": 1794461040,
     "manual_assignment": false
   },
@@ -16363,7 +16363,7 @@
     "source": "PL1",
     "source_id": "Polsat.pl",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 76,
+    "programmes": 75,
     "through": 1794726000,
     "manual_assignment": false
   },
@@ -16735,7 +16735,7 @@
     "source": "PL1",
     "source_id": "Disney.Junior.pl",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 285,
+    "programmes": 284,
     "through": 1794722400,
     "manual_assignment": false
   },
@@ -16951,7 +16951,7 @@
     "source": "PL1",
     "source_id": "WTK.pl",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 208,
+    "programmes": 207,
     "through": 1794722400,
     "manual_assignment": true
   },
@@ -17107,7 +17107,7 @@
     "source": "PT1",
     "source_id": "Globo.HD.pt",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 61,
+    "programmes": 60,
     "through": 1794615600,
     "manual_assignment": false
   },
@@ -21019,7 +21019,7 @@
     "source": "CA2",
     "source_id": "Crave1.HD.ca2",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 55,
+    "programmes": 54,
     "through": 1794728100,
     "manual_assignment": false
   },
@@ -60403,7 +60403,7 @@
     "source": "IT1",
     "source_id": "DMAX.it",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 56,
+    "programmes": 55,
     "through": 1794610800,
     "manual_assignment": false
   },
@@ -60463,7 +60463,7 @@
     "source": "IT1",
     "source_id": "Food.Network.it",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 83,
+    "programmes": 82,
     "through": 1794610800,
     "manual_assignment": false
   },
@@ -64327,7 +64327,7 @@
     "source": "GR1",
     "source_id": "MEGA.HD.gr",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 65,
+    "programmes": 64,
     "through": 1794701400,
     "manual_assignment": true
   },
