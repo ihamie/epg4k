@@ -2587,7 +2587,7 @@
     "source": "CA2",
     "source_id": "CBC.Halifax.HD.ca2",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 192,
+    "programmes": 191,
     "through": 1794729600,
     "manual_assignment": false
   },
@@ -2767,7 +2767,7 @@
     "source": "UK1",
     "source_id": "BabyTV.uk",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 805,
+    "programmes": 804,
     "through": 1794614460,
     "manual_assignment": false
   },
@@ -2911,7 +2911,7 @@
     "source": "UK1",
     "source_id": "Nick.Jr..HD.uk",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 269,
+    "programmes": 268,
     "through": 1794614400,
     "manual_assignment": false
   },
@@ -2923,7 +2923,7 @@
     "source": "UK1",
     "source_id": "Nick.Jr..Too.uk",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 488,
+    "programmes": 487,
     "through": 1794614400,
     "manual_assignment": false
   },
@@ -3679,7 +3679,7 @@
     "source": "IN4",
     "source_id": "STAR.SPORTS.3.in",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 54,
+    "programmes": 53,
     "through": 1794459600,
     "manual_assignment": false
   },
@@ -12859,7 +12859,7 @@
     "source": "AE1",
     "source_id": "MBC.Drama.ae",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 38,
+    "programmes": 37,
     "through": 1794528000,
     "manual_assignment": true
   },
@@ -13951,7 +13951,7 @@
     "source": "AE1",
     "source_id": "Al.Jazeera.HD.ae",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 79,
+    "programmes": 78,
     "through": 1794614400,
     "manual_assignment": true
   },
@@ -16951,7 +16951,7 @@
     "source": "PL1",
     "source_id": "WTK.pl",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 228,
+    "programmes": 227,
     "through": 1794722400,
     "manual_assignment": true
   },
@@ -17407,7 +17407,7 @@
     "source": "PT1",
     "source_id": "Cinemundo.pt",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 36,
+    "programmes": 35,
     "through": 1794615300,
     "manual_assignment": false
   },
@@ -17551,7 +17551,7 @@
     "source": "PT1",
     "source_id": "National.Geographic.WILD.HD.pt",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 85,
+    "programmes": 84,
     "through": 1794615600,
     "manual_assignment": false
   },
@@ -21091,7 +21091,7 @@
     "source": "CA2",
     "source_id": "Super.Channel.Vault.HD.ca2",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 53,
+    "programmes": 52,
     "through": 1794722400,
     "manual_assignment": false
   },
@@ -21571,7 +21571,7 @@
     "source": "US2",
     "source_id": "Showtime.2.HD.us2",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 38,
+    "programmes": 37,
     "through": 1794636900,
     "manual_assignment": false
   },
@@ -30115,7 +30115,7 @@
     "source": "US_LOCALS1",
     "source_id": "KCBS-DT.us_locals1",
     "match": "Exact main-channel station call sign",
-    "programmes": 91,
+    "programmes": 90,
     "through": 1794636000,
     "manual_assignment": false
   },
@@ -31099,7 +31099,7 @@
     "source": "US_LOCALS1",
     "source_id": "KPTV-DT.us_locals1",
     "match": "Exact main-channel station call sign",
-    "programmes": 87,
+    "programmes": 86,
     "through": 1794637800,
     "manual_assignment": false
   },
@@ -58099,7 +58099,7 @@
     "source": "SE1",
     "source_id": "[KANL11H].Kanal.11.HD.se",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 93,
+    "programmes": 92,
     "through": 1794726000,
     "manual_assignment": true
   },
@@ -58315,7 +58315,7 @@
     "source": "SE1",
     "source_id": "[NATGWHD].National.Geographic.Wild.HD.se",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 127,
+    "programmes": 126,
     "through": 1794722700,
     "manual_assignment": true
   },
@@ -58411,7 +58411,7 @@
     "source": "SE1",
     "source_id": "[CARTNET].Cartoon.Network.se",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 416,
+    "programmes": 415,
     "through": 1794722700,
     "manual_assignment": true
   },
@@ -60283,7 +60283,7 @@
     "source": "IT1",
     "source_id": "TV8.HD.it",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 69,
+    "programmes": 68,
     "through": 1794629400,
     "manual_assignment": false
   },
@@ -60379,7 +60379,7 @@
     "source": "IT1",
     "source_id": "RaiStoria.it",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 93,
+    "programmes": 92,
     "through": 1794604800,
     "manual_assignment": false
   },
@@ -60487,7 +60487,7 @@
     "source": "IT1",
     "source_id": "RaiGulp.it",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 233,
+    "programmes": 232,
     "through": 1794609900,
     "manual_assignment": false
   },
@@ -60499,7 +60499,7 @@
     "source": "IT1",
     "source_id": "RaiYoyo.it",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 434,
+    "programmes": 433,
     "through": 1794610500,
     "manual_assignment": false
   },
@@ -62287,7 +62287,7 @@
     "source": "JM1",
     "source_id": "CNC3.jm",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 73,
+    "programmes": 72,
     "through": 1794650340,
     "manual_assignment": true
   },
@@ -65851,7 +65851,7 @@
     "source": "GR1",
     "source_id": "Disney.Junior.gr",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 350,
+    "programmes": 349,
     "through": 1794701700,
     "manual_assignment": true
   },

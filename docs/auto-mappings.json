@@ -1,0 +1,290 @@
+[
+  {
+    "id": "702",
+    "name": "THE WEATHER NETWORK 4K CANADA",
+    "group": "ENGLISH NEWS",
+    "output_id": "theweathernetwork.ca",
+    "source": "CA2",
+    "source_id": "The.Weather.Network.Canada.HD.ca2",
+    "method": "exact"
+  },
+  {
+    "id": "1764",
+    "name": "MTV HD USA",
+    "group": "ENGLISH USA",
+    "output_id": "mtv.us",
+    "source": "US2",
+    "source_id": "MTV.-.Music.Television.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "3460",
+    "name": "MTV2 HD USA",
+    "group": "ENGLISH USA",
+    "output_id": "mtv2.us",
+    "source": "US2",
+    "source_id": "MTV2:.Music.Television.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "1281",
+    "name": "WEATHER NETWORK TORONTO 4K",
+    "group": "ENGLISH CANADA",
+    "output_id": "theweathernetwork.ca",
+    "source": "CA2",
+    "source_id": "The.Weather.Network.Canada.HD.ca2",
+    "method": "exact"
+  },
+  {
+    "id": "1168",
+    "name": "TRAVEL HD USA",
+    "group": "ENGLISH USA",
+    "output_id": "travel.us",
+    "source": "US2",
+    "source_id": "The.Travel.Channel.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "159",
+    "name": "HGTV HD USA",
+    "group": "ENGLISH USA",
+    "output_id": "hgtv.us",
+    "source": "US2",
+    "source_id": "Home.and.Garden.Television.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "160",
+    "name": "E! HD USA",
+    "group": "ENGLISH USA",
+    "output_id": "eentertainment.us",
+    "source": "US2",
+    "source_id": "E!.Entertainment.Television.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "1282",
+    "name": "A&E HD CA",
+    "group": "ENGLISH CANADA",
+    "output_id": "aande.ca",
+    "source": "CA2",
+    "source_id": "A.and.E.Canada.HD.ca2",
+    "method": "exact"
+  },
+  {
+    "id": "168",
+    "name": "TLC HD USA",
+    "group": "ENGLISH USA",
+    "output_id": "tlc.us",
+    "source": "US2",
+    "source_id": "TLC.HD.(US).us2",
+    "method": "verified"
+  },
+  {
+    "id": "620",
+    "name": "AMC HD CA",
+    "group": "ENGLISH CANADA",
+    "output_id": "amc.ca",
+    "source": "CA2",
+    "source_id": "AMC.Canada.HD.ca2",
+    "method": "exact"
+  },
+  {
+    "id": "5876",
+    "name": "GAME TV HD",
+    "group": "ENGLISH CANADA",
+    "output_id": "gametv.ca",
+    "source": "CA2",
+    "source_id": "GameTV.Canada.ca2",
+    "method": "exact"
+  },
+  {
+    "id": "1259",
+    "name": "WORLD FISHING HD USA",
+    "group": "ENGLISH USA",
+    "output_id": "worldfishingnetwork.us",
+    "source": "US2",
+    "source_id": "World.Fishing.Network.HD.(US).us2",
+    "method": "verified"
+  },
+  {
+    "id": "924",
+    "name": "SHOWCASE HD CA",
+    "group": "ENGLISH CANADA",
+    "output_id": "showcase.ca",
+    "source": "CA2",
+    "source_id": "Showcase.Canada.HD.ca2",
+    "method": "exact"
+  },
+  {
+    "id": "3455",
+    "name": "NATIONAL GEO HD USA",
+    "group": "ENGLISH USA",
+    "output_id": "natgeo.us",
+    "source": "US2",
+    "source_id": "National.Geographic.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "209",
+    "name": "NATIONAL GEO WILD HD USA",
+    "group": "ENGLISH USA",
+    "output_id": "natgeowild.us",
+    "source": "US2",
+    "source_id": "National.Geographic.Wild.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "219",
+    "name": "BLOOMBERG TV HD USA",
+    "group": "ENGLISH NEWS",
+    "output_id": "bloombergtv.us",
+    "source": "US2",
+    "source_id": "Bloomberg.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "2430",
+    "name": "BABY TV HD",
+    "group": "KIDS",
+    "output_id": "babytv.us",
+    "source": "US2",
+    "source_id": "Baby.TV.US.us2",
+    "method": "verified"
+  },
+  {
+    "id": "278",
+    "name": "BABY FIRST HD",
+    "group": "KIDS",
+    "output_id": "babyfirst.us",
+    "source": "US2",
+    "source_id": "BabyFirst.TV.us2",
+    "method": "verified"
+  },
+  {
+    "id": "1431",
+    "name": "ESPN NEWS HD",
+    "group": "SPORTS",
+    "output_id": "espnnews.us",
+    "source": "US2",
+    "source_id": "ESPNEWS.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "718",
+    "name": "BEIN SPORTS HD USA",
+    "group": "SPORTS",
+    "output_id": "beinsports.us",
+    "source": "US2",
+    "source_id": "beIN.Sports.USA.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "1962",
+    "name": "BEIN SPORTS SPANISH HD",
+    "group": "SPORTS",
+    "output_id": "beinsportespanol.us",
+    "source": "US2",
+    "source_id": "beIN.Sports.En.Español.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "4",
+    "name": "AAPKA COLORS HD USA",
+    "group": "HINDI",
+    "output_id": "I697.65128.schedulesdirect.org",
+    "source": "US2",
+    "source_id": "AAPKA.Colors.US.us2",
+    "method": "exact"
+  },
+  {
+    "id": "5591",
+    "name": "VIJAY TV HD USA",
+    "group": "TAMIL",
+    "output_id": "vijayhd.in",
+    "source": "IN4",
+    "source_id": "VIJAY.TV.in",
+    "method": "exact"
+  },
+  {
+    "id": "1445",
+    "name": "SONY MAX HD USA",
+    "group": "HINDI PREMIUM MOVIES",
+    "output_id": "sonymaxhd.in",
+    "source": "IN1",
+    "source_id": "Sony.Max.SD.in",
+    "method": "exact"
+  },
+  {
+    "id": "2013",
+    "name": "MUSIC INDIA",
+    "group": "HINDI MUSIC",
+    "output_id": "stalker.2013",
+    "source": "IN1",
+    "source_id": "Music.India.in",
+    "method": "exact"
+  },
+  {
+    "id": "1365",
+    "name": "BEIN SP",
+    "group": "SPANISH",
+    "output_id": "beinsportespanol.us",
+    "source": "US2",
+    "source_id": "beIN.Sports.En.Español.HD.us2",
+    "method": "verified"
+  },
+  {
+    "id": "1842",
+    "name": "INDIA NEWS RAJASTHAN",
+    "group": "HINDI NEWS",
+    "output_id": "indianewsraj.in",
+    "source": "IN1",
+    "source_id": "India.News.Rajasthan.in",
+    "method": "exact"
+  },
+  {
+    "id": "5875",
+    "name": "INDIA TV SPEED NEWS",
+    "group": "HINDI NEWS",
+    "output_id": "stalker.5875",
+    "source": "IN1",
+    "source_id": "India.TV.Speed.News.in",
+    "method": "exact"
+  },
+  {
+    "id": "2020",
+    "name": "PTC SIMRAN HD USA",
+    "group": "PUNJABI RELIGIOUS",
+    "output_id": "ptcsimran.in",
+    "source": "IN1",
+    "source_id": "PTC.Simran.in",
+    "method": "exact"
+  },
+  {
+    "id": "1959",
+    "name": "TCM HD",
+    "group": "ENGLISH PREMIUM MOVIES",
+    "output_id": "turnerclassicmovies.ca",
+    "source": "CA2",
+    "source_id": "Turner.Classic.Movies.Canada.HD.ca2",
+    "method": "exact"
+  },
+  {
+    "id": "1919",
+    "name": "MN PLUS HD",
+    "group": "ENGLISH PREMIUM MOVIES",
+    "output_id": "mnplushd.in",
+    "source": "IN4",
+    "source_id": "MN+.HD.in",
+    "method": "exact"
+  },
+  {
+    "id": "2038",
+    "name": "PTC GOLD HD USA",
+    "group": "PUNJABI PREMIUM MOVIES",
+    "output_id": "ptcpunjabigold.in",
+    "source": "IN1",
+    "source_id": "PTC.Punjabi.Gold..in",
+    "method": "exact"
+  }
+]
