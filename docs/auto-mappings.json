@@ -198,24 +198,6 @@
     "method": "exact"
   },
   {
-    "id": "5591",
-    "name": "VIJAY TV HD USA",
-    "group": "TAMIL",
-    "output_id": "vijayhd.in",
-    "source": "IN4",
-    "source_id": "VIJAY.TV.in",
-    "method": "exact"
-  },
-  {
-    "id": "1445",
-    "name": "SONY MAX HD USA",
-    "group": "HINDI PREMIUM MOVIES",
-    "output_id": "sonymaxhd.in",
-    "source": "IN1",
-    "source_id": "Sony.Max.SD.in",
-    "method": "exact"
-  },
-  {
     "id": "2013",
     "name": "MUSIC INDIA",
     "group": "HINDI MUSIC",
@@ -252,15 +234,6 @@
     "method": "exact"
   },
   {
-    "id": "2020",
-    "name": "PTC SIMRAN HD USA",
-    "group": "PUNJABI RELIGIOUS",
-    "output_id": "ptcsimran.in",
-    "source": "IN1",
-    "source_id": "PTC.Simran.in",
-    "method": "exact"
-  },
-  {
     "id": "1959",
     "name": "TCM HD",
     "group": "ENGLISH PREMIUM MOVIES",
@@ -276,15 +249,6 @@
     "output_id": "mnplushd.in",
     "source": "IN4",
     "source_id": "MN+.HD.in",
-    "method": "exact"
-  },
-  {
-    "id": "2038",
-    "name": "PTC GOLD HD USA",
-    "group": "PUNJABI PREMIUM MOVIES",
-    "output_id": "ptcpunjabigold.in",
-    "source": "IN1",
-    "source_id": "PTC.Punjabi.Gold..in",
     "method": "exact"
   }
 ]
