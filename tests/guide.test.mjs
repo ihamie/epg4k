@@ -196,3 +196,26 @@ test('sports league fetch preserves usable team artwork on schedule failure',asy
  assert.equal(r.leagues.find(x=>x.league==='NFL').matched_teams,1);
  assert.match(r.leagues.find(x=>x.league==='NFL').error,/scoreboard/);
 });
+
+test('multi-league daily scoreboard integration yields team-specific matchup listings',async()=>{
+ const channels=[
+  {group:'SPORTS | NFL',name:'NFL: SAN FRANCISCO 49ERS 4K',output_id:'stalker.6160'},
+  {group:'SPORTS | NFL',name:'NFL: SEATTLE SEAHAWKS 4K',output_id:'stalker.6161'}];
+ const fetcher=async url=>{
+  if(url.includes('/football/nfl/teams'))return new Response(JSON.stringify({sports:[{leagues:[{teams:[
+   {team:{id:'25',displayName:'San Francisco 49ers',logos:[{href:'https://a.espncdn.com/i/teamlogos/nfl/500/sf.png'}]}},
+   {team:{id:'26',displayName:'Seattle Seahawks',logos:[{href:'https://a.espncdn.com/i/teamlogos/nfl/500/sea.png'}]}}
+  ]}]}]}),{status:200});
+  if(url.includes('/football/nfl/scoreboard'))return new Response(JSON.stringify({
+   events:url.includes('20261113')?[{id:'game1',date:'2026-11-13T01:15:00Z',status:{type:{state:'pre'}},
+    competitions:[{date:'2026-11-13T01:15:00Z',competitors:[
+     {homeAway:'home',team:{id:'25',displayName:'San Francisco 49ers'}},
+     {homeAway:'away',team:{id:'26',displayName:'Seattle Seahawks'}}]}]}]:[]}),{status:200});
+  return new Response('',{status:404});
+ };
+ const r=await fetchLeagueSports(channels,{fetcher,now:Date.parse('2026-11-11T12:00:00Z')});
+ assert.equal(r.programs.length,2);
+ assert.equal(r.programs[0].title,'Seattle Seahawks @ San Francisco 49ers');
+ assert.equal(r.programs[0].stop-r.programs[0].start,4*3600);
+ assert.equal(r.leagues.find(x=>x.league==='NFL').error,null);
+});
