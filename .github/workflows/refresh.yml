@@ -1,6 +1,14 @@
 name: Refresh mapped EPG
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'lib/**'
+      - 'tests/**'
+      - 'update.mjs'
+      - '.github/workflows/refresh.yml'
   schedule:
     - cron: '17 13 * * *'
 permissions:
