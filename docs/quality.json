@@ -1,0 +1,1191 @@
+{
+  "generated_at": 1794421995,
+  "channels": 5841,
+  "unique_xmltv_ids": 5800,
+  "channels_with_epg": 1279,
+  "channels_with_logos": 896,
+  "epg_percent": 21.9,
+  "logo_percent": 15.3,
+  "net_change_epg": 66,
+  "net_change_logos": 66,
+  "duplicate_id_groups": 37,
+  "conflicting_source_id_groups": 0,
+  "groups": [
+    {
+      "group": "ENGLISH MOVIES 24x7",
+      "total": 452,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "ENGLISH SERIES 24x7",
+      "total": 320,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "HINDI 24x7",
+      "total": 243,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "ENGLISH USA LOCALS",
+      "total": 230,
+      "epg": 221,
+      "logos": 6,
+      "mapped": 221,
+      "pct": 96.1,
+      "logo_pct": 2.6
+    },
+    {
+      "group": "LATINO",
+      "total": 220,
+      "epg": 2,
+      "logos": 0,
+      "mapped": 5,
+      "pct": 0.9,
+      "logo_pct": 0
+    },
+    {
+      "group": "GREEK",
+      "total": 173,
+      "epg": 57,
+      "logos": 0,
+      "mapped": 59,
+      "pct": 32.9,
+      "logo_pct": 0
+    },
+    {
+      "group": "HINDI SERIES 24x7",
+      "total": 159,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "ARABIC",
+      "total": 153,
+      "epg": 44,
+      "logos": 0,
+      "mapped": 50,
+      "pct": 28.8,
+      "logo_pct": 0
+    },
+    {
+      "group": "FOR ADULTS",
+      "total": 153,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "SPORTS",
+      "total": 139,
+      "epg": 60,
+      "logos": 74,
+      "mapped": 60,
+      "pct": 43.2,
+      "logo_pct": 53.2
+    },
+    {
+      "group": "AFRICAN",
+      "total": 137,
+      "epg": 18,
+      "logos": 0,
+      "mapped": 22,
+      "pct": 13.1,
+      "logo_pct": 0
+    },
+    {
+      "group": "PUNJABI",
+      "total": 126,
+      "epg": 15,
+      "logos": 8,
+      "mapped": 17,
+      "pct": 11.9,
+      "logo_pct": 6.3
+    },
+    {
+      "group": "CARIBBEAN",
+      "total": 122,
+      "epg": 6,
+      "logos": 0,
+      "mapped": 6,
+      "pct": 4.9,
+      "logo_pct": 0
+    },
+    {
+      "group": "PERSIAN",
+      "total": 120,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 1,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "ENGLISH PREMIUM MOVIES",
+      "total": 117,
+      "epg": 61,
+      "logos": 66,
+      "mapped": 60,
+      "pct": 52.1,
+      "logo_pct": 56.4
+    },
+    {
+      "group": "SPORTS | EPL EFL",
+      "total": 106,
+      "epg": 19,
+      "logos": 64,
+      "mapped": 0,
+      "pct": 17.9,
+      "logo_pct": 60.4
+    },
+    {
+      "group": "SPORTS | ESPN+",
+      "total": 100,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "SPORTS | NCAAB NCAAF",
+      "total": 100,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "BANGLA/BENGALI",
+      "total": 97,
+      "epg": 16,
+      "logos": 3,
+      "mapped": 15,
+      "pct": 16.5,
+      "logo_pct": 3.1
+    },
+    {
+      "group": "KIDS 24x7",
+      "total": 96,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "ENGLISH CANADA",
+      "total": 92,
+      "epg": 59,
+      "logos": 25,
+      "mapped": 59,
+      "pct": 64.1,
+      "logo_pct": 27.2
+    },
+    {
+      "group": "SPORTS | AHL OHL QMJHL WHL",
+      "total": 92,
+      "epg": 66,
+      "logos": 66,
+      "mapped": 0,
+      "pct": 71.7,
+      "logo_pct": 71.7
+    },
+    {
+      "group": "POLISH",
+      "total": 73,
+      "epg": 52,
+      "logos": 46,
+      "mapped": 52,
+      "pct": 71.2,
+      "logo_pct": 63
+    },
+    {
+      "group": "HINDI PREMIUM MOVIES",
+      "total": 72,
+      "epg": 20,
+      "logos": 17,
+      "mapped": 19,
+      "pct": 27.8,
+      "logo_pct": 23.6
+    },
+    {
+      "group": "SPANISH",
+      "total": 72,
+      "epg": 5,
+      "logos": 1,
+      "mapped": 10,
+      "pct": 6.9,
+      "logo_pct": 1.4
+    },
+    {
+      "group": "ENGLISH USA",
+      "total": 69,
+      "epg": 45,
+      "logos": 50,
+      "mapped": 44,
+      "pct": 65.2,
+      "logo_pct": 72.5
+    },
+    {
+      "group": "HINDI",
+      "total": 68,
+      "epg": 37,
+      "logos": 25,
+      "mapped": 38,
+      "pct": 54.4,
+      "logo_pct": 36.8
+    },
+    {
+      "group": "TELUGU 24x7",
+      "total": 66,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "TAMIL 24x7",
+      "total": 65,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "URDU",
+      "total": 62,
+      "epg": 2,
+      "logos": 13,
+      "mapped": 5,
+      "pct": 3.2,
+      "logo_pct": 21
+    },
+    {
+      "group": "PUNJABI 24x7",
+      "total": 61,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "PUNJABI RELIGIOUS",
+      "total": 59,
+      "epg": 5,
+      "logos": 3,
+      "mapped": 4,
+      "pct": 8.5,
+      "logo_pct": 5.1
+    },
+    {
+      "group": "TAMIL",
+      "total": 58,
+      "epg": 22,
+      "logos": 18,
+      "mapped": 21,
+      "pct": 37.9,
+      "logo_pct": 31
+    },
+    {
+      "group": "HINDI RELIGIOUS",
+      "total": 51,
+      "epg": 14,
+      "logos": 2,
+      "mapped": 15,
+      "pct": 27.5,
+      "logo_pct": 3.9
+    },
+    {
+      "group": "PORTUGUESE",
+      "total": 51,
+      "epg": 42,
+      "logos": 39,
+      "mapped": 41,
+      "pct": 82.4,
+      "logo_pct": 76.5
+    },
+    {
+      "group": "SWEDISH",
+      "total": 51,
+      "epg": 43,
+      "logos": 0,
+      "mapped": 43,
+      "pct": 84.3,
+      "logo_pct": 0
+    },
+    {
+      "group": "HINDI NEWS",
+      "total": 50,
+      "epg": 36,
+      "logos": 26,
+      "mapped": 36,
+      "pct": 72,
+      "logo_pct": 52
+    },
+    {
+      "group": "SPORTS | TSN+",
+      "total": 50,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "SPORTS | SKY SPORTS+",
+      "total": 50,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "SPORTS | FLO SPORTS",
+      "total": 50,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "MALAYALAM 24x7",
+      "total": 49,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "ITALIAN",
+      "total": 49,
+      "epg": 34,
+      "logos": 37,
+      "mapped": 34,
+      "pct": 69.4,
+      "logo_pct": 75.5
+    },
+    {
+      "group": "CHINESE",
+      "total": 46,
+      "epg": 8,
+      "logos": 0,
+      "mapped": 8,
+      "pct": 17.4,
+      "logo_pct": 0
+    },
+    {
+      "group": "KIDS",
+      "total": 45,
+      "epg": 27,
+      "logos": 25,
+      "mapped": 27,
+      "pct": 60,
+      "logo_pct": 55.6
+    },
+    {
+      "group": "PUNJABI PREMIUM MOVIES",
+      "total": 44,
+      "epg": 3,
+      "logos": 3,
+      "mapped": 2,
+      "pct": 6.8,
+      "logo_pct": 6.8
+    },
+    {
+      "group": "SPORTS | NBA",
+      "total": 40,
+      "epg": 30,
+      "logos": 30,
+      "mapped": 0,
+      "pct": 75,
+      "logo_pct": 75
+    },
+    {
+      "group": "SPORTS | DAZN",
+      "total": 40,
+      "epg": 0,
+      "logos": 1,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 2.5
+    },
+    {
+      "group": "SPORTS | SPORTSNET+",
+      "total": 40,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "ENGLISH UK",
+      "total": 39,
+      "epg": 26,
+      "logos": 28,
+      "mapped": 26,
+      "pct": 66.7,
+      "logo_pct": 71.8
+    },
+    {
+      "group": "TELUGU",
+      "total": 36,
+      "epg": 17,
+      "logos": 2,
+      "mapped": 17,
+      "pct": 47.2,
+      "logo_pct": 5.6
+    },
+    {
+      "group": "URDU NEWS",
+      "total": 35,
+      "epg": 0,
+      "logos": 9,
+      "mapped": 2,
+      "pct": 0,
+      "logo_pct": 25.7
+    },
+    {
+      "group": "SPORTS | PPV",
+      "total": 35,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "PUNJABI SERIES 24x7",
+      "total": 35,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "SPORTS | CRICKET",
+      "total": 34,
+      "epg": 6,
+      "logos": 10,
+      "mapped": 0,
+      "pct": 17.6,
+      "logo_pct": 29.4
+    },
+    {
+      "group": "SPORTS | SOCCER",
+      "total": 34,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "SPORTS | NFL",
+      "total": 33,
+      "epg": 28,
+      "logos": 33,
+      "mapped": 0,
+      "pct": 84.8,
+      "logo_pct": 100
+    },
+    {
+      "group": "SPORTS | NHL",
+      "total": 32,
+      "epg": 32,
+      "logos": 32,
+      "mapped": 0,
+      "pct": 100,
+      "logo_pct": 100
+    },
+    {
+      "group": "SPORTS | NOW HUB",
+      "total": 32,
+      "epg": 0,
+      "logos": 28,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 87.5
+    },
+    {
+      "group": "MALAYALAM",
+      "total": 30,
+      "epg": 15,
+      "logos": 1,
+      "mapped": 15,
+      "pct": 50,
+      "logo_pct": 3.3
+    },
+    {
+      "group": "SPORTS | MLB",
+      "total": 30,
+      "epg": 0,
+      "logos": 30,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 100
+    },
+    {
+      "group": "SPORTS | MLS",
+      "total": 30,
+      "epg": 0,
+      "logos": 30,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 100
+    },
+    {
+      "group": "SPORTS | SETANTA",
+      "total": 30,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "SPORTS | STAN SPORTS",
+      "total": 30,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "ENGLISH NEWS",
+      "total": 28,
+      "epg": 13,
+      "logos": 13,
+      "mapped": 13,
+      "pct": 46.4,
+      "logo_pct": 46.4
+    },
+    {
+      "group": "MARATHI",
+      "total": 25,
+      "epg": 16,
+      "logos": 4,
+      "mapped": 16,
+      "pct": 64,
+      "logo_pct": 16
+    },
+    {
+      "group": "SPORTS | RUGBY",
+      "total": 24,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "AFGHAN",
+      "total": 23,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "GUJARATI",
+      "total": 21,
+      "epg": 18,
+      "logos": 12,
+      "mapped": 19,
+      "pct": 85.7,
+      "logo_pct": 57.1
+    },
+    {
+      "group": "ODIA",
+      "total": 21,
+      "epg": 15,
+      "logos": 8,
+      "mapped": 16,
+      "pct": 71.4,
+      "logo_pct": 38.1
+    },
+    {
+      "group": "BANGLA 24x7",
+      "total": 20,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "SPORTS | BEIN",
+      "total": 20,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "KANNADA",
+      "total": 19,
+      "epg": 8,
+      "logos": 0,
+      "mapped": 8,
+      "pct": 42.1,
+      "logo_pct": 0
+    },
+    {
+      "group": "SPORTS | PEACOCK",
+      "total": 19,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "PUNJABI MUSIC",
+      "total": 18,
+      "epg": 7,
+      "logos": 2,
+      "mapped": 7,
+      "pct": 38.9,
+      "logo_pct": 11.1
+    },
+    {
+      "group": "URDU 24x7",
+      "total": 18,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "NEPALI",
+      "total": 17,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "ENGLISH RELIGIOUS",
+      "total": 17,
+      "epg": 2,
+      "logos": 1,
+      "mapped": 2,
+      "pct": 11.8,
+      "logo_pct": 5.9
+    },
+    {
+      "group": "URDU RELIGIOUS",
+      "total": 16,
+      "epg": 0,
+      "logos": 1,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 6.3
+    },
+    {
+      "group": "HINDI MUSIC",
+      "total": 15,
+      "epg": 6,
+      "logos": 4,
+      "mapped": 6,
+      "pct": 40,
+      "logo_pct": 26.7
+    },
+    {
+      "group": "SPORTS | OPTUS",
+      "total": 13,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "SPORTS | PARAMOUNT+",
+      "total": 12,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "FILIPINO",
+      "total": 11,
+      "epg": 1,
+      "logos": 0,
+      "mapped": 2,
+      "pct": 9.1,
+      "logo_pct": 0
+    },
+    {
+      "group": "GUJARATI 24x7",
+      "total": 4,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "KANNADA 24x7",
+      "total": 4,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    },
+    {
+      "group": "MARATHI 24x7",
+      "total": 3,
+      "epg": 0,
+      "logos": 0,
+      "mapped": 0,
+      "pct": 0,
+      "logo_pct": 0
+    }
+  ],
+  "sports": [
+    {
+      "league": "NBA",
+      "channels": 30,
+      "matched": 30,
+      "logos": 30,
+      "programmes": 124,
+      "error": null
+    },
+    {
+      "league": "NBA",
+      "channels": 30,
+      "matched": 30,
+      "logos": 30,
+      "programmes": 0,
+      "error": null
+    },
+    {
+      "league": "NFL",
+      "channels": 32,
+      "matched": 32,
+      "logos": 32,
+      "programmes": 28,
+      "error": null
+    },
+    {
+      "league": "NHL",
+      "channels": 32,
+      "matched": 32,
+      "logos": 32,
+      "programmes": 108,
+      "error": null
+    },
+    {
+      "league": "MLB",
+      "channels": 30,
+      "matched": 30,
+      "logos": 30,
+      "programmes": 0,
+      "error": null
+    },
+    {
+      "league": "MLS",
+      "channels": 30,
+      "matched": 30,
+      "logos": 30,
+      "programmes": 0,
+      "error": null
+    },
+    {
+      "league": "EPL",
+      "channels": 20,
+      "matched": 17,
+      "logos": 17,
+      "programmes": 0,
+      "error": null
+    },
+    {
+      "league": "EFL",
+      "channels": 24,
+      "matched": 17,
+      "logos": 17,
+      "programmes": 0,
+      "error": null
+    },
+    {
+      "league": "EFL1",
+      "channels": 24,
+      "matched": 16,
+      "logos": 16,
+      "programmes": 8,
+      "error": null
+    },
+    {
+      "league": "EFL2",
+      "channels": 24,
+      "matched": 14,
+      "logos": 14,
+      "programmes": 11,
+      "error": null
+    },
+    {
+      "league": "AHL",
+      "channels": 32,
+      "matched": 31,
+      "logos": 31,
+      "programmes": 102,
+      "error": null
+    },
+    {
+      "league": "OHL",
+      "channels": 20,
+      "matched": 19,
+      "logos": 19,
+      "programmes": 58,
+      "error": null
+    },
+    {
+      "league": "QMJHL",
+      "channels": 19,
+      "matched": 16,
+      "logos": 16,
+      "programmes": 44,
+      "error": null
+    }
+  ],
+  "source_failures": [],
+  "index_failures": [],
+  "duplicate_ids": [
+    {
+      "id": "cnn.us",
+      "names": [
+        "CNN 4K",
+        "CNN HD USA"
+      ],
+      "count": 2
+    },
+    {
+      "id": "cp24.ca",
+      "names": [
+        "CP24 4K",
+        "CP24 4K*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "theweathernetwork.ca",
+      "names": [
+        "THE WEATHER NETWORK 4K CANADA",
+        "WEATHER NETWORK TORONTO 4K"
+      ],
+      "count": 2
+    },
+    {
+      "id": "foodnetwork.uk",
+      "names": [
+        "FOOD NETWORK UK",
+        "GOOD FOOD HD UK"
+      ],
+      "count": 2
+    },
+    {
+      "id": "abcwabc.us",
+      "names": [
+        "ABC HD USA",
+        "ABC WABC NEW YORK 4K"
+      ],
+      "count": 2
+    },
+    {
+      "id": "skyfamily.uk",
+      "names": [
+        "SKY CINEMA FAMILY HD",
+        "SKY MOVIES FAMILY HD"
+      ],
+      "count": 2
+    },
+    {
+      "id": "beinsportespanol.us",
+      "names": [
+        "BEIN SPORTS SPANISH HD",
+        "BEIN SP"
+      ],
+      "count": 2
+    },
+    {
+      "id": "I712.68605.schedulesdirect.org",
+      "names": [
+        "WILLOW HD",
+        "WILLOW SPORTS HD",
+        "WILLOW HD*",
+        "WILLOW SPORTS HD*"
+      ],
+      "count": 4
+    },
+    {
+      "id": "I722.100316.schedulesdirect.org",
+      "names": [
+        "WILLOW 2 HD",
+        "WILLOW 2 HD*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "starsports1.in",
+      "names": [
+        "STAR SPORTS 1 ENGLISH HD",
+        "STAR SPORTS 1 ENGLISH 4K*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "starsports1hindi.in",
+      "names": [
+        "STAR SPORTS 1 HINDI HD",
+        "STAR SPORTS 1 HINDI 4K*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "starsports2hd.in",
+      "names": [
+        "STAR SPORTS 2 ENGLISH HD",
+        "STAR SPORTS 2 HINDI HD",
+        "STAR SPORTS 2 ENGLISH 4K*"
+      ],
+      "count": 3
+    },
+    {
+      "id": "skysportscricket.uk",
+      "names": [
+        "SKY SPORTS CRICKET 4K",
+        "SKY SPORTS CRICKET 4K*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "sonyten1hd.in",
+      "names": [
+        "SONY TEN 1 HD",
+        "SONY TEN 1 HD*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "sonyten2hd.in",
+      "names": [
+        "SONY TEN 2 HD",
+        "SONY TEN 2 HD*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "sonyten3hd.in",
+      "names": [
+        "SONY TEN 3 HD",
+        "SONY TEN 3 HD*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "ptvsports.pk",
+      "names": [
+        "PTV SPORTS HD",
+        "PTV SPORTS HD*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "sports18.in",
+      "names": [
+        "SPORTS 18 HD",
+        "SPORTS 18 HD*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "starsportsselect1.in",
+      "names": [
+        "STAR SPORTS SELECT 1 HD",
+        "STAR SPORTS 2 HINDI 4K*"
+      ],
+      "count": 2
+    },
+    {
+      "id": "thecowboychannel.us",
+      "names": [
+        "THE COWBOY CHANNEL HD",
+        "THE LONE STAR CHANNEL HD"
+      ],
+      "count": 2
+    },
+    {
+      "id": "humsitarey.pk",
+      "names": [
+        "HUM SITARAY US",
+        "HUM SITARAY"
+      ],
+      "count": 2
+    },
+    {
+      "id": "aryzindagi.pk",
+      "names": [
+        "ARY DIGITAL HD",
+        "ARY ZINDAGI PAK"
+      ],
+      "count": 2
+    },
+    {
+      "id": "92news.pk",
+      "names": [
+        "92 NEWS HD",
+        "92 NEWS UK"
+      ],
+      "count": 2
+    },
+    {
+      "id": "sonymaxhd.in",
+      "names": [
+        "SONY MAX HD INDIA",
+        "SONY MAX HD USA"
+      ],
+      "count": 2
+    },
+    {
+      "id": "travelxphd.in",
+      "names": [
+        "TRAVELXP HD INDIA",
+        "TRAVEL XP HD BANGLA"
+      ],
+      "count": 2
+    },
+    {
+      "id": "indianews.in",
+      "names": [
+        "INDIA TV NEWS",
+        "INDIA NEWS"
+      ],
+      "count": 2
+    },
+    {
+      "id": "starmovieshd.in",
+      "names": [
+        "STAR MOVIES HD TAM",
+        "STAR MOVIES"
+      ],
+      "count": 2
+    },
+    {
+      "id": "sonybbcearthhd.in",
+      "names": [
+        "BBC EARTH HD TAM",
+        "SONY BBC EARTH HD INDIA"
+      ],
+      "count": 2
+    },
+    {
+      "id": "nationalgeographicchannelhd.in",
+      "names": [
+        "NAT GEO HD TAM",
+        "NATIONAL GEO BANGLA HD",
+        "NATIONAL GEO HD INDIA"
+      ],
+      "count": 3
+    },
+    {
+      "id": "natgeowildhd.in",
+      "names": [
+        "NATIONAL GEO WILD HD TAM",
+        "NATIONAL GEO WILD HD INDIA"
+      ],
+      "count": 2
+    },
+    {
+      "id": "foodfood.in",
+      "names": [
+        "FOOD FOOD USA",
+        "FOOD FOOD INDIA"
+      ],
+      "count": 2
+    },
+    {
+      "id": "recordtv.pt",
+      "names": [
+        "TV RECORD",
+        "TV RECORD EU"
+      ],
+      "count": 2
+    },
+    {
+      "id": "historia.pt",
+      "names": [
+        "HISTORIA PT",
+        "CANAL HISTORIA HD"
+      ],
+      "count": 2
+    },
+    {
+      "id": "ptcsimran.in",
+      "names": [
+        "PTC SIMRAN HD",
+        "PTC SIMRAN HD USA"
+      ],
+      "count": 2
+    },
+    {
+      "id": "mgm.us",
+      "names": [
+        "MGM+ HD USA",
+        "EPIX HD"
+      ],
+      "count": 2
+    },
+    {
+      "id": "nbc21wpta.us",
+      "names": [
+        "ABC 21 WPTA FORT WAYNE 4K",
+        "NBC 21 WPTA FORT WAYNE 4K"
+      ],
+      "count": 2
+    },
+    {
+      "id": "ptcpunjabigold.in",
+      "names": [
+        "PTC GOLD HD",
+        "PTC GOLD HD USA"
+      ],
+      "count": 2
+    }
+  ],
+  "conflicting_ids": []
+}

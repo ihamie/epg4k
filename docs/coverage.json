@@ -2767,7 +2767,7 @@
     "source": "UK1",
     "source_id": "BabyTV.uk",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 718,
+    "programmes": 717,
     "through": 1794614460,
     "manual_assignment": false
   },
@@ -9559,7 +9559,7 @@
     "source": "IN1",
     "source_id": "Makkal.TV.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 169,
+    "programmes": 168,
     "through": 1794680999,
     "manual_assignment": false
   },
@@ -11215,7 +11215,7 @@
     "source": "IN1",
     "source_id": "Calcutta.News.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 324,
+    "programmes": 323,
     "through": 1794680999,
     "manual_assignment": true
   },
@@ -17251,7 +17251,7 @@
     "source": "PT1",
     "source_id": "SIC.Notícias.pt",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 47,
+    "programmes": 46,
     "through": 1794614400,
     "manual_assignment": false
   },
@@ -21259,7 +21259,7 @@
     "source": "US2",
     "source_id": "HBO.Hits.us2",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 39,
+    "programmes": 38,
     "through": 1794638100,
     "manual_assignment": false
   },
@@ -27427,8 +27427,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795068000,
     "manual_assignment": true
   },
   {
@@ -27439,8 +27439,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795068000,
     "manual_assignment": true
   },
   {
@@ -27451,8 +27451,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795026600,
     "manual_assignment": true
   },
   {
@@ -27475,8 +27475,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795060800,
     "manual_assignment": true
   },
   {
@@ -27487,8 +27487,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1794942000,
     "manual_assignment": true
   },
   {
@@ -27499,8 +27499,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794974400,
     "manual_assignment": true
   },
   {
@@ -27511,8 +27511,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794970800,
     "manual_assignment": true
   },
   {
@@ -27523,8 +27523,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795060800,
     "manual_assignment": true
   },
   {
@@ -27535,8 +27535,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1794951000,
     "manual_assignment": true
   },
   {
@@ -27547,8 +27547,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795057200,
     "manual_assignment": true
   },
   {
@@ -27559,8 +27559,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794942000,
     "manual_assignment": true
   },
   {
@@ -27571,8 +27571,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1795068000,
     "manual_assignment": true
   },
   {
@@ -27583,8 +27583,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794783600,
     "manual_assignment": true
   },
   {
@@ -27595,8 +27595,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794711600,
     "manual_assignment": true
   },
   {
@@ -27607,8 +27607,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795026600,
     "manual_assignment": true
   },
   {
@@ -27619,8 +27619,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794794700,
     "manual_assignment": true
   },
   {
@@ -27631,8 +27631,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795057200,
     "manual_assignment": true
   },
   {
@@ -27643,8 +27643,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1795055700,
     "manual_assignment": true
   },
   {
@@ -27655,8 +27655,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1795068000,
     "manual_assignment": true
   },
   {
@@ -27667,8 +27667,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794783900,
     "manual_assignment": true
   },
   {
@@ -27679,8 +27679,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1795057200,
     "manual_assignment": true
   },
   {
@@ -27691,8 +27691,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1794974400,
     "manual_assignment": true
   },
   {
@@ -27703,8 +27703,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795068000,
     "manual_assignment": true
   },
   {
@@ -27715,8 +27715,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795068000,
     "manual_assignment": true
   },
   {
@@ -27727,8 +27727,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794712500,
     "manual_assignment": true
   },
   {
@@ -27739,8 +27739,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795057200,
     "manual_assignment": true
   },
   {
@@ -27751,8 +27751,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794794400,
     "manual_assignment": true
   },
   {
@@ -27763,8 +27763,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794783900,
     "manual_assignment": true
   },
   {
@@ -27775,8 +27775,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794794400,
     "manual_assignment": true
   },
   {
@@ -27787,8 +27787,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794708000,
     "manual_assignment": true
   },
   {
@@ -27799,8 +27799,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795055700,
     "manual_assignment": true
   },
   {
@@ -27811,8 +27811,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794713400,
     "manual_assignment": true
   },
   {
@@ -27823,8 +27823,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794780000,
     "manual_assignment": true
   },
   {
@@ -27835,8 +27835,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1795057500,
     "manual_assignment": true
   },
   {
@@ -27847,8 +27847,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794780000,
     "manual_assignment": true
   },
   {
@@ -27859,8 +27859,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794711600,
     "manual_assignment": true
   },
   {
@@ -27871,8 +27871,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794711600,
     "manual_assignment": true
   },
   {
@@ -27883,8 +27883,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795026600,
     "manual_assignment": true
   },
   {
@@ -27895,8 +27895,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795057500,
     "manual_assignment": true
   },
   {
@@ -27907,8 +27907,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794711900,
     "manual_assignment": true
   },
   {
@@ -27919,8 +27919,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794780000,
     "manual_assignment": true
   },
   {
@@ -27931,8 +27931,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1795057200,
     "manual_assignment": true
   },
   {
@@ -27943,8 +27943,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794780300,
     "manual_assignment": true
   },
   {
@@ -27967,8 +27967,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1795057200,
     "manual_assignment": true
   },
   {
@@ -27979,8 +27979,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795057500,
     "manual_assignment": true
   },
   {
@@ -27991,8 +27991,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794787500,
     "manual_assignment": true
   },
   {
@@ -28003,8 +28003,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794780420,
     "manual_assignment": true
   },
   {
@@ -28015,8 +28015,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794780420,
     "manual_assignment": true
   },
   {
@@ -28027,8 +28027,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1795057500,
     "manual_assignment": true
   },
   {
@@ -28039,8 +28039,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794787500,
     "manual_assignment": true
   },
   {
@@ -28063,8 +28063,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794783600,
     "manual_assignment": true
   },
   {
@@ -28075,8 +28075,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794783600,
     "manual_assignment": true
   },
   {
@@ -28087,8 +28087,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1795057200,
     "manual_assignment": true
   },
   {
@@ -28099,8 +28099,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794780000,
     "manual_assignment": true
   },
   {
@@ -28111,8 +28111,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794787200,
     "manual_assignment": true
   },
   {
@@ -28123,8 +28123,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794787200,
     "manual_assignment": true
   },
   {
@@ -28135,8 +28135,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794787200,
     "manual_assignment": true
   },
   {
@@ -28147,8 +28147,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794780000,
     "manual_assignment": true
   },
   {
@@ -28159,8 +28159,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794708000,
     "manual_assignment": true
   },
   {
@@ -28171,8 +28171,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794780000,
     "manual_assignment": true
   },
   {
@@ -28183,8 +28183,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1794780000,
     "manual_assignment": true
   },
   {
@@ -28195,8 +28195,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794780000,
     "manual_assignment": true
   },
   {
@@ -28207,8 +28207,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794787200,
     "manual_assignment": true
   },
   {
@@ -28219,8 +28219,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794780000,
     "manual_assignment": true
   },
   {
@@ -28231,8 +28231,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1794787200,
     "manual_assignment": true
   },
   {
@@ -28267,8 +28267,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 3,
+    "through": 1795057200,
     "manual_assignment": true
   },
   {
@@ -58447,7 +58447,7 @@
     "source": "SE1",
     "source_id": "[NCKJRHD].Nick.Jr..HD.se",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 258,
+    "programmes": 257,
     "through": 1794722940,
     "manual_assignment": true
   },
@@ -61987,7 +61987,7 @@
     "source": "ZA1",
     "source_id": "Mzansi.Magic.HD.za",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 72,
+    "programmes": 71,
     "through": 1794610800,
     "manual_assignment": true
   },
@@ -64123,7 +64123,7 @@
     "source": "HK1",
     "source_id": "CCTV-13.hk",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 51,
+    "programmes": 50,
     "through": 1794587400,
     "manual_assignment": true
   },
