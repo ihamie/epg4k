@@ -22,6 +22,8 @@ const env={
  }
 };
 try {
+ let previousStatus=null;
+ try{previousStatus=JSON.parse(await readFile('docs/status.json','utf8'));}catch{}
  const indexes=await fetchIndexes(sources);
  let previousMappings=[];
  try{previousMappings=JSON.parse(await readFile('docs/auto-mappings.json','utf8'));}catch{}
@@ -83,8 +85,6 @@ try {
  await writeFile('docs/team-logos.json',JSON.stringify(teamLogos,null,2)+'\n');
  await writeFile('docs/sports-programs.json',JSON.stringify({generated_at:generated,programs:sportsPrograms},null,2)+'\n');
  await writeFile('docs/sports-status.json',JSON.stringify(sportReport,null,2)+'\n');
- let previousStatus=null;
- try{previousStatus=JSON.parse(await readFile('docs/status.json','utf8'));}catch{}
  const quality=buildQualityReport({
   channels:discovery.channels,coverage:rows,logos:sportLogos,
   sources:await states(env),sports:{nba:{source:nba.source,team_channels:nba.team_channels,logos:30,
