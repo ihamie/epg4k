@@ -1,11 +1,11 @@
 {
-  "generated_at": 1794394914,
+  "generated_at": 1794395015,
   "channels": 5841,
   "mapped_channels": 1127,
-  "covered_channels": 1077,
+  "covered_channels": 1106,
   "channels_with_logos": 612,
-  "programmes": 90182,
-  "bytes": 4175657,
+  "programmes": 92528,
+  "bytes": 4291595,
   "source_errors": 0,
   "result": "published"
 }

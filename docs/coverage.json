@@ -43,8 +43,8 @@
     "source": "CA2",
     "source_id": "The.Weather.Network.Canada.HD.ca2",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 91,
+    "through": 1794722400,
     "manual_assignment": false
   },
   {
@@ -67,8 +67,8 @@
     "source": "US2",
     "source_id": "MTV.-.Music.Television.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 110,
+    "through": 1794641400,
     "manual_assignment": false
   },
   {
@@ -79,8 +79,8 @@
     "source": "US2",
     "source_id": "MTV2:.Music.Television.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 90,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -319,8 +319,8 @@
     "source": "CA2",
     "source_id": "The.Weather.Network.Canada.HD.ca2",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 91,
+    "through": 1794722400,
     "manual_assignment": false
   },
   {
@@ -463,8 +463,8 @@
     "source": "US2",
     "source_id": "The.Travel.Channel.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 71,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -847,8 +847,8 @@
     "source": "US2",
     "source_id": "Home.and.Garden.Television.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 95,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -859,8 +859,8 @@
     "source": "US2",
     "source_id": "E!.Entertainment.Television.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 100,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -919,8 +919,8 @@
     "source": "CA2",
     "source_id": "A.and.E.Canada.HD.ca2",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 129,
+    "through": 1794722580,
     "manual_assignment": false
   },
   {
@@ -943,8 +943,8 @@
     "source": "US2",
     "source_id": "TLC.HD.(US).us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 63,
+    "through": 1794639600,
     "manual_assignment": false
   },
   {
@@ -1003,8 +1003,8 @@
     "source": "CA2",
     "source_id": "AMC.Canada.HD.ca2",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 43,
+    "through": 1794729600,
     "manual_assignment": false
   },
   {
@@ -1027,8 +1027,8 @@
     "source": "CA2",
     "source_id": "GameTV.Canada.ca2",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 144,
+    "through": 1794726000,
     "manual_assignment": false
   },
   {
@@ -1135,8 +1135,8 @@
     "source": "US2",
     "source_id": "World.Fishing.Network.HD.(US).us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 134,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -1279,8 +1279,8 @@
     "source": "CA2",
     "source_id": "Showcase.Canada.HD.ca2",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 78,
+    "through": 1794727800,
     "manual_assignment": false
   },
   {
@@ -1531,8 +1531,8 @@
     "source": "US2",
     "source_id": "National.Geographic.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 78,
+    "through": 1794639240,
     "manual_assignment": false
   },
   {
@@ -1567,8 +1567,8 @@
     "source": "US2",
     "source_id": "National.Geographic.Wild.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 81,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -1747,8 +1747,8 @@
     "source": "US2",
     "source_id": "Bloomberg.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 59,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -2755,8 +2755,8 @@
     "source": "US2",
     "source_id": "Baby.TV.US.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 134,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -2779,8 +2779,8 @@
     "source": "US2",
     "source_id": "BabyFirst.TV.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 134,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -3175,7 +3175,7 @@
     "source": "UK1",
     "source_id": "CBeebies.HD.uk",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 195,
+    "programmes": 194,
     "through": 1794617880,
     "manual_assignment": false
   },
@@ -3355,8 +3355,8 @@
     "source": "US2",
     "source_id": "ESPNEWS.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 75,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -3535,8 +3535,8 @@
     "source": "US2",
     "source_id": "beIN.Sports.USA.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 78,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -3583,8 +3583,8 @@
     "source": "US2",
     "source_id": "beIN.Sports.En.Español.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 69,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -6655,8 +6655,8 @@
     "source": "US2",
     "source_id": "AAPKA.Colors.US.us2",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 113,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -9103,8 +9103,8 @@
     "source": "IN4",
     "source_id": "VIJAY.TV.in",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 29,
+    "through": 1794459600,
     "manual_assignment": false
   },
   {
@@ -11215,7 +11215,7 @@
     "source": "IN1",
     "source_id": "Calcutta.News.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 362,
+    "programmes": 361,
     "through": 1794680999,
     "manual_assignment": true
   },
@@ -15175,8 +15175,8 @@
     "source": "IN1",
     "source_id": "Music.India.in",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 47,
+    "through": 1794680999,
     "manual_assignment": true
   },
   {
@@ -15367,8 +15367,8 @@
     "source": "US2",
     "source_id": "beIN.Sports.En.Español.HD.us2",
     "match": "Automatic verified source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 69,
+    "through": 1794636000,
     "manual_assignment": false
   },
   {
@@ -18307,8 +18307,8 @@
     "source": "IN1",
     "source_id": "India.News.Rajasthan.in",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 159,
+    "through": 1794680999,
     "manual_assignment": false
   },
   {
@@ -18571,8 +18571,8 @@
     "source": "IN1",
     "source_id": "India.TV.Speed.News.in",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 80,
+    "through": 1794680999,
     "manual_assignment": true
   },
   {
@@ -21679,8 +21679,8 @@
     "source": "CA2",
     "source_id": "Turner.Classic.Movies.Canada.HD.ca2",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 52,
+    "through": 1794726000,
     "manual_assignment": false
   },
   {
@@ -22003,8 +22003,8 @@
     "source": "IN4",
     "source_id": "MN+.HD.in",
     "match": "Automatic exact source-ID match",
-    "programmes": 0,
-    "through": null,
+    "programmes": 13,
+    "through": 1794461820,
     "manual_assignment": false
   },
   {
@@ -30979,7 +30979,7 @@
     "source": "US_LOCALS1",
     "source_id": "KOVR-DT.us_locals1",
     "match": "Exact main-channel station call sign",
-    "programmes": 94,
+    "programmes": 93,
     "through": 1794636000,
     "manual_assignment": false
   },
