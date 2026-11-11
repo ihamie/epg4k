@@ -24,8 +24,8 @@ test('channel logos use exact channel IDs, reject wrong regional feeds and inval
 });
 test('published XMLTV includes channel icon without changing its ID or guide',async()=>{
  const e=fake(),now=Math.floor(Date.now()/1000);
- const start=new Date((now+120)*1000).toISOString().replace(/[-:]/g,'').slice(0,15).replace('T','')+'00 +0000';
- const stop=new Date((now+3720)*1000).toISOString().replace(/[-:]/g,'').slice(0,15).replace('T','')+'00 +0000';
+ const start=new Date((now+120)*1000).toISOString().slice(0,19).replace(/[-:T]/g,'')+' +0000';
+ const stop=new Date((now+3720)*1000).toISOString().slice(0,19).replace(/[-:T]/g,'')+' +0000';
  const sample='<tv><programme channel="cnn.us" start="'+start+'" stop="'+stop+'"><title>News</title></programme></tv>';
  e.objects.set('sources/US2.json',JSON.stringify({id:'US2',partKey:'sample.gz'}));
  e.objects.set('sample.gz',gzipSync(sample));
