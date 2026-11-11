@@ -148,7 +148,8 @@ test('NBA schedule source failure is nonfatal and ESPN fallback is used',async()
  const r=await fetchNbaPrograms(channels,{fetcher,now:Date.parse('2026-11-11T00:00:00Z')});
  assert.equal(r.programs.length,1);
  assert.equal(r.source,'espn.com (fallback)');
- assert.equal(requests.length,2);
+ assert.equal(requests.length,11);
+ assert.ok(requests.slice(1).every(u=>/\?dates=202611\d{2}$/.test(u)));
 });
 
 test('verified team logos map only to dedicated team channels, not numbered event channels',()=>{
@@ -356,4 +357,21 @@ test('dashboard shows NBA once',()=>{
   sports:{nba:{source:'nba.com',team_channels:30,logos:30,programmes:60},
   leagues:[{league:'NBA',team_channels:30,matched_teams:30,with_logos:30,programmes:0}]}});
  assert.equal(rep.data.sports.filter(x=>x.league==='NBA').length,1);
+});
+
+test('verified legacy minor-hockey spellings map to current same-team identities',()=>{
+ const ohl=MINOR_LEAGUES.find(l=>l.key==='OHL'),qmjhl=MINOR_LEAGUES.find(l=>l.key==='QMJHL');
+ const channels=[
+  {group:'SPORTS | AHL OHL QMJHL WHL',name:'OHL | OTTAWA 67S',output_id:'stalker.11'},
+  {group:'SPORTS | AHL OHL QMJHL WHL',name:'QMJHL | SHERBROOKE PHOENIX',output_id:'stalker.12'},
+  {group:'SPORTS | AHL OHL QMJHL WHL',name:'QMJHL | VAL-DOR FOREURS',output_id:'stalker.13'},
+  {group:'SPORTS | AHL OHL QMJHL WHL',name:'QMJHL | ACADIE-BATHURST TITAN',output_id:'stalker.14'}
+ ];
+ const ol=matchMinorTeams(channels,ohl,[{id:'11',name:"Ottawa 67's",logo:null}]);
+ const q=matchMinorTeams(channels,qmjhl,[{id:'12',name:'Sherbrooke, Phœnix',logo:null},
+  {id:'13',name:"Val-d'Or, Foreurs",logo:null},
+  {id:'14',name:'Newfoundland, Regiment',logo:null}]);
+ assert.equal(ol.map.size,1);
+ assert.equal(q.map.size,2);
+ assert.deepEqual([...q.map.values()].map(x=>x.channel).sort(),['stalker.12','stalker.13']);
 });
