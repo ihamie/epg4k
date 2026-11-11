@@ -1,13 +1,13 @@
 # EPG quality report
 
-**Generated:** 2026-11-11 18:36 UTC
+**Generated:** 2026-11-11 18:39 UTC
 
 | Metric | Current |
 |---|---:|
 | Playlist channels | 5,841 |
 | Distinct XMLTV IDs | 5,800 |
-| Channels with guide listings | 1,283 (22%) |
-| Channels with logos | 922 (15.8%) |
+| Channels with guide listings | 1,286 (22%) |
+| Channels with logos | 925 (15.8%) |
 | Reused IDs / potential aliases | 37 groups |
 | Conflicting source-ID groups for review | 0 |
 | Source refresh errors | 0 |
@@ -52,8 +52,8 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | EFL1 | 24 | 17 | 24 | 8 | OK |
 | EFL2 | 24 | 18 | 22 | 15 | OK |
 | AHL | 32 | 31 | 31 | 102 | OK |
-| OHL | 20 | 19 | 19 | 58 | OK |
-| QMJHL | 19 | 16 | 16 | 44 | OK |
+| OHL | 20 | 20 | 20 | 62 | OK |
+| QMJHL | 19 | 18 | 18 | 48 | OK |
 
 ## Duplicated XMLTV IDs requiring review
 

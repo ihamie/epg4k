@@ -3151,7 +3151,7 @@
     "source": "CA2",
     "source_id": "TVO.ca2",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 347,
+    "programmes": 346,
     "through": 1794722400,
     "manual_assignment": false
   },
@@ -7087,7 +7087,7 @@
     "source": "IN4",
     "source_id": "DANGAL.in",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 11,
+    "programmes": 10,
     "through": 1794459600,
     "manual_assignment": false
   },
@@ -15043,7 +15043,7 @@
     "source": "IN4",
     "source_id": "HISTORY.TV18.HD.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 20,
+    "programmes": 19,
     "through": 1794459420,
     "manual_assignment": false
   },
@@ -17371,7 +17371,7 @@
     "source": "PT1",
     "source_id": "Canal.Panda.HD.pt",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 281,
+    "programmes": 280,
     "through": 1794614760,
     "manual_assignment": false
   },
@@ -21391,7 +21391,7 @@
     "source": "US2",
     "source_id": "Starz.Cinema.HD.us2",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 36,
+    "programmes": 35,
     "through": 1794637440,
     "manual_assignment": false
   },
@@ -27955,8 +27955,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 4,
+    "through": 1795026600,
     "manual_assignment": true
   },
   {
@@ -28243,8 +28243,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794787200,
     "manual_assignment": true
   },
   {
@@ -28255,8 +28255,8 @@
     "source": null,
     "source_id": null,
     "match": null,
-    "programmes": 0,
-    "through": null,
+    "programmes": 2,
+    "through": 1794700800,
     "manual_assignment": true
   },
   {
@@ -58447,7 +58447,7 @@
     "source": "SE1",
     "source_id": "[NCKJRHD].Nick.Jr..HD.se",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 257,
+    "programmes": 256,
     "through": 1794722940,
     "manual_assignment": true
   },
@@ -63979,7 +63979,7 @@
     "source": "HK1",
     "source_id": "CCTV-1.hk",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 79,
+    "programmes": 78,
     "through": 1794589260,
     "manual_assignment": true
   },
