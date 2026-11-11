@@ -66,6 +66,9 @@ try {
  console.log('Minor hockey:',JSON.stringify(minors.leagues),'Fallback:',JSON.stringify(combined.stats));
  const report=await publish(env,sportLogos,sportsPrograms);
  if(report.result!=='published')throw new Error('Publication did not complete');
+ if(previousStatus?.covered_channels>200&&report.covered_channels<previousStatus.covered_channels*0.7){
+  throw new Error('Guide quality guard: EPG channel coverage dropped over 30%; keep the last published guide until sources recover');
+ }
  const rows=await coverage(env);
  const {guideKey,coverageKey,...status}=report;
  await mkdir('docs',{recursive:true});
