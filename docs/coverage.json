@@ -3055,7 +3055,7 @@
     "source": "US2",
     "source_id": "Nicktoons.us2",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 156,
+    "programmes": 155,
     "through": 1794636480,
     "manual_assignment": false
   },
@@ -7111,7 +7111,7 @@
     "source": "IN1",
     "source_id": "News.24.in",
     "match": "Exact normalized name within a selected region; explicit international feeds excluded",
-    "programmes": 159,
+    "programmes": 158,
     "through": 1794680999,
     "manual_assignment": false
   },
@@ -21499,7 +21499,7 @@
     "source": "US2",
     "source_id": "Starz.Encore.Classic.us2",
     "match": "Exact normalized name or guide ID within region",
-    "programmes": 40,
+    "programmes": 39,
     "through": 1794640800,
     "manual_assignment": false
   },
