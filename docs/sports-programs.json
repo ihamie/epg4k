@@ -1,556 +1,6 @@
 {
-  "generated_at": 1794428100,
+  "generated_at": 1794516902,
   "programs": [
-    {
-      "channel": "stalker.7482",
-      "start": 1794438000,
-      "stop": 1794448800,
-      "title": "Belleville Senators @ Utica Comets",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7510",
-      "start": 1794438000,
-      "stop": 1794448800,
-      "title": "Belleville Senators @ Utica Comets",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7541",
-      "start": 1794438000,
-      "stop": 1794448800,
-      "title": "Québec, Remparts @ Moncton, Wildcats",
-      "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "QMJHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7543",
-      "start": 1794438000,
-      "stop": 1794448800,
-      "title": "Québec, Remparts @ Moncton, Wildcats",
-      "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "QMJHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7517",
-      "start": 1794439800,
-      "stop": 1794450600,
-      "title": "Guelph Storm @ London Knights",
-      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "OHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7520",
-      "start": 1794439800,
-      "stop": 1794450600,
-      "title": "Guelph Storm @ London Knights",
-      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "OHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6103",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Tampa Bay Lightning @ Buffalo Sabres",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6126",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Tampa Bay Lightning @ Buffalo Sabres",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6166",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Boston Celtics @ Toronto Raptors",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6170",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Cleveland Cavaliers @ New York Knicks",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6176",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Washington Wizards @ Indiana Pacers",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6184",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Cleveland Cavaliers @ New York Knicks",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6192",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Boston Celtics @ Toronto Raptors",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6194",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Washington Wizards @ Indiana Pacers",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7480",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Colorado Eagles @ Abbotsford Canucks",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7485",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Providence Bruins @ Charlotte Checkers",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7489",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Colorado Eagles @ Abbotsford Canucks",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7493",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Hamilton Hammers @ Hershey Bears",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7495",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Laval Rocket @ Syracuse Crunch",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7500",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Providence Bruins @ Charlotte Checkers",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7506",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Laval Rocket @ Syracuse Crunch",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7512",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Barrie Colts @ Owen Sound Attack",
-      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "OHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7525",
-      "start": 1794441600,
-      "stop": 1794452400,
-      "title": "Barrie Colts @ Owen Sound Attack",
-      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "OHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6104",
-      "start": 1794443400,
-      "stop": 1794454200,
-      "title": "New York Rangers @ Calgary Flames",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6119",
-      "start": 1794443400,
-      "stop": 1794454200,
-      "title": "New York Rangers @ Calgary Flames",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6167",
-      "start": 1794445200,
-      "stop": 1794456000,
-      "title": "Brooklyn Nets @ New Orleans Pelicans",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6169",
-      "start": 1794445200,
-      "stop": 1794456000,
-      "title": "San Antonio Spurs @ Chicago Bulls",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6172",
-      "start": 1794445200,
-      "stop": 1794456000,
-      "title": "Denver Nuggets @ Memphis Grizzlies",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6177",
-      "start": 1794445200,
-      "stop": 1794456000,
-      "title": "Los Angeles Lakers @ Milwaukee Bucks",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6179",
-      "start": 1794445200,
-      "stop": 1794456000,
-      "title": "Denver Nuggets @ Memphis Grizzlies",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6181",
-      "start": 1794445200,
-      "stop": 1794456000,
-      "title": "Los Angeles Lakers @ Milwaukee Bucks",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6183",
-      "start": 1794445200,
-      "stop": 1794456000,
-      "title": "Brooklyn Nets @ New Orleans Pelicans",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6191",
-      "start": 1794445200,
-      "stop": 1794456000,
-      "title": "San Antonio Spurs @ Chicago Bulls",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7497",
-      "start": 1794445200,
-      "stop": 1794456000,
-      "title": "Manitoba Moose @ Texas Stars",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7507",
-      "start": 1794445200,
-      "stop": 1794456000,
-      "title": "Manitoba Moose @ Texas Stars",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6111",
-      "start": 1794448800,
-      "stop": 1794459600,
-      "title": "Philadelphia Flyers @ Edmonton Oilers",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6121",
-      "start": 1794448800,
-      "stop": 1794459600,
-      "title": "Philadelphia Flyers @ Edmonton Oilers",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6186",
-      "start": 1794448800,
-      "stop": 1794459600,
-      "title": "Orlando Magic @ Utah Jazz",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6193",
-      "start": 1794448800,
-      "stop": 1794459600,
-      "title": "Orlando Magic @ Utah Jazz",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6128",
-      "start": 1794450600,
-      "stop": 1794461400,
-      "title": "Utah Mammoth @ Vegas Golden Knights",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6130",
-      "start": 1794450600,
-      "stop": 1794461400,
-      "title": "Utah Mammoth @ Vegas Golden Knights",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6174",
-      "start": 1794450600,
-      "stop": 1794461400,
-      "title": "Golden State Warriors @ Houston Rockets",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6175",
-      "start": 1794450600,
-      "stop": 1794461400,
-      "title": "Golden State Warriors @ Houston Rockets",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6101",
-      "start": 1794452400,
-      "stop": 1794463200,
-      "title": "Nashville Predators @ Anaheim Ducks",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6116",
-      "start": 1794452400,
-      "stop": 1794463200,
-      "title": "Nashville Predators @ Anaheim Ducks",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6122",
-      "start": 1794452400,
-      "stop": 1794463200,
-      "title": "Pittsburgh Penguins @ San Jose Sharks",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6123",
-      "start": 1794452400,
-      "stop": 1794463200,
-      "title": "Pittsburgh Penguins @ San Jose Sharks",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6185",
-      "start": 1794452400,
-      "stop": 1794463200,
-      "title": "Oklahoma City Thunder @ Portland Trail Blazers",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6189",
-      "start": 1794452400,
-      "stop": 1794463200,
-      "title": "Oklahoma City Thunder @ Portland Trail Blazers",
-      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
-      "category": "Sports / Basketball",
-      "league": "NBA",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7503",
-      "start": 1794452400,
-      "stop": 1794463200,
-      "title": "San Jose Barracuda @ San Diego Gulls",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7504",
-      "start": 1794452400,
-      "stop": 1794463200,
-      "title": "San Jose Barracuda @ San Diego Gulls",
-      "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "AHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7515",
-      "start": 1794499200,
-      "stop": 1794510000,
-      "title": "Kitchener Rangers @ Erie Otters",
-      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "OHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.7519",
-      "start": 1794499200,
-      "stop": 1794510000,
-      "title": "Kitchener Rangers @ Erie Otters",
-      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
-      "category": "Sports / Hockey",
-      "league": "OHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6105",
-      "start": 1794502800,
-      "stop": 1794513600,
-      "title": "Carolina Hurricanes @ Seattle Kraken",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
-    {
-      "channel": "stalker.6124",
-      "start": 1794502800,
-      "stop": 1794513600,
-      "title": "Carolina Hurricanes @ Seattle Kraken",
-      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
-      "category": "Sports / Hockey",
-      "league": "NHL",
-      "verified_at": 1794428092
-    },
     {
       "channel": "stalker.7543",
       "start": 1794524400,
@@ -559,7 +9,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7546",
@@ -569,7 +19,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6102",
@@ -579,7 +29,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6107",
@@ -589,7 +39,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6108",
@@ -599,7 +49,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6114",
@@ -609,7 +59,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6115",
@@ -619,7 +69,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6117",
@@ -629,7 +79,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6120",
@@ -639,7 +89,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6126",
@@ -649,7 +99,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6127",
@@ -659,7 +109,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6131",
@@ -669,7 +119,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6173",
@@ -679,7 +129,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6187",
@@ -689,7 +139,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6192",
@@ -699,7 +149,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6194",
@@ -709,7 +159,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7522",
@@ -719,7 +169,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7528",
@@ -729,7 +179,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7533",
@@ -739,7 +189,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7534",
@@ -749,7 +199,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7538",
@@ -759,7 +209,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7547",
@@ -769,7 +219,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7518",
@@ -779,7 +229,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7521",
@@ -789,7 +239,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7524",
@@ -799,7 +249,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7526",
@@ -809,7 +259,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7527",
@@ -819,7 +269,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7531",
@@ -829,7 +279,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6110",
@@ -839,7 +289,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6112",
@@ -849,7 +299,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6103",
@@ -859,7 +309,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6106",
@@ -869,7 +319,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6109",
@@ -879,7 +329,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6132",
@@ -889,7 +339,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6171",
@@ -899,7 +349,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6182",
@@ -909,7 +359,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6156",
@@ -919,7 +369,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6164",
@@ -929,7 +379,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6125",
@@ -939,7 +389,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6128",
@@ -949,7 +399,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6168",
@@ -959,7 +409,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6188",
@@ -969,7 +419,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6113",
@@ -979,7 +429,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6118",
@@ -989,7 +439,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7484",
@@ -999,7 +449,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7488",
@@ -1009,7 +459,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7492",
@@ -1019,7 +469,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7504",
@@ -1029,7 +479,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7535",
@@ -1039,7 +489,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7536",
@@ -1049,7 +499,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7541",
@@ -1059,7 +509,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7542",
@@ -1069,7 +519,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7544",
@@ -1079,7 +529,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7546",
@@ -1089,7 +539,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6176",
@@ -1099,7 +549,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6181",
@@ -1109,7 +559,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6184",
@@ -1119,7 +569,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6186",
@@ -1129,7 +579,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7493",
@@ -1139,7 +589,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7506",
@@ -1149,7 +599,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7508",
@@ -1159,7 +609,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7511",
@@ -1169,7 +619,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7512",
@@ -1179,7 +629,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7516",
@@ -1189,7 +639,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7519",
@@ -1199,7 +649,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7524",
@@ -1209,7 +659,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7533",
@@ -1219,7 +669,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7538",
@@ -1229,7 +679,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7545",
@@ -1239,7 +689,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7547",
@@ -1249,7 +699,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7549",
@@ -1259,7 +709,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7550",
@@ -1269,7 +719,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7495",
@@ -1279,7 +729,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7496",
@@ -1289,7 +739,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7500",
@@ -1299,7 +749,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7501",
@@ -1309,7 +759,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7505",
@@ -1319,7 +769,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7513",
@@ -1329,7 +779,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7518",
@@ -1339,7 +789,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7523",
@@ -1349,7 +799,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7526",
@@ -1359,7 +809,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7528",
@@ -1369,7 +819,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7530",
@@ -1379,7 +829,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7514",
@@ -1389,7 +839,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7517",
@@ -1399,7 +849,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7520",
@@ -1409,7 +859,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7529",
@@ -1419,7 +869,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6165",
@@ -1429,7 +879,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6169",
@@ -1439,7 +889,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6170",
@@ -1449,7 +899,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6179",
@@ -1459,7 +909,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6180",
@@ -1469,7 +919,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6183",
@@ -1479,7 +929,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7490",
@@ -1489,7 +939,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7494",
@@ -1499,7 +949,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7498",
@@ -1509,7 +959,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7502",
@@ -1519,7 +969,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6175",
@@ -1529,7 +979,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6193",
@@ -1539,7 +989,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6119",
@@ -1549,7 +999,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6129",
@@ -1559,7 +1009,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6174",
@@ -1569,7 +1019,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6191",
@@ -1579,7 +1029,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6116",
@@ -1589,7 +1039,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6130",
@@ -1599,7 +1049,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6189",
@@ -1609,7 +1059,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6190",
@@ -1619,7 +1069,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7481",
@@ -1629,7 +1079,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7503",
@@ -1639,7 +1089,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6178",
@@ -1649,7 +1099,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6185",
@@ -1659,7 +1109,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7867",
@@ -1669,7 +1119,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7833",
@@ -1679,7 +1129,7 @@
       "description": "Scheduled EFL1 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL1",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7834",
@@ -1689,7 +1139,7 @@
       "description": "Scheduled EFL1 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL1",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7835",
@@ -1699,7 +1149,7 @@
       "description": "Scheduled EFL1 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL1",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7838",
@@ -1709,7 +1159,7 @@
       "description": "Scheduled EFL1 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL1",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7849",
@@ -1719,7 +1169,7 @@
       "description": "Scheduled EFL1 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL1",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7851",
@@ -1729,7 +1179,7 @@
       "description": "Scheduled EFL1 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL1",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7854",
@@ -1739,7 +1189,7 @@
       "description": "Scheduled EFL1 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL1",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7855",
@@ -1749,7 +1199,7 @@
       "description": "Scheduled EFL1 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL1",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7861",
@@ -1759,7 +1209,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7864",
@@ -1769,7 +1219,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7868",
@@ -1779,7 +1229,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7869",
@@ -1789,7 +1239,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7871",
@@ -1799,7 +1249,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7873",
@@ -1809,7 +1259,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7874",
@@ -1819,7 +1269,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7877",
@@ -1829,7 +1279,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7879",
@@ -1839,7 +1289,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7880",
@@ -1849,7 +1299,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7881",
@@ -1859,7 +1309,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7882",
@@ -1869,7 +1319,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7872",
@@ -1879,7 +1329,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7883",
@@ -1889,7 +1339,7 @@
       "description": "Scheduled EFL2 match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Soccer",
       "league": "EFL2",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6105",
@@ -1899,7 +1349,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6124",
@@ -1909,7 +1359,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6106",
@@ -1919,7 +1369,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6132",
@@ -1929,7 +1379,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7482",
@@ -1939,7 +1389,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7487",
@@ -1949,7 +1399,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7534",
@@ -1959,7 +1409,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7537",
@@ -1969,7 +1419,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7539",
@@ -1979,7 +1429,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7548",
@@ -1989,7 +1439,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7549",
@@ -1999,7 +1449,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7550",
@@ -2009,7 +1459,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7495",
@@ -2019,7 +1469,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7501",
@@ -2029,7 +1479,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7506",
@@ -2039,7 +1489,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7510",
@@ -2049,7 +1499,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7515",
@@ -2059,7 +1509,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7521",
@@ -2069,7 +1519,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7535",
@@ -2079,7 +1529,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7540",
@@ -2089,7 +1539,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7541",
@@ -2099,7 +1549,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7542",
@@ -2109,7 +1559,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7543",
@@ -2119,7 +1569,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7544",
@@ -2129,7 +1579,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7511",
@@ -2139,7 +1589,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6102",
@@ -2149,7 +1599,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6107",
@@ -2159,7 +1609,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6108",
@@ -2169,7 +1619,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6110",
@@ -2179,7 +1629,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6111",
@@ -2189,7 +1639,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6112",
@@ -2199,7 +1649,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6114",
@@ -2209,7 +1659,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6115",
@@ -2219,7 +1669,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6117",
@@ -2229,7 +1679,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6120",
@@ -2239,7 +1689,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6121",
@@ -2249,7 +1699,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6122",
@@ -2259,7 +1709,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6125",
@@ -2269,7 +1719,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6126",
@@ -2279,7 +1729,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6127",
@@ -2289,7 +1739,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6131",
@@ -2299,7 +1749,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6172",
@@ -2309,7 +1759,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6183",
@@ -2319,7 +1769,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7486",
@@ -2329,7 +1779,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7490",
@@ -2339,7 +1789,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7494",
@@ -2349,7 +1799,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7498",
@@ -2359,7 +1809,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7514",
@@ -2369,7 +1819,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7516",
@@ -2379,7 +1829,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7517",
@@ -2389,7 +1839,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7523",
@@ -2399,7 +1849,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7525",
@@ -2409,7 +1859,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7531",
@@ -2419,7 +1869,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7485",
@@ -2429,7 +1879,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7496",
@@ -2439,7 +1889,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7520",
@@ -2449,7 +1899,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7527",
@@ -2459,7 +1909,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7491",
@@ -2469,7 +1919,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7505",
@@ -2479,7 +1929,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6170",
@@ -2489,7 +1939,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6171",
@@ -2499,7 +1949,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7512",
@@ -2509,7 +1959,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7513",
@@ -2519,7 +1969,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6103",
@@ -2529,7 +1979,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6109",
@@ -2539,7 +1989,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6167",
@@ -2549,7 +1999,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6169",
@@ -2559,7 +2009,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6173",
@@ -2569,7 +2019,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6179",
@@ -2579,7 +2029,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6180",
@@ -2589,7 +2039,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6182",
@@ -2599,7 +2049,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7497",
@@ -2609,7 +2059,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7502",
@@ -2619,7 +2069,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6123",
@@ -2629,7 +2079,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6128",
@@ -2639,7 +2089,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7480",
@@ -2649,7 +2099,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7484",
@@ -2659,7 +2109,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7492",
@@ -2669,7 +2119,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7499",
@@ -2679,7 +2129,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7503",
@@ -2689,7 +2139,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7504",
@@ -2699,7 +2149,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7507",
@@ -2709,7 +2159,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7509",
@@ -2719,7 +2169,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6101",
@@ -2729,7 +2179,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6104",
@@ -2739,7 +2189,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6113",
@@ -2749,7 +2199,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6118",
@@ -2759,7 +2209,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7481",
@@ -2769,7 +2219,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7489",
@@ -2779,7 +2229,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6143",
@@ -2789,7 +2239,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6154",
@@ -2799,7 +2249,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6134",
@@ -2809,7 +2259,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6136",
@@ -2819,7 +2269,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6137",
@@ -2829,7 +2279,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6140",
@@ -2839,7 +2289,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6144",
@@ -2849,7 +2299,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6145",
@@ -2859,7 +2309,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6146",
@@ -2869,7 +2319,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6147",
@@ -2879,7 +2329,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6148",
@@ -2889,7 +2339,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6152",
@@ -2899,7 +2349,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6153",
@@ -2909,7 +2359,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6155",
@@ -2919,7 +2369,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6157",
@@ -2929,7 +2379,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6163",
@@ -2939,7 +2389,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6176",
@@ -2949,7 +2399,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6187",
@@ -2959,7 +2409,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7482",
@@ -2969,7 +2419,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7487",
@@ -2979,7 +2429,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7513",
@@ -2989,7 +2439,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7515",
@@ -2999,7 +2449,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7519",
@@ -3009,7 +2459,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7521",
@@ -3019,7 +2469,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7524",
@@ -3029,7 +2479,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7526",
@@ -3039,7 +2489,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7536",
@@ -3049,7 +2499,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7540",
@@ -3059,7 +2509,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7542",
@@ -3069,7 +2519,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7543",
@@ -3079,7 +2529,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7544",
@@ -3089,7 +2539,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7546",
@@ -3099,7 +2549,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7518",
@@ -3109,7 +2559,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7523",
@@ -3119,7 +2569,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7528",
@@ -3129,7 +2579,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7529",
@@ -3139,7 +2589,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7485",
@@ -3149,7 +2599,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7493",
@@ -3159,7 +2609,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7522",
@@ -3169,7 +2619,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7530",
@@ -3179,7 +2629,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7533",
@@ -3189,7 +2639,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7534",
@@ -3199,7 +2649,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7500",
@@ -3209,7 +2659,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7508",
@@ -3219,7 +2669,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6177",
@@ -3229,7 +2679,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6188",
@@ -3239,7 +2689,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7486",
@@ -3249,7 +2699,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7497",
@@ -3259,7 +2709,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7537",
@@ -3269,7 +2719,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7538",
@@ -3279,7 +2729,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7539",
@@ -3289,7 +2739,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7545",
@@ -3299,7 +2749,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7547",
@@ -3309,7 +2759,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7548",
@@ -3319,7 +2769,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6133",
@@ -3329,7 +2779,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6149",
@@ -3339,7 +2789,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6151",
@@ -3349,7 +2799,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6161",
@@ -3359,7 +2809,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7527",
@@ -3369,7 +2819,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7531",
@@ -3379,7 +2829,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6141",
@@ -3389,7 +2839,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6160",
@@ -3399,7 +2849,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6168",
@@ -3409,7 +2859,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6178",
@@ -3419,7 +2869,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6191",
@@ -3429,7 +2879,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6193",
@@ -3439,7 +2889,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6166",
@@ -3449,7 +2899,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6171",
@@ -3459,7 +2909,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6184",
@@ -3469,7 +2919,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6192",
@@ -3479,7 +2929,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7480",
@@ -3489,7 +2939,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7488",
@@ -3499,7 +2949,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7507",
@@ -3509,7 +2959,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7509",
@@ -3519,7 +2969,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7496",
@@ -3529,7 +2979,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7511",
@@ -3539,7 +2989,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6175",
@@ -3549,7 +2999,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6194",
@@ -3559,7 +3009,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6111",
@@ -3569,7 +3019,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6121",
@@ -3579,7 +3029,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6101",
@@ -3589,7 +3039,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6104",
@@ -3599,7 +3049,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6109",
@@ -3609,7 +3059,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6112",
@@ -3619,7 +3069,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6165",
@@ -3629,7 +3079,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6181",
@@ -3639,7 +3089,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7489",
@@ -3649,7 +3099,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7499",
@@ -3659,7 +3109,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6139",
@@ -3669,7 +3119,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6159",
@@ -3679,7 +3129,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6116",
@@ -3689,7 +3139,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6123",
@@ -3699,7 +3149,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6129",
@@ -3709,7 +3159,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6130",
@@ -3719,7 +3169,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6185",
@@ -3729,7 +3179,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6190",
@@ -3739,7 +3189,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6166",
@@ -3749,7 +3199,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6169",
@@ -3759,7 +3209,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6170",
@@ -3769,7 +3219,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6179",
@@ -3779,7 +3229,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6186",
@@ -3789,7 +3239,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6194",
@@ -3799,7 +3249,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6115",
@@ -3809,7 +3259,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6119",
@@ -3819,7 +3269,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6167",
@@ -3829,7 +3279,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6175",
@@ -3839,7 +3289,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6180",
@@ -3849,7 +3299,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6187",
@@ -3859,7 +3309,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6174",
@@ -3869,7 +3319,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6182",
@@ -3879,7 +3329,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6183",
@@ -3889,7 +3339,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6189",
@@ -3899,7 +3349,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6135",
@@ -3909,7 +3359,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6150",
@@ -3919,7 +3369,7 @@
       "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / American football",
       "league": "NFL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6172",
@@ -3929,7 +3379,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6188",
@@ -3939,7 +3389,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6128",
@@ -3949,7 +3399,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6129",
@@ -3959,7 +3409,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7485",
@@ -3969,7 +3419,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7491",
@@ -3979,7 +3429,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7481",
@@ -3989,7 +3439,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7489",
@@ -3999,7 +3449,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6102",
@@ -4009,7 +3459,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6103",
@@ -4019,7 +3469,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6108",
@@ -4029,7 +3479,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6111",
@@ -4039,7 +3489,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6112",
@@ -4049,7 +3499,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6113",
@@ -4059,7 +3509,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6118",
@@ -4069,7 +3519,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6120",
@@ -4079,7 +3529,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6121",
@@ -4089,7 +3539,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6132",
@@ -4099,7 +3549,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7487",
@@ -4109,7 +3559,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6106",
@@ -4119,7 +3569,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6126",
@@ -4129,7 +3579,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6127",
@@ -4139,7 +3589,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6131",
@@ -4149,7 +3599,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6184",
@@ -4159,7 +3609,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6192",
@@ -4169,7 +3619,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6101",
@@ -4179,7 +3629,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6114",
@@ -4189,7 +3639,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6116",
@@ -4199,7 +3649,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6125",
@@ -4209,7 +3659,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6173",
@@ -4219,7 +3669,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6182",
@@ -4229,7 +3679,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6189",
@@ -4239,7 +3689,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6191",
@@ -4249,7 +3699,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7484",
@@ -4259,7 +3709,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7486",
@@ -4269,7 +3719,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7488",
@@ -4279,7 +3729,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7502",
@@ -4289,7 +3739,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6104",
@@ -4299,7 +3749,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6109",
@@ -4309,7 +3759,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6123",
@@ -4319,7 +3769,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6130",
@@ -4329,7 +3779,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6178",
@@ -4339,7 +3789,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6193",
@@ -4349,7 +3799,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6168",
@@ -4359,7 +3809,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6177",
@@ -4369,7 +3819,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7482",
@@ -4379,7 +3829,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7495",
@@ -4389,7 +3839,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7518",
@@ -4399,7 +3849,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7524",
@@ -4409,7 +3859,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7498",
@@ -4419,7 +3869,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7511",
@@ -4429,7 +3879,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6170",
@@ -4439,7 +3889,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6175",
@@ -4449,7 +3899,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6176",
@@ -4459,7 +3909,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6179",
@@ -4469,7 +3919,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6180",
@@ -4479,7 +3929,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6181",
@@ -4489,7 +3939,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6186",
@@ -4499,7 +3949,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6187",
@@ -4509,7 +3959,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7490",
@@ -4519,7 +3969,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7497",
@@ -4529,7 +3979,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7501",
@@ -4539,7 +3989,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7506",
@@ -4549,7 +3999,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7522",
@@ -4559,7 +4009,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7525",
@@ -4569,7 +4019,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7535",
@@ -4579,7 +4029,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7550",
@@ -4589,7 +4039,7 @@
       "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "QMJHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7514",
@@ -4599,7 +4049,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7519",
@@ -4609,7 +4059,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7526",
@@ -4619,7 +4069,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7530",
@@ -4629,7 +4079,7 @@
       "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "OHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6102",
@@ -4639,7 +4089,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6110",
@@ -4649,7 +4099,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6115",
@@ -4659,7 +4109,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6117",
@@ -4669,7 +4119,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6167",
@@ -4679,7 +4129,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6169",
@@ -4689,7 +4139,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6192",
@@ -4699,7 +4149,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6194",
@@ -4709,7 +4159,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6165",
@@ -4719,7 +4169,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6173",
@@ -4729,7 +4179,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6183",
@@ -4739,7 +4189,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6185",
@@ -4749,7 +4199,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7484",
@@ -4759,7 +4209,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7488",
@@ -4769,7 +4219,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6166",
@@ -4779,7 +4229,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6172",
@@ -4789,7 +4239,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6171",
@@ -4799,7 +4249,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6174",
@@ -4809,7 +4259,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6107",
@@ -4819,7 +4269,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6128",
@@ -4829,7 +4279,7 @@
       "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
       "category": "Sports / Hockey",
       "league": "NHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6177",
@@ -4839,7 +4289,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6188",
@@ -4849,7 +4299,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6190",
@@ -4859,7 +4309,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.6193",
@@ -4869,7 +4319,7 @@
       "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
       "category": "Sports / Basketball",
       "league": "NBA",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7480",
@@ -4879,7 +4329,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7481",
@@ -4889,7 +4339,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7492",
@@ -4899,7 +4349,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7499",
@@ -4909,7 +4359,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7503",
@@ -4919,7 +4369,7 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
     },
     {
       "channel": "stalker.7504",
@@ -4929,7 +4379,517 @@
       "description": "Scheduled AHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
       "category": "Sports / Hockey",
       "league": "AHL",
-      "verified_at": 1794428092
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7536",
+      "start": 1795129200,
+      "stop": 1795140000,
+      "title": "Newfoundland, Regiment @ Charlottetown, Islanders",
+      "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "QMJHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7542",
+      "start": 1795129200,
+      "stop": 1795140000,
+      "title": "Newfoundland, Regiment @ Charlottetown, Islanders",
+      "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "QMJHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6103",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Buffalo Sabres @ Washington Capitals",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6105",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Montreal Canadiens @ Carolina Hurricanes",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6113",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Los Angeles Kings @ Toronto Maple Leafs",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6115",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Montreal Canadiens @ Carolina Hurricanes",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6118",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "New York Islanders @ Winnipeg Jets",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6120",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Philadelphia Flyers @ Ottawa Senators",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6121",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Philadelphia Flyers @ Ottawa Senators",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6122",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "St. Louis Blues @ Pittsburgh Penguins",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6125",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "St. Louis Blues @ Pittsburgh Penguins",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6127",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Los Angeles Kings @ Toronto Maple Leafs",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6131",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Buffalo Sabres @ Washington Capitals",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6132",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "New York Islanders @ Winnipeg Jets",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7512",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Flint Firebirds @ Barrie Colts",
+      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "OHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7516",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Flint Firebirds @ Barrie Colts",
+      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "OHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7521",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Saginaw Spirit @ Niagara IceDogs",
+      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "OHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7527",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Saginaw Spirit @ Niagara IceDogs",
+      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "OHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7533",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Rouyn-Noranda, Huskies @ Baie-Comeau, Drakkar",
+      "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "QMJHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7545",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Rouyn-Noranda, Huskies @ Baie-Comeau, Drakkar",
+      "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "QMJHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7548",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Val-d'Or, Foreurs @ Sherbrooke, Phœnix",
+      "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "QMJHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7549",
+      "start": 1795132800,
+      "stop": 1795143600,
+      "title": "Val-d'Or, Foreurs @ Sherbrooke, Phœnix",
+      "description": "Scheduled QMJHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "QMJHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7529",
+      "start": 1795133100,
+      "stop": 1795143900,
+      "title": "Soo Greyhounds @ Windsor Spitfires",
+      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "OHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7531",
+      "start": 1795133100,
+      "stop": 1795143900,
+      "title": "Soo Greyhounds @ Windsor Spitfires",
+      "description": "Scheduled OHL hockey game. Three-hour EPG window is estimated. The IPTV stream has not been verified.",
+      "category": "Sports / Hockey",
+      "league": "OHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6111",
+      "start": 1795134600,
+      "stop": 1795145400,
+      "title": "Edmonton Oilers @ Tampa Bay Lightning",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6126",
+      "start": 1795134600,
+      "stop": 1795145400,
+      "title": "Edmonton Oilers @ Tampa Bay Lightning",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7594",
+      "start": 1795134600,
+      "stop": 1795143600,
+      "title": "FC Cincinnati @ Orlando City SC",
+      "description": "Scheduled MLS match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Soccer",
+      "league": "MLS",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7609",
+      "start": 1795134600,
+      "stop": 1795143600,
+      "title": "FC Cincinnati @ Orlando City SC",
+      "description": "Scheduled MLS match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Soccer",
+      "league": "MLS",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6104",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "Minnesota Wild @ Calgary Flames",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6106",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "Columbus Blue Jackets @ Chicago Blackhawks",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6108",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "Columbus Blue Jackets @ Chicago Blackhawks",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6114",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "Minnesota Wild @ Calgary Flames",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6174",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "Golden State Warriors @ Memphis Grizzlies",
+      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
+      "category": "Sports / Basketball",
+      "league": "NBA",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6178",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "Los Angeles Clippers @ San Antonio Spurs",
+      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
+      "category": "Sports / Basketball",
+      "league": "NBA",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6179",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "Golden State Warriors @ Memphis Grizzlies",
+      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
+      "category": "Sports / Basketball",
+      "league": "NBA",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6181",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "Portland Trail Blazers @ Milwaukee Bucks",
+      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
+      "category": "Sports / Basketball",
+      "league": "NBA",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6182",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "New York Knicks @ Minnesota Timberwolves",
+      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
+      "category": "Sports / Basketball",
+      "league": "NBA",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6184",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "New York Knicks @ Minnesota Timberwolves",
+      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
+      "category": "Sports / Basketball",
+      "league": "NBA",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6189",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "Portland Trail Blazers @ Milwaukee Bucks",
+      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
+      "category": "Sports / Basketball",
+      "league": "NBA",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6191",
+      "start": 1795136400,
+      "stop": 1795147200,
+      "title": "Los Angeles Clippers @ San Antonio Spurs",
+      "description": "Scheduled NBA tipoff. Game window is estimated at three hours; actual end time and channel stream availability are not confirmed.",
+      "category": "Sports / Basketball",
+      "league": "NBA",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6145",
+      "start": 1795137300,
+      "stop": 1795151700,
+      "title": "Indianapolis Colts @ Houston Texans",
+      "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / American football",
+      "league": "NFL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6146",
+      "start": 1795137300,
+      "stop": 1795151700,
+      "title": "Indianapolis Colts @ Houston Texans",
+      "description": "Scheduled NFL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / American football",
+      "league": "NFL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6101",
+      "start": 1795140000,
+      "stop": 1795150800,
+      "title": "Anaheim Ducks @ Colorado Avalanche",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6107",
+      "start": 1795140000,
+      "stop": 1795150800,
+      "title": "Anaheim Ducks @ Colorado Avalanche",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6124",
+      "start": 1795142400,
+      "stop": 1795153200,
+      "title": "Vancouver Canucks @ Seattle Kraken",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6129",
+      "start": 1795142400,
+      "stop": 1795153200,
+      "title": "Vancouver Canucks @ Seattle Kraken",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6109",
+      "start": 1795143600,
+      "stop": 1795154400,
+      "title": "Dallas Stars @ Vegas Golden Knights",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.6130",
+      "start": 1795143600,
+      "stop": 1795154400,
+      "title": "Dallas Stars @ Vegas Golden Knights",
+      "description": "Scheduled NHL match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Hockey",
+      "league": "NHL",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7612",
+      "start": 1795143600,
+      "stop": 1795152600,
+      "title": "Real Salt Lake @ Seattle Sounders FC",
+      "description": "Scheduled MLS match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Soccer",
+      "league": "MLS",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7615",
+      "start": 1795143600,
+      "stop": 1795152600,
+      "title": "Real Salt Lake @ Seattle Sounders FC",
+      "description": "Scheduled MLS match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Soccer",
+      "league": "MLS",
+      "verified_at": 1794516894
+    },
+    {
+      "channel": "stalker.7834",
+      "start": 1795204800,
+      "stop": 1795213800,
+      "title": "Sheffield Wednesday @ Barnsley",
+      "description": "Scheduled EFL1 match. Game length is estimated; streaming availability and actual end time are not verified.",
+      "category": "Sports / Soccer",
+      "league": "EFL1",
+      "verified_at": 1794516894
     }
   ]
 }

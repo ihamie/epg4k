@@ -1,16 +1,16 @@
 # EPG quality report
 
-**Generated:** 2026-11-11 20:15 UTC
+**Generated:** 2026-11-12 20:55 UTC
 
 | Metric | Current |
 |---|---:|
 | Playlist channels | 5,841 |
 | Distinct XMLTV IDs | 5,800 |
-| Channels with guide listings | 1,286 (22%) |
+| Channels with guide listings | 1,296 (22.2%) |
 | Channels with logos | 925 (15.8%) |
 | Reused IDs / potential aliases | 37 groups |
 | Conflicting source-ID groups for review | 0 |
-| Source refresh errors | 0 |
+| Source refresh errors | 1 |
 | Source index errors | 0 |
 
 ## Largest potential coverage opportunities
@@ -19,7 +19,7 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 
 | Group | Channels | EPG | Logos |
 |---|---:|---:|---:|
-| LATINO | 220 | 2 (0.9%) | 0 (0%) |
+| LATINO | 220 | 4 (1.8%) | 0 (0%) |
 | PERSIAN | 120 | 0 (0%) | 0 (0%) |
 | AFRICAN | 137 | 18 (13.1%) | 0 (0%) |
 | GREEK | 173 | 57 (32.9%) | 0 (0%) |
@@ -30,7 +30,7 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | SPORTS   EPL EFL | 106 | 23 (21.7%) | 90 (84.9%) |
 | BANGLA/BENGALI | 97 | 16 (16.5%) | 3 (3.1%) |
 | SPORTS | 139 | 60 (43.2%) | 74 (53.2%) |
-| SPANISH | 72 | 5 (6.9%) | 1 (1.4%) |
+| SPANISH | 72 | 10 (13.9%) | 1 (1.4%) |
 | URDU | 62 | 2 (3.2%) | 13 (21%) |
 | ENGLISH PREMIUM MOVIES | 117 | 61 (52.1%) | 66 (56.4%) |
 | PUNJABI RELIGIOUS | 59 | 5 (8.5%) | 3 (5.1%) |
@@ -42,18 +42,18 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 
 | League | Team channels | Matched | Logos | Programmes | Source health |
 |---|---:|---:|---:|---:|---|
-| NBA | 30 | 30 | 30 | 124 | OK |
-| NFL | 32 | 32 | 32 | 28 | OK |
-| NHL | 32 | 32 | 32 | 108 | OK |
+| NBA | 30 | 30 | 30 | 112 | OK |
+| NFL | 32 | 32 | 32 | 30 | OK |
+| NHL | 32 | 32 | 32 | 118 | OK |
 | MLB | 30 | 30 | 30 | 0 | OK |
-| MLS | 30 | 30 | 30 | 0 | OK |
+| MLS | 30 | 30 | 30 | 4 | OK |
 | EPL | 20 | 17 | 20 | 0 | OK |
 | EFL | 24 | 18 | 24 | 0 | OK |
-| EFL1 | 24 | 17 | 24 | 8 | OK |
+| EFL1 | 24 | 17 | 24 | 9 | OK |
 | EFL2 | 24 | 18 | 22 | 15 | OK |
-| AHL | 32 | 31 | 31 | 100 | OK |
+| AHL | 32 | 31 | 31 | 87 | OK |
 | OHL | 20 | 20 | 20 | 62 | OK |
-| QMJHL | 19 | 18 | 18 | 48 | OK |
+| QMJHL | 19 | 18 | 18 | 52 | OK |
 
 ## Duplicated XMLTV IDs requiring review
 
@@ -101,7 +101,7 @@ Many shared IDs are intentional channel aliases. **Do not change an ID solely be
 
 ## Data-source errors
 
-- No EPG refresh errors detected
+- EPG PH2: Source has no current programmes
 
 ## Interpretation
 
