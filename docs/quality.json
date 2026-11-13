@@ -1,12 +1,12 @@
 {
-  "generated_at": 1794516902,
+  "generated_at": 1794601885,
   "channels": 5841,
   "unique_xmltv_ids": 5800,
-  "channels_with_epg": 1296,
+  "channels_with_epg": 1337,
   "channels_with_logos": 925,
-  "epg_percent": 22.2,
+  "epg_percent": 22.9,
   "logo_percent": 15.8,
-  "net_change_epg": 10,
+  "net_change_epg": 41,
   "net_change_logos": 0,
   "duplicate_id_groups": 37,
   "conflicting_source_id_groups": 0,
@@ -149,10 +149,10 @@
     {
       "group": "SPORTS | EPL EFL",
       "total": 106,
-      "epg": 23,
+      "epg": 64,
       "logos": 90,
       "mapped": 0,
-      "pct": 21.7,
+      "pct": 60.4,
       "logo_pct": 84.9
     },
     {
@@ -509,10 +509,10 @@
     {
       "group": "SPORTS | NFL",
       "total": 33,
-      "epg": 28,
+      "epg": 26,
       "logos": 33,
       "mapped": 0,
-      "pct": 84.8,
+      "pct": 78.8,
       "logo_pct": 100
     },
     {
@@ -554,10 +554,10 @@
     {
       "group": "SPORTS | MLS",
       "total": 30,
-      "epg": 4,
+      "epg": 6,
       "logos": 30,
       "mapped": 0,
-      "pct": 13.3,
+      "pct": 20,
       "logo_pct": 100
     },
     {
@@ -783,7 +783,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 112,
+      "programmes": 124,
       "error": null
     },
     {
@@ -791,7 +791,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 30,
+      "programmes": 28,
       "error": null
     },
     {
@@ -799,7 +799,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 118,
+      "programmes": 102,
       "error": null
     },
     {
@@ -815,7 +815,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 4,
+      "programmes": 6,
       "error": null
     },
     {
@@ -823,7 +823,7 @@
       "channels": 20,
       "matched": 17,
       "logos": 20,
-      "programmes": 0,
+      "programmes": 12,
       "error": null
     },
     {
@@ -831,7 +831,7 @@
       "channels": 24,
       "matched": 18,
       "logos": 24,
-      "programmes": 0,
+      "programmes": 17,
       "error": null
     },
     {
@@ -839,7 +839,7 @@
       "channels": 24,
       "matched": 17,
       "logos": 24,
-      "programmes": 9,
+      "programmes": 25,
       "error": null
     },
     {
@@ -847,7 +847,7 @@
       "channels": 24,
       "matched": 18,
       "logos": 22,
-      "programmes": 15,
+      "programmes": 33,
       "error": null
     },
     {
@@ -855,7 +855,7 @@
       "channels": 32,
       "matched": 31,
       "logos": 31,
-      "programmes": 87,
+      "programmes": 104,
       "error": null
     },
     {
@@ -863,7 +863,7 @@
       "channels": 20,
       "matched": 20,
       "logos": 20,
-      "programmes": 62,
+      "programmes": 73,
       "error": null
     },
     {
@@ -871,7 +871,7 @@
       "channels": 19,
       "matched": 18,
       "logos": 18,
-      "programmes": 52,
+      "programmes": 65,
       "error": null
     }
   ],

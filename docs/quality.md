@@ -1,12 +1,12 @@
 # EPG quality report
 
-**Generated:** 2026-11-12 20:55 UTC
+**Generated:** 2026-11-13 20:31 UTC
 
 | Metric | Current |
 |---|---:|
 | Playlist channels | 5,841 |
 | Distinct XMLTV IDs | 5,800 |
-| Channels with guide listings | 1,296 (22.2%) |
+| Channels with guide listings | 1,337 (22.9%) |
 | Channels with logos | 925 (15.8%) |
 | Reused IDs / potential aliases | 37 groups |
 | Conflicting source-ID groups for review | 0 |
@@ -27,7 +27,6 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | PUNJABI | 126 | 15 (11.9%) | 8 (6.3%) |
 | ARABIC | 153 | 44 (28.8%) | 0 (0%) |
 | SPORTS   NCAAB NCAAF | 100 | 0 (0%) | 0 (0%) |
-| SPORTS   EPL EFL | 106 | 23 (21.7%) | 90 (84.9%) |
 | BANGLA/BENGALI | 97 | 16 (16.5%) | 3 (3.1%) |
 | SPORTS | 139 | 60 (43.2%) | 74 (53.2%) |
 | SPANISH | 72 | 10 (13.9%) | 1 (1.4%) |
@@ -35,6 +34,7 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | ENGLISH PREMIUM MOVIES | 117 | 61 (52.1%) | 66 (56.4%) |
 | PUNJABI RELIGIOUS | 59 | 5 (8.5%) | 3 (5.1%) |
 | HINDI PREMIUM MOVIES | 72 | 20 (27.8%) | 17 (23.6%) |
+| SPORTS   EPL EFL | 106 | 64 (60.4%) | 90 (84.9%) |
 | PUNJABI PREMIUM MOVIES | 44 | 3 (6.8%) | 3 (6.8%) |
 | CHINESE | 46 | 8 (17.4%) | 0 (0%) |
 
@@ -42,18 +42,18 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 
 | League | Team channels | Matched | Logos | Programmes | Source health |
 |---|---:|---:|---:|---:|---|
-| NBA | 30 | 30 | 30 | 112 | OK |
-| NFL | 32 | 32 | 32 | 30 | OK |
-| NHL | 32 | 32 | 32 | 118 | OK |
+| NBA | 30 | 30 | 30 | 124 | OK |
+| NFL | 32 | 32 | 32 | 28 | OK |
+| NHL | 32 | 32 | 32 | 102 | OK |
 | MLB | 30 | 30 | 30 | 0 | OK |
-| MLS | 30 | 30 | 30 | 4 | OK |
-| EPL | 20 | 17 | 20 | 0 | OK |
-| EFL | 24 | 18 | 24 | 0 | OK |
-| EFL1 | 24 | 17 | 24 | 9 | OK |
-| EFL2 | 24 | 18 | 22 | 15 | OK |
-| AHL | 32 | 31 | 31 | 87 | OK |
-| OHL | 20 | 20 | 20 | 62 | OK |
-| QMJHL | 19 | 18 | 18 | 52 | OK |
+| MLS | 30 | 30 | 30 | 6 | OK |
+| EPL | 20 | 17 | 20 | 12 | OK |
+| EFL | 24 | 18 | 24 | 17 | OK |
+| EFL1 | 24 | 17 | 24 | 25 | OK |
+| EFL2 | 24 | 18 | 22 | 33 | OK |
+| AHL | 32 | 31 | 31 | 104 | OK |
+| OHL | 20 | 20 | 20 | 73 | OK |
+| QMJHL | 19 | 18 | 18 | 65 | OK |
 
 ## Duplicated XMLTV IDs requiring review
 
