@@ -1,16 +1,16 @@
 # EPG quality report
 
-**Generated:** 2026-11-13 20:31 UTC
+**Generated:** 2026-11-14 18:46 UTC
 
 | Metric | Current |
 |---|---:|
 | Playlist channels | 5,841 |
 | Distinct XMLTV IDs | 5,800 |
-| Channels with guide listings | 1,337 (22.9%) |
+| Channels with guide listings | 1,349 (23.1%) |
 | Channels with logos | 925 (15.8%) |
 | Reused IDs / potential aliases | 37 groups |
 | Conflicting source-ID groups for review | 0 |
-| Source refresh errors | 1 |
+| Source refresh errors | 0 |
 | Source index errors | 0 |
 
 ## Largest potential coverage opportunities
@@ -34,26 +34,26 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | ENGLISH PREMIUM MOVIES | 117 | 61 (52.1%) | 66 (56.4%) |
 | PUNJABI RELIGIOUS | 59 | 5 (8.5%) | 3 (5.1%) |
 | HINDI PREMIUM MOVIES | 72 | 20 (27.8%) | 17 (23.6%) |
-| SPORTS   EPL EFL | 106 | 64 (60.4%) | 90 (84.9%) |
 | PUNJABI PREMIUM MOVIES | 44 | 3 (6.8%) | 3 (6.8%) |
+| SPORTS   EPL EFL | 106 | 68 (64.2%) | 90 (84.9%) |
 | CHINESE | 46 | 8 (17.4%) | 0 (0%) |
 
 ## Team sports
 
 | League | Team channels | Matched | Logos | Programmes | Source health |
 |---|---:|---:|---:|---:|---|
-| NBA | 30 | 30 | 30 | 124 | OK |
-| NFL | 32 | 32 | 32 | 28 | OK |
-| NHL | 32 | 32 | 32 | 102 | OK |
+| NBA | 30 | 30 | 30 | 116 | OK |
+| NFL | 32 | 32 | 32 | 42 | OK |
+| NHL | 32 | 32 | 32 | 124 | OK |
 | MLB | 30 | 30 | 30 | 0 | OK |
-| MLS | 30 | 30 | 30 | 6 | OK |
-| EPL | 20 | 17 | 20 | 12 | OK |
-| EFL | 24 | 18 | 24 | 17 | OK |
-| EFL1 | 24 | 17 | 24 | 25 | OK |
-| EFL2 | 24 | 18 | 22 | 33 | OK |
-| AHL | 32 | 31 | 31 | 104 | OK |
-| OHL | 20 | 20 | 20 | 73 | OK |
-| QMJHL | 19 | 18 | 18 | 65 | OK |
+| MLS | 30 | 30 | 30 | 10 | OK |
+| EPL | 20 | 17 | 20 | 15 | OK |
+| EFL | 24 | 18 | 24 | 18 | OK |
+| EFL1 | 24 | 17 | 24 | 17 | OK |
+| EFL2 | 24 | 18 | 22 | 20 | OK |
+| AHL | 32 | 31 | 31 | 113 | OK |
+| OHL | 20 | 20 | 20 | 67 | OK |
+| QMJHL | 19 | 18 | 18 | 57 | OK |
 
 ## Duplicated XMLTV IDs requiring review
 
@@ -101,7 +101,7 @@ Many shared IDs are intentional channel aliases. **Do not change an ID solely be
 
 ## Data-source errors
 
-- EPG PH2: Source has no current programmes
+- No EPG refresh errors detected
 
 ## Interpretation
 

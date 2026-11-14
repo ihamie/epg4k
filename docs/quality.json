@@ -1,12 +1,12 @@
 {
-  "generated_at": 1794601885,
+  "generated_at": 1794681969,
   "channels": 5841,
   "unique_xmltv_ids": 5800,
-  "channels_with_epg": 1337,
+  "channels_with_epg": 1349,
   "channels_with_logos": 925,
-  "epg_percent": 22.9,
+  "epg_percent": 23.1,
   "logo_percent": 15.8,
-  "net_change_epg": 41,
+  "net_change_epg": 12,
   "net_change_logos": 0,
   "duplicate_id_groups": 37,
   "conflicting_source_id_groups": 0,
@@ -149,10 +149,10 @@
     {
       "group": "SPORTS | EPL EFL",
       "total": 106,
-      "epg": 64,
+      "epg": 68,
       "logos": 90,
       "mapped": 0,
-      "pct": 60.4,
+      "pct": 64.2,
       "logo_pct": 84.9
     },
     {
@@ -509,10 +509,10 @@
     {
       "group": "SPORTS | NFL",
       "total": 33,
-      "epg": 26,
+      "epg": 29,
       "logos": 33,
       "mapped": 0,
-      "pct": 78.8,
+      "pct": 87.9,
       "logo_pct": 100
     },
     {
@@ -554,10 +554,10 @@
     {
       "group": "SPORTS | MLS",
       "total": 30,
-      "epg": 6,
+      "epg": 10,
       "logos": 30,
       "mapped": 0,
-      "pct": 20,
+      "pct": 33.3,
       "logo_pct": 100
     },
     {
@@ -743,10 +743,10 @@
     {
       "group": "FILIPINO",
       "total": 11,
-      "epg": 0,
+      "epg": 1,
       "logos": 0,
       "mapped": 2,
-      "pct": 0,
+      "pct": 9.1,
       "logo_pct": 0
     },
     {
@@ -783,7 +783,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 124,
+      "programmes": 116,
       "error": null
     },
     {
@@ -791,7 +791,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 28,
+      "programmes": 42,
       "error": null
     },
     {
@@ -799,7 +799,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 102,
+      "programmes": 124,
       "error": null
     },
     {
@@ -815,7 +815,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 6,
+      "programmes": 10,
       "error": null
     },
     {
@@ -823,7 +823,7 @@
       "channels": 20,
       "matched": 17,
       "logos": 20,
-      "programmes": 12,
+      "programmes": 15,
       "error": null
     },
     {
@@ -831,7 +831,7 @@
       "channels": 24,
       "matched": 18,
       "logos": 24,
-      "programmes": 17,
+      "programmes": 18,
       "error": null
     },
     {
@@ -839,7 +839,7 @@
       "channels": 24,
       "matched": 17,
       "logos": 24,
-      "programmes": 25,
+      "programmes": 17,
       "error": null
     },
     {
@@ -847,7 +847,7 @@
       "channels": 24,
       "matched": 18,
       "logos": 22,
-      "programmes": 33,
+      "programmes": 20,
       "error": null
     },
     {
@@ -855,7 +855,7 @@
       "channels": 32,
       "matched": 31,
       "logos": 31,
-      "programmes": 104,
+      "programmes": 113,
       "error": null
     },
     {
@@ -863,7 +863,7 @@
       "channels": 20,
       "matched": 20,
       "logos": 20,
-      "programmes": 73,
+      "programmes": 67,
       "error": null
     },
     {
@@ -871,16 +871,11 @@
       "channels": 19,
       "matched": 18,
       "logos": 18,
-      "programmes": 65,
+      "programmes": 57,
       "error": null
     }
   ],
-  "source_failures": [
-    {
-      "id": "PH2",
-      "error": "Source has no current programmes"
-    }
-  ],
+  "source_failures": [],
   "index_failures": [],
   "duplicate_ids": [
     {
