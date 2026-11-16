@@ -1,16 +1,16 @@
 # EPG quality report
 
-**Generated:** 2026-11-15 19:24 UTC
+**Generated:** 2026-11-16 22:57 UTC
 
 | Metric | Current |
 |---|---:|
 | Playlist channels | 5,841 |
 | Distinct XMLTV IDs | 5,800 |
-| Channels with guide listings | 1,354 (23.2%) |
+| Channels with guide listings | 1,353 (23.2%) |
 | Channels with logos | 925 (15.8%) |
 | Reused IDs / potential aliases | 37 groups |
 | Conflicting source-ID groups for review | 0 |
-| Source refresh errors | 0 |
+| Source refresh errors | 1 |
 | Source index errors | 0 |
 
 ## Largest potential coverage opportunities
@@ -35,25 +35,25 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | PUNJABI RELIGIOUS | 59 | 5 (8.5%) | 3 (5.1%) |
 | HINDI PREMIUM MOVIES | 72 | 20 (27.8%) | 17 (23.6%) |
 | PUNJABI PREMIUM MOVIES | 44 | 3 (6.8%) | 3 (6.8%) |
-| SPORTS   EPL EFL | 106 | 68 (64.2%) | 90 (84.9%) |
 | CHINESE | 46 | 8 (17.4%) | 0 (0%) |
+| HINDI RELIGIOUS | 51 | 14 (27.5%) | 2 (3.9%) |
 
 ## Team sports
 
 | League | Team channels | Matched | Logos | Programmes | Source health |
 |---|---:|---:|---:|---:|---|
-| NBA | 30 | 30 | 30 | 120 | OK |
-| NFL | 32 | 32 | 32 | 48 | OK |
-| NHL | 32 | 32 | 32 | 104 | OK |
+| NBA | 30 | 30 | 30 | 122 | OK |
+| NFL | 32 | 32 | 32 | 28 | OK |
+| NHL | 32 | 32 | 32 | 108 | OK |
 | MLB | 30 | 30 | 30 | 0 | OK |
-| MLS | 30 | 30 | 30 | 14 | OK |
-| EPL | 20 | 17 | 20 | 15 | OK |
-| EFL | 24 | 18 | 24 | 18 | OK |
-| EFL1 | 24 | 17 | 24 | 17 | OK |
-| EFL2 | 24 | 18 | 22 | 18 | OK |
-| AHL | 32 | 31 | 31 | 102 | OK |
-| OHL | 20 | 20 | 20 | 67 | OK |
-| QMJHL | 19 | 18 | 18 | 57 | OK |
+| MLS | 30 | 30 | 30 | 16 | OK |
+| EPL | 20 | 17 | 20 | 17 | OK |
+| EFL | 24 | 18 | 24 | 30 | OK |
+| EFL1 | 24 | 17 | 24 | 22 | OK |
+| EFL2 | 24 | 18 | 22 | 20 | OK |
+| AHL | 32 | 31 | 31 | 88 | OK |
+| OHL | 20 | 20 | 20 | 53 | OK |
+| QMJHL | 19 | 18 | 18 | 43 | OK |
 
 ## Duplicated XMLTV IDs requiring review
 
@@ -101,7 +101,7 @@ Many shared IDs are intentional channel aliases. **Do not change an ID solely be
 
 ## Data-source errors
 
-- No EPG refresh errors detected
+- EPG PH2: Source has no current programmes
 
 ## Interpretation
 
