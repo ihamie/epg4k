@@ -1,12 +1,12 @@
 {
-  "generated_at": 1794869820,
+  "generated_at": 1794952228,
   "channels": 5841,
   "unique_xmltv_ids": 5800,
-  "channels_with_epg": 1353,
+  "channels_with_epg": 1355,
   "channels_with_logos": 925,
   "epg_percent": 23.2,
   "logo_percent": 15.8,
-  "net_change_epg": -1,
+  "net_change_epg": 2,
   "net_change_logos": 0,
   "duplicate_id_groups": 37,
   "conflicting_source_id_groups": 0,
@@ -554,10 +554,10 @@
     {
       "group": "SPORTS | MLS",
       "total": 30,
-      "epg": 16,
+      "epg": 18,
       "logos": 30,
       "mapped": 0,
-      "pct": 53.3,
+      "pct": 60,
       "logo_pct": 100
     },
     {
@@ -783,7 +783,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 122,
+      "programmes": 112,
       "error": null
     },
     {
@@ -791,7 +791,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 28,
+      "programmes": 26,
       "error": null
     },
     {
@@ -799,7 +799,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 108,
+      "programmes": 106,
       "error": null
     },
     {
@@ -815,7 +815,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 16,
+      "programmes": 18,
       "error": null
     },
     {
@@ -831,7 +831,7 @@
       "channels": 24,
       "matched": 18,
       "logos": 24,
-      "programmes": 30,
+      "programmes": 36,
       "error": null
     },
     {
@@ -855,7 +855,7 @@
       "channels": 32,
       "matched": 31,
       "logos": 31,
-      "programmes": 88,
+      "programmes": 91,
       "error": null
     },
     {
