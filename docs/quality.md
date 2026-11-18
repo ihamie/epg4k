@@ -1,6 +1,6 @@
 # EPG quality report
 
-**Generated:** 2026-11-17 21:50 UTC
+**Generated:** 2026-11-18 21:29 UTC
 
 | Metric | Current |
 |---|---:|
@@ -19,7 +19,7 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 
 | Group | Channels | EPG | Logos |
 |---|---:|---:|---:|
-| LATINO | 220 | 4 (1.8%) | 0 (0%) |
+| LATINO | 220 | 3 (1.4%) | 0 (0%) |
 | PERSIAN | 120 | 0 (0%) | 0 (0%) |
 | AFRICAN | 137 | 18 (13.1%) | 0 (0%) |
 | GREEK | 173 | 57 (32.9%) | 0 (0%) |
@@ -29,7 +29,7 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | SPORTS   NCAAB NCAAF | 100 | 0 (0%) | 0 (0%) |
 | BANGLA/BENGALI | 97 | 16 (16.5%) | 3 (3.1%) |
 | SPORTS | 139 | 60 (43.2%) | 74 (53.2%) |
-| SPANISH | 72 | 10 (13.9%) | 1 (1.4%) |
+| SPANISH | 72 | 9 (12.5%) | 1 (1.4%) |
 | URDU | 62 | 2 (3.2%) | 13 (21%) |
 | ENGLISH PREMIUM MOVIES | 117 | 61 (52.1%) | 66 (56.4%) |
 | PUNJABI RELIGIOUS | 59 | 5 (8.5%) | 3 (5.1%) |
@@ -42,18 +42,18 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 
 | League | Team channels | Matched | Logos | Programmes | Source health |
 |---|---:|---:|---:|---:|---|
-| NBA | 30 | 30 | 30 | 112 | OK |
-| NFL | 32 | 32 | 32 | 26 | OK |
-| NHL | 32 | 32 | 32 | 106 | OK |
+| NBA | 30 | 30 | 30 | 120 | OK |
+| NFL | 32 | 32 | 32 | 30 | OK |
+| NHL | 32 | 32 | 32 | 112 | OK |
 | MLB | 30 | 30 | 30 | 0 | OK |
 | MLS | 30 | 30 | 30 | 18 | OK |
 | EPL | 20 | 17 | 20 | 17 | OK |
 | EFL | 24 | 18 | 24 | 36 | OK |
-| EFL1 | 24 | 17 | 24 | 22 | OK |
+| EFL1 | 24 | 17 | 24 | 24 | OK |
 | EFL2 | 24 | 18 | 22 | 20 | OK |
-| AHL | 32 | 31 | 31 | 91 | OK |
-| OHL | 20 | 20 | 20 | 53 | OK |
-| QMJHL | 19 | 18 | 18 | 43 | OK |
+| AHL | 32 | 31 | 31 | 100 | OK |
+| OHL | 20 | 20 | 20 | 59 | OK |
+| QMJHL | 19 | 18 | 18 | 47 | OK |
 
 ## Duplicated XMLTV IDs requiring review
 
