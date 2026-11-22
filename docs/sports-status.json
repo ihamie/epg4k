@@ -1,11 +1,11 @@
 {
-  "generated_at": 1795291818,
+  "generated_at": 1795379046,
   "source": "nba.com",
   "team_channels": 30,
-  "programmes": 678,
-  "channels_with_games": 246,
+  "programmes": 630,
+  "channels_with_games": 249,
   "team_logos": 313,
-  "nba_programmes": 102,
+  "nba_programmes": 110,
   "leagues": [
     {
       "league": "NBA",
@@ -22,7 +22,7 @@
       "team_channels": 32,
       "matched_teams": 32,
       "with_logos": 32,
-      "programmes": 46,
+      "programmes": 54,
       "source": "espn",
       "error": null,
       "unmatched_channels": []
@@ -32,7 +32,7 @@
       "team_channels": 32,
       "matched_teams": 32,
       "with_logos": 32,
-      "programmes": 140,
+      "programmes": 114,
       "source": "espn",
       "error": null,
       "unmatched_channels": []
@@ -52,7 +52,7 @@
       "team_channels": 30,
       "matched_teams": 30,
       "with_logos": 30,
-      "programmes": 32,
+      "programmes": 26,
       "source": "espn",
       "error": null,
       "unmatched_channels": [],
@@ -63,7 +63,7 @@
       "team_channels": 20,
       "matched_teams": 17,
       "with_logos": 20,
-      "programmes": 22,
+      "programmes": 19,
       "source": "espn",
       "error": null,
       "unmatched_channels": [
@@ -100,7 +100,7 @@
       "team_channels": 24,
       "matched_teams": 18,
       "with_logos": 24,
-      "programmes": 37,
+      "programmes": 36,
       "source": "espn",
       "error": null,
       "unmatched_channels": [
@@ -235,7 +235,7 @@
       "channels": 32,
       "matched": 31,
       "with_logos": 31,
-      "programmes": 123,
+      "programmes": 105,
       "error": null,
       "unmatched_channels": [
         "AHL | BRIDGEPORT ISLANDERS"
@@ -280,7 +280,7 @@
       "channels": 20,
       "matched": 20,
       "with_logos": 20,
-      "programmes": 74,
+      "programmes": 66,
       "error": null,
       "unmatched_channels": []
     },
@@ -289,7 +289,7 @@
       "channels": 19,
       "matched": 18,
       "with_logos": 18,
-      "programmes": 60,
+      "programmes": 58,
       "error": null,
       "unmatched_channels": [
         "QMJHL | ACADIE-BATHURST TITAN"
@@ -321,7 +321,7 @@
     }
   ],
   "cache": {
-    "fresh": 678,
+    "fresh": 630,
     "reused": 0,
     "rejected": 0,
     "failed_leagues": []
