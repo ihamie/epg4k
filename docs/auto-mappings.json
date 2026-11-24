@@ -189,6 +189,15 @@
     "method": "verified"
   },
   {
+    "id": "903",
+    "name": "NEO NEWS",
+    "group": "URDU NEWS",
+    "output_id": "stalker.903",
+    "source": "UK1",
+    "source_id": "NEO.News.uk",
+    "method": "exact"
+  },
+  {
     "id": "4",
     "name": "AAPKA COLORS HD USA",
     "group": "HINDI",

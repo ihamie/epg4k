@@ -1,17 +1,17 @@
 # EPG quality report
 
-**Generated:** 2026-11-22 20:24 UTC
+**Generated:** 2026-11-24 01:00 UTC
 
 | Metric | Current |
 |---|---:|
 | Playlist channels | 5,841 |
 | Distinct XMLTV IDs | 5,800 |
-| Channels with guide listings | 1,360 (23.3%) |
+| Channels with guide listings | 1,359 (23.3%) |
 | Channels with logos | 925 (15.8%) |
 | Reused IDs / potential aliases | 37 groups |
 | Conflicting source-ID groups for review | 0 |
-| Source refresh errors | 0 |
-| Source index errors | 0 |
+| Source refresh errors | 5 |
+| Source index errors | 3 |
 
 ## Largest potential coverage opportunities
 
@@ -42,18 +42,18 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 
 | League | Team channels | Matched | Logos | Programmes | Source health |
 |---|---:|---:|---:|---:|---|
-| NBA | 30 | 30 | 30 | 110 | OK |
-| NFL | 32 | 32 | 32 | 54 | OK |
-| NHL | 32 | 32 | 32 | 114 | OK |
+| NBA | 30 | 30 | 30 | 118 | OK |
+| NFL | 32 | 32 | 32 | 34 | OK |
+| NHL | 32 | 32 | 32 | 128 | OK |
 | MLB | 30 | 30 | 30 | 0 | OK |
-| MLS | 30 | 30 | 30 | 26 | OK |
-| EPL | 20 | 17 | 20 | 19 | OK |
+| MLS | 30 | 30 | 30 | 20 | OK |
+| EPL | 20 | 17 | 20 | 17 | OK |
 | EFL | 24 | 18 | 24 | 36 | OK |
-| EFL1 | 24 | 17 | 24 | 22 | OK |
-| EFL2 | 24 | 18 | 22 | 20 | OK |
-| AHL | 32 | 31 | 31 | 105 | OK |
-| OHL | 20 | 20 | 20 | 66 | OK |
-| QMJHL | 19 | 18 | 18 | 58 | OK |
+| EFL1 | 24 | 17 | 24 | 39 | OK |
+| EFL2 | 24 | 18 | 22 | 36 | OK |
+| AHL | 32 | 31 | 31 | 93 | OK |
+| OHL | 20 | 20 | 20 | 54 | OK |
+| QMJHL | 19 | 18 | 18 | 46 | OK |
 
 ## Duplicated XMLTV IDs requiring review
 
@@ -101,7 +101,14 @@ Many shared IDs are intentional channel aliases. **Do not change an ID solely be
 
 ## Data-source errors
 
-- No EPG refresh errors detected
+- EPG NG1: Incomplete XMLTV source
+- EPG PH2: Source has no current programmes
+- EPG PK1: Source HTTP 404
+- EPG SA1: Source HTTP 404
+- EPG VOA1: Source HTTP 404
+- Index PK1: HTTP 404
+- Index SA1: HTTP 404
+- Index VOA1: HTTP 404
 
 ## Interpretation
 
