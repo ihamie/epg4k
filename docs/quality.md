@@ -1,6 +1,6 @@
 # EPG quality report
 
-**Generated:** 2026-11-24 01:00 UTC
+**Generated:** 2026-11-24 23:05 UTC
 
 | Metric | Current |
 |---|---:|
@@ -42,16 +42,16 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 
 | League | Team channels | Matched | Logos | Programmes | Source health |
 |---|---:|---:|---:|---:|---|
-| NBA | 30 | 30 | 30 | 118 | OK |
-| NFL | 32 | 32 | 32 | 34 | OK |
-| NHL | 32 | 32 | 32 | 128 | OK |
+| NBA | 30 | 30 | 30 | 106 | OK |
+| NFL | 32 | 32 | 32 | 32 | OK |
+| NHL | 32 | 32 | 32 | 120 | OK |
 | MLB | 30 | 30 | 30 | 0 | OK |
-| MLS | 30 | 30 | 30 | 20 | OK |
-| EPL | 20 | 17 | 20 | 17 | OK |
-| EFL | 24 | 18 | 24 | 36 | OK |
-| EFL1 | 24 | 17 | 24 | 39 | OK |
-| EFL2 | 24 | 18 | 22 | 36 | OK |
-| AHL | 32 | 31 | 31 | 93 | OK |
+| MLS | 30 | 30 | 30 | 18 | OK |
+| EPL | 20 | 17 | 20 | 32 | OK |
+| EFL | 24 | 18 | 24 | 24 | OK |
+| EFL1 | 24 | 17 | 24 | 34 | OK |
+| EFL2 | 24 | 18 | 22 | 34 | OK |
+| AHL | 32 | 31 | 31 | 95 | OK |
 | OHL | 20 | 20 | 20 | 54 | OK |
 | QMJHL | 19 | 18 | 18 | 46 | OK |
 

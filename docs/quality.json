@@ -1,12 +1,12 @@
 {
-  "generated_at": 1795482020,
+  "generated_at": 1795561501,
   "channels": 5841,
   "unique_xmltv_ids": 5800,
   "channels_with_epg": 1359,
   "channels_with_logos": 925,
   "epg_percent": 23.3,
   "logo_percent": 15.8,
-  "net_change_epg": -1,
+  "net_change_epg": 0,
   "net_change_logos": 0,
   "duplicate_id_groups": 37,
   "conflicting_source_id_groups": 0,
@@ -783,7 +783,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 118,
+      "programmes": 106,
       "error": null
     },
     {
@@ -791,7 +791,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 34,
+      "programmes": 32,
       "error": null
     },
     {
@@ -799,7 +799,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 128,
+      "programmes": 120,
       "error": null
     },
     {
@@ -815,7 +815,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 20,
+      "programmes": 18,
       "error": null
     },
     {
@@ -823,7 +823,7 @@
       "channels": 20,
       "matched": 17,
       "logos": 20,
-      "programmes": 17,
+      "programmes": 32,
       "error": null
     },
     {
@@ -831,7 +831,7 @@
       "channels": 24,
       "matched": 18,
       "logos": 24,
-      "programmes": 36,
+      "programmes": 24,
       "error": null
     },
     {
@@ -839,7 +839,7 @@
       "channels": 24,
       "matched": 17,
       "logos": 24,
-      "programmes": 39,
+      "programmes": 34,
       "error": null
     },
     {
@@ -847,7 +847,7 @@
       "channels": 24,
       "matched": 18,
       "logos": 22,
-      "programmes": 36,
+      "programmes": 34,
       "error": null
     },
     {
@@ -855,7 +855,7 @@
       "channels": 32,
       "matched": 31,
       "logos": 31,
-      "programmes": 93,
+      "programmes": 95,
       "error": null
     },
     {

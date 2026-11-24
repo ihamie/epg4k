@@ -1,11 +1,11 @@
 {
-  "generated_at": 1795482020,
+  "generated_at": 1795561501,
   "source": "nba.com",
   "team_channels": 30,
-  "programmes": 621,
+  "programmes": 595,
   "channels_with_games": 249,
   "team_logos": 313,
-  "nba_programmes": 118,
+  "nba_programmes": 106,
   "leagues": [
     {
       "league": "NBA",
@@ -22,7 +22,7 @@
       "team_channels": 32,
       "matched_teams": 32,
       "with_logos": 32,
-      "programmes": 34,
+      "programmes": 32,
       "source": "espn",
       "error": null,
       "unmatched_channels": []
@@ -32,7 +32,7 @@
       "team_channels": 32,
       "matched_teams": 32,
       "with_logos": 32,
-      "programmes": 128,
+      "programmes": 120,
       "source": "espn",
       "error": null,
       "unmatched_channels": []
@@ -52,7 +52,7 @@
       "team_channels": 30,
       "matched_teams": 30,
       "with_logos": 30,
-      "programmes": 20,
+      "programmes": 18,
       "source": "espn",
       "error": null,
       "unmatched_channels": [],
@@ -63,7 +63,7 @@
       "team_channels": 20,
       "matched_teams": 17,
       "with_logos": 20,
-      "programmes": 17,
+      "programmes": 32,
       "source": "espn",
       "error": null,
       "unmatched_channels": [
@@ -100,7 +100,7 @@
       "team_channels": 24,
       "matched_teams": 18,
       "with_logos": 24,
-      "programmes": 36,
+      "programmes": 24,
       "source": "espn",
       "error": null,
       "unmatched_channels": [
@@ -144,7 +144,7 @@
       "team_channels": 24,
       "matched_teams": 17,
       "with_logos": 24,
-      "programmes": 39,
+      "programmes": 34,
       "source": "espn",
       "error": null,
       "unmatched_channels": [
@@ -189,7 +189,7 @@
       "team_channels": 24,
       "matched_teams": 18,
       "with_logos": 22,
-      "programmes": 36,
+      "programmes": 34,
       "source": "espn",
       "error": null,
       "unmatched_channels": [
@@ -235,7 +235,7 @@
       "channels": 32,
       "matched": 31,
       "with_logos": 31,
-      "programmes": 93,
+      "programmes": 95,
       "error": null,
       "unmatched_channels": [
         "AHL | BRIDGEPORT ISLANDERS"
@@ -321,7 +321,7 @@
     }
   ],
   "cache": {
-    "fresh": 621,
+    "fresh": 595,
     "reused": 0,
     "rejected": 0,
     "failed_leagues": []
