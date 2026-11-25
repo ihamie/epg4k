@@ -1,16 +1,16 @@
 # EPG quality report
 
-**Generated:** 2026-11-24 23:05 UTC
+**Generated:** 2026-11-25 22:36 UTC
 
 | Metric | Current |
 |---|---:|
 | Playlist channels | 5,841 |
 | Distinct XMLTV IDs | 5,800 |
-| Channels with guide listings | 1,359 (23.3%) |
+| Channels with guide listings | 1,361 (23.3%) |
 | Channels with logos | 925 (15.8%) |
 | Reused IDs / potential aliases | 37 groups |
 | Conflicting source-ID groups for review | 0 |
-| Source refresh errors | 5 |
+| Source refresh errors | 4 |
 | Source index errors | 3 |
 
 ## Largest potential coverage opportunities
@@ -21,7 +21,7 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 |---|---:|---:|---:|
 | LATINO | 220 | 4 (1.8%) | 0 (0%) |
 | PERSIAN | 120 | 0 (0%) | 0 (0%) |
-| AFRICAN | 137 | 18 (13.1%) | 0 (0%) |
+| AFRICAN | 137 | 20 (14.6%) | 0 (0%) |
 | GREEK | 173 | 57 (32.9%) | 0 (0%) |
 | CARIBBEAN | 122 | 6 (4.9%) | 0 (0%) |
 | PUNJABI | 126 | 15 (11.9%) | 8 (6.3%) |
@@ -42,16 +42,16 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 
 | League | Team channels | Matched | Logos | Programmes | Source health |
 |---|---:|---:|---:|---:|---|
-| NBA | 30 | 30 | 30 | 106 | OK |
+| NBA | 30 | 30 | 30 | 118 | OK |
 | NFL | 32 | 32 | 32 | 32 | OK |
-| NHL | 32 | 32 | 32 | 120 | OK |
+| NHL | 32 | 32 | 32 | 124 | OK |
 | MLB | 30 | 30 | 30 | 0 | OK |
-| MLS | 30 | 30 | 30 | 18 | OK |
-| EPL | 20 | 17 | 20 | 32 | OK |
-| EFL | 24 | 18 | 24 | 24 | OK |
+| MLS | 30 | 30 | 30 | 32 | OK |
+| EPL | 20 | 17 | 20 | 34 | OK |
+| EFL | 24 | 18 | 24 | 18 | OK |
 | EFL1 | 24 | 17 | 24 | 34 | OK |
 | EFL2 | 24 | 18 | 22 | 34 | OK |
-| AHL | 32 | 31 | 31 | 95 | OK |
+| AHL | 32 | 31 | 31 | 103 | OK |
 | OHL | 20 | 20 | 20 | 54 | OK |
 | QMJHL | 19 | 18 | 18 | 46 | OK |
 
@@ -101,7 +101,6 @@ Many shared IDs are intentional channel aliases. **Do not change an ID solely be
 
 ## Data-source errors
 
-- EPG NG1: Incomplete XMLTV source
 - EPG PH2: Source has no current programmes
 - EPG PK1: Source HTTP 404
 - EPG SA1: Source HTTP 404

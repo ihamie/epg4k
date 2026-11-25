@@ -1,12 +1,12 @@
 {
-  "generated_at": 1795561501,
+  "generated_at": 1795646215,
   "channels": 5841,
   "unique_xmltv_ids": 5800,
-  "channels_with_epg": 1359,
+  "channels_with_epg": 1361,
   "channels_with_logos": 925,
   "epg_percent": 23.3,
   "logo_percent": 15.8,
-  "net_change_epg": 0,
+  "net_change_epg": 2,
   "net_change_logos": 0,
   "duplicate_id_groups": 37,
   "conflicting_source_id_groups": 0,
@@ -104,10 +104,10 @@
     {
       "group": "AFRICAN",
       "total": 137,
-      "epg": 18,
+      "epg": 20,
       "logos": 0,
       "mapped": 22,
-      "pct": 13.1,
+      "pct": 14.6,
       "logo_pct": 0
     },
     {
@@ -783,7 +783,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 106,
+      "programmes": 118,
       "error": null
     },
     {
@@ -799,7 +799,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 120,
+      "programmes": 124,
       "error": null
     },
     {
@@ -815,7 +815,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 18,
+      "programmes": 32,
       "error": null
     },
     {
@@ -823,7 +823,7 @@
       "channels": 20,
       "matched": 17,
       "logos": 20,
-      "programmes": 32,
+      "programmes": 34,
       "error": null
     },
     {
@@ -831,7 +831,7 @@
       "channels": 24,
       "matched": 18,
       "logos": 24,
-      "programmes": 24,
+      "programmes": 18,
       "error": null
     },
     {
@@ -855,7 +855,7 @@
       "channels": 32,
       "matched": 31,
       "logos": 31,
-      "programmes": 95,
+      "programmes": 103,
       "error": null
     },
     {
@@ -876,10 +876,6 @@
     }
   ],
   "source_failures": [
-    {
-      "id": "NG1",
-      "error": "Incomplete XMLTV source"
-    },
     {
       "id": "PH2",
       "error": "Source has no current programmes"
