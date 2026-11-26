@@ -1,11 +1,11 @@
 {
-  "generated_at": 1795646215,
+  "generated_at": 1795731953,
   "source": "nba.com",
   "team_channels": 30,
-  "programmes": 629,
-  "channels_with_games": 249,
+  "programmes": 596,
+  "channels_with_games": 246,
   "team_logos": 313,
-  "nba_programmes": 118,
+  "nba_programmes": 110,
   "leagues": [
     {
       "league": "NBA",
@@ -22,7 +22,7 @@
       "team_channels": 32,
       "matched_teams": 32,
       "with_logos": 32,
-      "programmes": 32,
+      "programmes": 30,
       "source": "espn",
       "error": null,
       "unmatched_channels": []
@@ -32,7 +32,7 @@
       "team_channels": 32,
       "matched_teams": 32,
       "with_logos": 32,
-      "programmes": 124,
+      "programmes": 120,
       "source": "espn",
       "error": null,
       "unmatched_channels": []
@@ -100,7 +100,7 @@
       "team_channels": 24,
       "matched_teams": 18,
       "with_logos": 24,
-      "programmes": 18,
+      "programmes": 19,
       "source": "espn",
       "error": null,
       "unmatched_channels": [
@@ -144,7 +144,7 @@
       "team_channels": 24,
       "matched_teams": 17,
       "with_logos": 24,
-      "programmes": 34,
+      "programmes": 32,
       "source": "espn",
       "error": null,
       "unmatched_channels": [
@@ -235,7 +235,7 @@
       "channels": 32,
       "matched": 31,
       "with_logos": 31,
-      "programmes": 103,
+      "programmes": 87,
       "error": null,
       "unmatched_channels": [
         "AHL | BRIDGEPORT ISLANDERS"
@@ -289,16 +289,12 @@
       "channels": 19,
       "matched": 18,
       "with_logos": 18,
-      "programmes": 46,
+      "programmes": 44,
       "error": null,
       "unmatched_channels": [
         "QMJHL | ACADIE-BATHURST TITAN"
       ],
       "available_team_names": [
-        "- Kingston, Frontenacs (OHL) -",
-        "- North Bay, Batallion (OHL) -",
-        "- Ottawa, 67's (OHL) -",
-        "- Sudbury, Wolves (OHL) -",
         "Baie-Comeau, Drakkar",
         "Blainville-Boisbriand, Armada",
         "Cape Breton, Eagles",
@@ -321,7 +317,7 @@
     }
   ],
   "cache": {
-    "fresh": 629,
+    "fresh": 596,
     "reused": 0,
     "rejected": 0,
     "failed_leagues": []

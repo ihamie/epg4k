@@ -1,12 +1,12 @@
 {
-  "generated_at": 1795646215,
+  "generated_at": 1795731953,
   "channels": 5841,
   "unique_xmltv_ids": 5800,
-  "channels_with_epg": 1361,
+  "channels_with_epg": 1358,
   "channels_with_logos": 925,
-  "epg_percent": 23.3,
+  "epg_percent": 23.2,
   "logo_percent": 15.8,
-  "net_change_epg": 2,
+  "net_change_epg": -3,
   "net_change_logos": 0,
   "duplicate_id_groups": 37,
   "conflicting_source_id_groups": 0,
@@ -509,10 +509,10 @@
     {
       "group": "SPORTS | NFL",
       "total": 33,
-      "epg": 32,
+      "epg": 29,
       "logos": 33,
       "mapped": 0,
-      "pct": 97,
+      "pct": 87.9,
       "logo_pct": 100
     },
     {
@@ -783,7 +783,7 @@
       "channels": 30,
       "matched": 30,
       "logos": 30,
-      "programmes": 118,
+      "programmes": 110,
       "error": null
     },
     {
@@ -791,7 +791,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 32,
+      "programmes": 30,
       "error": null
     },
     {
@@ -799,7 +799,7 @@
       "channels": 32,
       "matched": 32,
       "logos": 32,
-      "programmes": 124,
+      "programmes": 120,
       "error": null
     },
     {
@@ -831,7 +831,7 @@
       "channels": 24,
       "matched": 18,
       "logos": 24,
-      "programmes": 18,
+      "programmes": 19,
       "error": null
     },
     {
@@ -839,7 +839,7 @@
       "channels": 24,
       "matched": 17,
       "logos": 24,
-      "programmes": 34,
+      "programmes": 32,
       "error": null
     },
     {
@@ -855,7 +855,7 @@
       "channels": 32,
       "matched": 31,
       "logos": 31,
-      "programmes": 103,
+      "programmes": 87,
       "error": null
     },
     {
@@ -871,7 +871,7 @@
       "channels": 19,
       "matched": 18,
       "logos": 18,
-      "programmes": 46,
+      "programmes": 44,
       "error": null
     }
   ],
