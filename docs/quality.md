@@ -1,12 +1,12 @@
 # EPG quality report
 
-**Generated:** 2026-11-26 22:25 UTC
+**Generated:** 2026-11-27 22:05 UTC
 
 | Metric | Current |
 |---|---:|
 | Playlist channels | 5,841 |
 | Distinct XMLTV IDs | 5,800 |
-| Channels with guide listings | 1,358 (23.2%) |
+| Channels with guide listings | 1,355 (23.2%) |
 | Channels with logos | 925 (15.8%) |
 | Reused IDs / potential aliases | 37 groups |
 | Conflicting source-ID groups for review | 0 |
@@ -43,17 +43,17 @@ Low coverage does not imply a usable public EPG exists; 24/7 loops, generic even
 | League | Team channels | Matched | Logos | Programmes | Source health |
 |---|---:|---:|---:|---:|---|
 | NBA | 30 | 30 | 30 | 110 | OK |
-| NFL | 32 | 32 | 32 | 30 | OK |
-| NHL | 32 | 32 | 32 | 120 | OK |
+| NFL | 32 | 32 | 32 | 26 | OK |
+| NHL | 32 | 32 | 32 | 130 | OK |
 | MLB | 30 | 30 | 30 | 0 | OK |
 | MLS | 30 | 30 | 30 | 32 | OK |
-| EPL | 20 | 17 | 20 | 34 | OK |
-| EFL | 24 | 18 | 24 | 19 | OK |
-| EFL1 | 24 | 17 | 24 | 32 | OK |
-| EFL2 | 24 | 18 | 22 | 34 | OK |
-| AHL | 32 | 31 | 31 | 87 | OK |
-| OHL | 20 | 20 | 20 | 54 | OK |
-| QMJHL | 19 | 18 | 18 | 44 | OK |
+| EPL | 20 | 17 | 20 | 43 | OK |
+| EFL | 24 | 18 | 24 | 33 | OK |
+| EFL1 | 24 | 17 | 24 | 33 | OK |
+| EFL2 | 24 | 18 | 22 | 38 | OK |
+| AHL | 32 | 31 | 31 | 106 | OK |
+| OHL | 20 | 20 | 20 | 70 | OK |
+| QMJHL | 19 | 18 | 18 | 58 | OK |
 
 ## Duplicated XMLTV IDs requiring review
 
